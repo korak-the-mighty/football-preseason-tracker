@@ -1,21 +1,23 @@
 # STATUS
 
 **Last updated:** 2026-07-26  
-**Project stage:** Foundation  
+**Project stage:** Club and fixture research  
 **Release state:** Not built, not published
 
 ## Current truth
 
-- The GitHub repository has been created.
+- The GitHub repository and project foundation are in place.
 - The version-one product and boundaries are defined.
 - ChatGPT / GPT Work is the digital PM, fixture researcher and final QA.
 - Lovable is the planned builder.
 - Claude is not required.
-- The app will cover the 2026/27 clubs in the Premier League, Bundesliga, La Liga, Serie A and Ligue 1.
-- The working data approach is curated static JSON with source and verification metadata.
-- The intended public location is `willworkforkarma.com/preseason`, but integration from this separate repository is not yet decided.
-- Club and fixture research has not started.
+- The complete 2026/27 covered club list has been verified against official league or competition sources.
+- The five leagues contain 96 clubs in total: Premier League 20, Bundesliga 18, La Liga 20, Serie A 20 and Ligue 1 18.
+- The first canonical club dataset exists at `src/data/clubs.json`.
+- The club dataset stores membership sources, its verification date and exact league counts.
+- Fixture research has not started.
 - No production code exists yet.
+- The intended public location is `willworkforkarma.com/preseason`, but integration from this separate repository is not yet decided.
 
 ## Decisions made
 
@@ -25,6 +27,8 @@
 - Competitive curtain-raisers may appear only when clearly labelled.
 - Lovable builds from canonical data and must not invent or rewrite fixture facts.
 - The repository, not chat history, is the project memory.
+- The canonical 2026/27 coverage is 96 clubs, not the earlier rough estimate of 98.
+- League membership provenance is required in every seasonal club dataset.
 
 ## Ruled out for version one
 
@@ -38,19 +42,19 @@
 
 - There is no single complete official source for all pre-season fixtures.
 - Fixtures can change after publication.
-- Spain and France may require heavier club-by-club research.
+- Spain and France may require heavier club-by-club fixture research.
 - The separate-repository deployment path into Henrik's portfolio site is still open.
 - A sustainable update rhythm after launch is not yet defined.
 
 ## Single next action
 
-Research and verify the complete 2026/27 club list for the five covered leagues, then create the first canonical `clubs.json`.
+Research and verify announced 2026 pre-season fixtures for the 20 Premier League clubs, then create the first canonical fixture batch in `src/data/fixtures.json`.
 
-Do not begin broad fixture collection until the covered club list is stable.
+Start with one league so the fixture schema and research process can be tested before scaling to the remaining four.
 
 ## Decisions needed from Henrik
 
-None before the club-list research pass.
+None before the first fixture research pass.
 
 Later, before the build:
 
@@ -59,6 +63,16 @@ Later, before the build:
 3. who owns ongoing fixture updates after launch
 
 ## Session log
+
+### 2026-07-26 — Canonical club list
+
+Verified the complete 2026/27 membership of all five covered leagues using official league or competition sources.
+
+Created `src/data/clubs.json` with 96 clubs, stable IDs, official club URLs, exact league counts, membership sources and verification metadata.
+
+Updated `DATA_RULES.md` to require club membership provenance.
+
+No fixtures or implementation were created.
 
 ### 2026-07-26 — Project foundation
 

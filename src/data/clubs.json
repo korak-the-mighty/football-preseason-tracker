@@ -1,0 +1,791 @@
+{
+  "meta": {
+    "season": "2026-27",
+    "checkedAt": "2026-07-26",
+    "clubCount": 96,
+    "leagueCounts": {
+      "premier-league": 20,
+      "bundesliga": 18,
+      "la-liga": 20,
+      "serie-a": 20,
+      "ligue-1": 18
+    },
+    "membershipSources": {
+      "premier-league": "https://www.premierleague.com/en/tables/premier-league/2026-27/all-matchweeks",
+      "bundesliga": "https://www.bundesliga.com/en/bundesliga/clubs",
+      "la-liga": "https://www.laliga.com/en-GB/laliga-easports/clubs",
+      "serie-a": "https://en.legaseriea.it/serie-a/news/looking-forward-to-the-2026-27-serie-a-fixture-list",
+      "ligue-1": "https://ligue1.com/en/calendar/ligue1"
+    }
+  },
+  "clubs": [
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.arsenal.com/"
+    },
+    {
+      "id": "aston-villa",
+      "name": "Aston Villa",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.avfc.co.uk/"
+    },
+    {
+      "id": "bournemouth",
+      "name": "Bournemouth",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.afcb.co.uk/"
+    },
+    {
+      "id": "brentford",
+      "name": "Brentford",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.brentfordfc.com/"
+    },
+    {
+      "id": "brighton-and-hove-albion",
+      "name": "Brighton & Hove Albion",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.brightonandhovealbion.com/"
+    },
+    {
+      "id": "chelsea",
+      "name": "Chelsea",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.chelseafc.com/"
+    },
+    {
+      "id": "coventry-city",
+      "name": "Coventry City",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.ccfc.co.uk/"
+    },
+    {
+      "id": "crystal-palace",
+      "name": "Crystal Palace",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.cpfc.co.uk/"
+    },
+    {
+      "id": "everton",
+      "name": "Everton",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.evertonfc.com/"
+    },
+    {
+      "id": "fulham",
+      "name": "Fulham",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.fulhamfc.com/"
+    },
+    {
+      "id": "hull-city",
+      "name": "Hull City",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.wearehullcity.co.uk/"
+    },
+    {
+      "id": "ipswich-town",
+      "name": "Ipswich Town",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.itfc.co.uk/"
+    },
+    {
+      "id": "leeds-united",
+      "name": "Leeds United",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.leedsunited.com/"
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.liverpoolfc.com/"
+    },
+    {
+      "id": "manchester-city",
+      "name": "Manchester City",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.mancity.com/"
+    },
+    {
+      "id": "manchester-united",
+      "name": "Manchester United",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.manutd.com/"
+    },
+    {
+      "id": "newcastle-united",
+      "name": "Newcastle United",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.newcastleunited.com/"
+    },
+    {
+      "id": "nottingham-forest",
+      "name": "Nottingham Forest",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.nottinghamforest.co.uk/"
+    },
+    {
+      "id": "sunderland",
+      "name": "Sunderland",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.safc.com/"
+    },
+    {
+      "id": "tottenham-hotspur",
+      "name": "Tottenham Hotspur",
+      "country": "England",
+      "league": "premier-league",
+      "season": "2026-27",
+      "officialUrl": "https://www.tottenhamhotspur.com/"
+    },
+    {
+      "id": "bayern-munich",
+      "name": "Bayern Munich",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://fcbayern.com/"
+    },
+    {
+      "id": "borussia-dortmund",
+      "name": "Borussia Dortmund",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.bvb.de/"
+    },
+    {
+      "id": "rb-leipzig",
+      "name": "RB Leipzig",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://rbleipzig.com/"
+    },
+    {
+      "id": "vfb-stuttgart",
+      "name": "VfB Stuttgart",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.vfb.de/"
+    },
+    {
+      "id": "tsg-hoffenheim",
+      "name": "TSG Hoffenheim",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.tsg-hoffenheim.de/"
+    },
+    {
+      "id": "bayer-leverkusen",
+      "name": "Bayer Leverkusen",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.bayer04.de/"
+    },
+    {
+      "id": "sc-freiburg",
+      "name": "SC Freiburg",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.scfreiburg.com/"
+    },
+    {
+      "id": "eintracht-frankfurt",
+      "name": "Eintracht Frankfurt",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.eintracht.de/"
+    },
+    {
+      "id": "fc-augsburg",
+      "name": "FC Augsburg",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.fcaugsburg.de/"
+    },
+    {
+      "id": "mainz-05",
+      "name": "Mainz 05",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.mainz05.de/"
+    },
+    {
+      "id": "union-berlin",
+      "name": "Union Berlin",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.fc-union-berlin.de/"
+    },
+    {
+      "id": "borussia-monchengladbach",
+      "name": "Borussia Mönchengladbach",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.borussia.de/"
+    },
+    {
+      "id": "hamburger-sv",
+      "name": "Hamburger SV",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.hsv.de/"
+    },
+    {
+      "id": "fc-koln",
+      "name": "1. FC Köln",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://fc.de/"
+    },
+    {
+      "id": "werder-bremen",
+      "name": "Werder Bremen",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.werder.de/"
+    },
+    {
+      "id": "schalke-04",
+      "name": "Schalke 04",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://schalke04.de/"
+    },
+    {
+      "id": "sv-elversberg",
+      "name": "SV Elversberg",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://sv07elversberg.de/"
+    },
+    {
+      "id": "sc-paderborn-07",
+      "name": "SC Paderborn 07",
+      "country": "Germany",
+      "league": "bundesliga",
+      "season": "2026-27",
+      "officialUrl": "https://www.scp07.de/"
+    },
+    {
+      "id": "athletic-club",
+      "name": "Athletic Club",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.athletic-club.eus/"
+    },
+    {
+      "id": "atletico-de-madrid",
+      "name": "Atlético de Madrid",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.atleticodemadrid.com/"
+    },
+    {
+      "id": "osasuna",
+      "name": "CA Osasuna",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.osasuna.es/"
+    },
+    {
+      "id": "celta",
+      "name": "Celta",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://rccelta.es/"
+    },
+    {
+      "id": "deportivo-alaves",
+      "name": "Deportivo Alavés",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.deportivoalaves.com/"
+    },
+    {
+      "id": "elche",
+      "name": "Elche CF",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.elchecf.es/"
+    },
+    {
+      "id": "barcelona",
+      "name": "FC Barcelona",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.fcbarcelona.com/"
+    },
+    {
+      "id": "getafe",
+      "name": "Getafe CF",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.getafecf.com/"
+    },
+    {
+      "id": "levante",
+      "name": "Levante UD",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.levanteud.com/"
+    },
+    {
+      "id": "malaga",
+      "name": "Málaga CF",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.malagacf.com/"
+    },
+    {
+      "id": "racing-santander",
+      "name": "R. Racing Club",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.realracingclub.es/"
+    },
+    {
+      "id": "rayo-vallecano",
+      "name": "Rayo Vallecano",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.rayovallecano.es/"
+    },
+    {
+      "id": "deportivo-la-coruna",
+      "name": "RC Deportivo",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.rcdeportivo.es/"
+    },
+    {
+      "id": "espanyol",
+      "name": "RCD Espanyol de Barcelona",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.rcdespanyol.com/"
+    },
+    {
+      "id": "real-betis",
+      "name": "Real Betis",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.realbetisbalompie.es/"
+    },
+    {
+      "id": "real-madrid",
+      "name": "Real Madrid",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.realmadrid.com/"
+    },
+    {
+      "id": "real-sociedad",
+      "name": "Real Sociedad",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.realsociedad.eus/"
+    },
+    {
+      "id": "sevilla",
+      "name": "Sevilla FC",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.sevillafc.es/"
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia CF",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://www.valenciacf.com/"
+    },
+    {
+      "id": "villarreal",
+      "name": "Villarreal CF",
+      "country": "Spain",
+      "league": "la-liga",
+      "season": "2026-27",
+      "officialUrl": "https://villarrealcf.es/"
+    },
+    {
+      "id": "ac-milan",
+      "name": "AC Milan",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.acmilan.com/"
+    },
+    {
+      "id": "atalanta",
+      "name": "Atalanta",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.atalanta.it/"
+    },
+    {
+      "id": "bologna",
+      "name": "Bologna",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.bolognafc.it/"
+    },
+    {
+      "id": "cagliari",
+      "name": "Cagliari",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.cagliaricalcio.com/"
+    },
+    {
+      "id": "como",
+      "name": "Como",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://comofootball.com/"
+    },
+    {
+      "id": "fiorentina",
+      "name": "Fiorentina",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.acffiorentina.com/"
+    },
+    {
+      "id": "frosinone",
+      "name": "Frosinone",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.frosinonecalcio.com/"
+    },
+    {
+      "id": "genoa",
+      "name": "Genoa",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://genoacfc.it/"
+    },
+    {
+      "id": "inter",
+      "name": "Inter",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.inter.it/"
+    },
+    {
+      "id": "juventus",
+      "name": "Juventus",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.juventus.com/"
+    },
+    {
+      "id": "lazio",
+      "name": "Lazio",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.sslazio.it/"
+    },
+    {
+      "id": "lecce",
+      "name": "Lecce",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.uslecce.it/"
+    },
+    {
+      "id": "monza",
+      "name": "Monza",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.acmonza.com/"
+    },
+    {
+      "id": "napoli",
+      "name": "Napoli",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://sscnapoli.it/"
+    },
+    {
+      "id": "parma",
+      "name": "Parma",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.parmacalcio1913.com/"
+    },
+    {
+      "id": "roma",
+      "name": "Roma",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.asroma.com/"
+    },
+    {
+      "id": "sassuolo",
+      "name": "Sassuolo",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.sassuolocalcio.it/"
+    },
+    {
+      "id": "torino",
+      "name": "Torino",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.torinofc.it/"
+    },
+    {
+      "id": "udinese",
+      "name": "Udinese",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.udinese.it/"
+    },
+    {
+      "id": "venezia",
+      "name": "Venezia",
+      "country": "Italy",
+      "league": "serie-a",
+      "season": "2026-27",
+      "officialUrl": "https://www.veneziafc.it/"
+    },
+    {
+      "id": "angers",
+      "name": "Angers SCO",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://angers-sco.fr/"
+    },
+    {
+      "id": "auxerre",
+      "name": "AJ Auxerre",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.aja.fr/"
+    },
+    {
+      "id": "monaco",
+      "name": "AS Monaco",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.asmonaco.com/"
+    },
+    {
+      "id": "brest",
+      "name": "Stade Brestois",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.sb29.bzh/"
+    },
+    {
+      "id": "le-havre",
+      "name": "Le Havre AC",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.hac-foot.com/"
+    },
+    {
+      "id": "lens",
+      "name": "RC Lens",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.rclens.fr/"
+    },
+    {
+      "id": "lille",
+      "name": "LOSC",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.losc.fr/"
+    },
+    {
+      "id": "lorient",
+      "name": "FC Lorient",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.fclorient.bzh/"
+    },
+    {
+      "id": "lyon",
+      "name": "Olympique Lyonnais",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.ol.fr/"
+    },
+    {
+      "id": "le-mans",
+      "name": "Le Mans FC",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.lemansfc.fr/"
+    },
+    {
+      "id": "marseille",
+      "name": "Olympique de Marseille",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.om.fr/"
+    },
+    {
+      "id": "nice",
+      "name": "OGC Nice",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.ogcnice.com/"
+    },
+    {
+      "id": "paris-fc",
+      "name": "Paris FC",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://parisfc.fr/"
+    },
+    {
+      "id": "paris-saint-germain",
+      "name": "Paris Saint-Germain",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.psg.fr/"
+    },
+    {
+      "id": "rennes",
+      "name": "Stade Rennais FC",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.staderennais.com/"
+    },
+    {
+      "id": "strasbourg",
+      "name": "RC Strasbourg",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.rcstrasbourgalsace.fr/"
+    },
+    {
+      "id": "toulouse",
+      "name": "Toulouse FC",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.toulousefc.com/"
+    },
+    {
+      "id": "troyes",
+      "name": "ESTAC Troyes",
+      "country": "France",
+      "league": "ligue-1",
+      "season": "2026-27",
+      "officialUrl": "https://www.estac.fr/"
+    }
+  ]
+}

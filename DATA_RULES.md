@@ -30,7 +30,25 @@ The canonical `clubs.json` must include dataset-level metadata recording:
 
 Club membership must be rechecked against those official sources before a new season is published. A club is included because its league membership is verified, not because it appeared in a previous season's dataset.
 
-## Source priority
+## Source workflow
+
+Discovery and publication are separate jobs.
+
+### Discovery
+
+Use broad sources to find candidate fixtures efficiently:
+
+1. official league roundups and official club fixture pages
+2. API-Football's structured `Friendlies Clubs` feed when a key is available
+3. tournament and host schedules
+4. reputable sports publications
+5. specialist fixture listings for manual gap-checking
+
+Discovery is never proof by itself. A discovered match remains `unverified` until publication evidence is recorded.
+
+Flashscore may be checked manually for gaps, but it must not be scraped, queried automatically or used as the published source. Its terms prohibit automated extraction, and its displayed dates may be localized to the viewer's timezone.
+
+### Publication evidence
 
 Use the strongest available source:
 
@@ -38,7 +56,9 @@ Use the strongest available source:
 2. official league, competition, tournament or host announcement
 3. official opponent announcement
 4. reputable sports publication quoting a direct source
-5. specialist fixture listing used for discovery and then cross-checked
+5. specialist fixture listing only as a pointer to stronger evidence
+
+API-Football is a discovery aid, not publication evidence. Its data must be verified against a source above before entering the public dataset.
 
 Social posts may be used when they are from an official club or organizer account and the post is accessible. Search snippets, fan posts and unsourced aggregators are not sufficient publication evidence.
 
@@ -117,6 +137,7 @@ Use stable, lowercase, URL-safe IDs. Club identity should not depend on a displa
   "venue": null,
   "city": null,
   "country": null,
+  "neutralVenue": null,
   "type": "friendly",
   "competition": null,
   "status": "scheduled",

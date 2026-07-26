@@ -178,6 +178,16 @@ Two clubs may play more than once on the same date. Do not deduplicate on teams 
 
 Preserve each real match as a separate record. Use an ordinal ID suffix such as `-1` and `-2`, and distinguish the records with confirmed kickoff, venue, access status or a short note. Each record still requires publication evidence.
 
+## Short-format tournament matches
+
+Some pre-season tournaments use shortened matches rather than standard 90-minute fixtures.
+
+- Store each real pairing as its own fixture.
+- Use `friendly_tournament` and record the competition name.
+- Record the announced duration or format in `notes`.
+- Preserve the official match order.
+- Do not calculate later kickoff times from the first start time and assumed match length. Store an exact kickoff only when it is separately published; otherwise keep the later pairing date-only.
+
 ## Research record
 
 The canonical dataset must make it possible to answer:

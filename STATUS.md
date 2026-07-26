@@ -15,7 +15,10 @@
 - The five leagues contain 96 clubs in total: Premier League 20, Bundesliga 18, La Liga 20, Serie A 20 and Ligue 1 18.
 - The first canonical club dataset exists at `src/data/clubs.json`.
 - The club dataset stores membership sources, its verification date and exact league counts.
-- Fixture research has not started.
+- Premier League fixture research has started and the first canonical batch exists at `src/data/fixtures.json`.
+- The batch contains 78 announced fixtures from 28 July onward, all date-verified against official evidence.
+- Nine fixtures currently have directly verified kickoff datetimes with real UTC offsets; 69 remain honestly `date_only` pending club-source enrichment.
+- The league roundup was not complete by itself: official club checks found Bournemouth v Mainz and a second Brentford v Rennes match.
 - No production code exists yet.
 - The intended public location is `willworkforkarma.com/preseason`, but integration from this separate repository is not yet decided.
 
@@ -29,11 +32,13 @@
 - The repository, not chat history, is the project memory.
 - The canonical 2026/27 coverage is 96 clubs, not the earlier rough estimate of 98.
 - League membership provenance is required in every seasonal club dataset.
+- Source workflow is now explicit: API-Football may discover candidates, official evidence publishes them, and Flashscore is manual gap-checking only—never scraped.
 
 ## Ruled out for version one
 
 - depending on a paid football API
 - autonomous unverified scraping
+- automated Flashscore collection or treating API-Football as publication evidence
 - news, social, community or betting features
 - complex admin tooling
 - using Claude merely because it is available
@@ -48,9 +53,9 @@
 
 ## Single next action
 
-Research and verify announced 2026 pre-season fixtures for the 20 Premier League clubs, then create the first canonical fixture batch in `src/data/fixtures.json`.
+Complete the Premier League enrichment pass: check every club's official fixture page or announcement, add confirmed kickoff offsets and announced venues to the 69 `date_only` records, and identify any further fixtures missing from the league roundup.
 
-Start with one league so the fixture schema and research process can be tested before scaling to the remaining four.
+Do not start the Bundesliga until this first-league process is proven complete enough to scale.
 
 ## Decisions needed from Henrik
 
@@ -63,6 +68,16 @@ Later, before the build:
 3. who owns ongoing fixture updates after launch
 
 ## Session log
+
+### 2026-07-26 — Premier League fixture baseline
+
+Created `src/data/fixtures.json` with 78 unique upcoming fixtures involving the 20 Premier League clubs.
+
+Validated unique IDs, covered-club attachment, source presence and UTC offsets. Nine kickoff times are directly confirmed; 69 records deliberately remain date-only instead of inheriting or guessing times.
+
+Recorded the discovery-to-publication source hierarchy. API-Football is a discovery aid; official sources are publication evidence; Flashscore is a manual gap-checker and must not be scraped.
+
+Club-level checks already exposed two items absent from the Premier League roundup: Bournemouth v Mainz and Brentford's additional Rennes training-centre match.
 
 ### 2026-07-26 — Canonical club list
 

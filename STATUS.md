@@ -15,10 +15,12 @@
 - The five leagues contain 96 clubs in total: Premier League 20, Bundesliga 18, La Liga 20, Serie A 20 and Ligue 1 18.
 - The first canonical club dataset exists at `src/data/clubs.json`.
 - The club dataset stores membership sources, its verification date and exact league counts.
-- The Premier League canonical fixture pass is complete enough to scale and exists at `src/data/fixtures.json`.
-- The dataset contains 79 announced fixtures from 28 July onward, all supported by publication evidence.
-- Seventy fixtures have directly verified kickoff datetimes with real UTC offsets; nine remain honestly `date_only` because no conflict-free official kickoff was public.
-- The final gap check added Brighton's second Strasbourg match and corrected several dates, orderings, venues and tournament contexts.
+- The Premier League canonical fixture pass is complete enough to scale, and the Bundesliga baseline now covers all 18 German clubs.
+- The combined dataset at `src/data/fixtures.json` contains 119 announced fixtures from 28 July onward, all supported by publication evidence.
+- One hundred eleven fixtures have verified kickoff datetimes with real UTC offsets; eight remain honestly `date_only` because no conflict-free official kickoff was public.
+- The Bundesliga pass added 40 new fixtures and enriched two existing cross-league records.
+- Official club checks found three matches absent from the Bundesliga roundup: FSV Frankfurt v Eintracht Frankfurt and Werder Bremen's two-match Paderborn double-header.
+- Four pre-existing Brighton fixture links were corrected from the invalid `brighton` ID to `brighton-and-hove-albion`.
 - The league roundup was not complete by itself: official club checks found Bournemouth v Mainz and a second Brentford v Rennes match.
 - No production code exists yet.
 - The intended public location is `willworkforkarma.com/preseason`, but integration from this separate repository is not yet decided.
@@ -54,7 +56,7 @@
 
 ## Single next action
 
-Begin the Bundesliga fixture baseline: discover every announced 2026 pre-season match involving the 18 covered Bundesliga clubs, verify dates against official evidence, and add the records to `src/data/fixtures.json` without guessing unresolved kickoff times.
+Begin the La Liga fixture baseline: discover every announced 2026 pre-season match involving the 20 covered Spanish clubs, verify dates against official evidence, and add the records to `src/data/fixtures.json` without guessing unresolved kickoff times.
 
 ## Decisions needed from Henrik
 
@@ -67,6 +69,16 @@ Later, before the build:
 3. who owns ongoing fixture updates after launch
 
 ## Session log
+
+### 2026-07-26 — Bundesliga fixture baseline
+
+Added the Bundesliga baseline across all 18 covered clubs. The combined canonical dataset now contains 119 fixtures: 111 with verified kickoff datetimes and eight date-only.
+
+The pass added 40 new records and enriched two existing cross-league records. Club-level checks found three fixtures missing from the Bundesliga roundup: FSV Frankfurt v Eintracht Frankfurt and Werder Bremen's two-match Paderborn double-header.
+
+Resolved official-source conflicts for Kickers Offenbach v VfB Stuttgart and Toulouse v Hamburger SV in favour of the clubs' own current schedules. Added the Franz Beckenbauer Supercup as a clearly labelled competitive fixture.
+
+Whole-dataset validation also exposed and corrected four Brighton records using an invalid club ID. Final checks passed with all 18 Bundesliga clubs represented, no duplicate fixture IDs, no malformed kickoff offsets and no source-less records.
 
 ### 2026-07-26 — Premier League enrichment and gap check complete
 

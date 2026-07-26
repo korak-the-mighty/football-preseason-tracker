@@ -1,20 +1,53 @@
 {
   "meta": {
     "season": "2026-27",
-    "coverage": "Premier League complete; Bundesliga and La Liga baselines",
+    "coverage": "Premier League complete; Bundesliga, La Liga and Serie A baselines",
     "checkedAt": "2026-07-26",
-    "fixtureCount": 170,
-    "confirmedKickoffCount": 161,
-    "dateOnlyCount": 9,
+    "fixtureCount": 208,
+    "confirmedKickoffCount": 195,
+    "dateOnlyCount": 13,
     "notes": [
-      "Includes announced fixtures from 28 July 2026 onward.",
-      "Premier League pass complete enough to scale; Bundesliga and La Liga baselines cover every club in both leagues.",
-      "The La Liga pass added 51 new canonical fixtures, enriched existing cross-league records and corrected the official order of Barcelona v Nottingham Forest in the Friuli Venezia Giulia Cup.",
-      "Club sources overruled roundup errors involving Sevilla v NEC, Villarreal v Levante and the Barcelona tournament ordering.",
+      "Includes announced fixtures from 27 July 2026 onward.",
+      "Premier League pass complete enough to scale; Bundesliga, La Liga and Serie A baselines represent every club in those leagues.",
+      "The Serie A pass added 38 new canonical fixtures, reused 24 existing cross-league records and corrected UK-local kickoff handling and Venezia fixture ordering.",
+      "Official club sources added Lecce v Lecce Primavera, Monza v Padova and Udinese v Trabzonspor beyond the Lega Serie A roundup.",
       "Kickoff is stored only when publication evidence supplied a real time; unresolved fixtures remain date_only."
     ]
   },
   "fixtures": [
+    {
+      "id": "2026-07-27-galatasaray-venezia",
+      "homeClubId": null,
+      "homeName": "Galatasaray",
+      "awayClubId": "venezia",
+      "awayName": "Venezia",
+      "date": "2026-07-27",
+      "kickoff": "2026-07-27T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Hofmann Personal Stadion",
+      "city": "Linz",
+      "country": "Austria",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.veneziafc.it/news/le-amichevoli-internazionali-del-venezia-fc-su-dazn",
+          "publisher": "Venezia FC",
+          "publishedAt": "2026-07-17",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
     {
       "id": "2026-07-28-al-ahli-fulham",
       "homeClubId": null,
@@ -107,6 +140,60 @@
         }
       ],
       "notes": "Kickoff is stored in CEST as published by Diario AS; Valencia confirms the match is behind closed doors at St George's Park."
+    },
+    {
+      "id": "2026-07-28-cagliari-modena",
+      "homeClubId": "cagliari",
+      "homeName": "Cagliari",
+      "awayClubId": null,
+      "awayName": "Modena",
+      "date": "2026-07-28",
+      "kickoff": "2026-07-28T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Campo sportivo comunale di Temù",
+      "city": "Ponte di Legno-Tonale",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-28-udinese-shabab-al-ahli",
+      "homeClubId": "udinese",
+      "homeName": "Udinese",
+      "awayClubId": null,
+      "awayName": "Shabab Al Ahli Dubai",
+      "date": "2026-07-28",
+      "kickoff": "2026-07-28T17:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Neukirchen am Großvenediger",
+      "country": "Austria",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
     },
     {
       "id": "2026-07-28-crystal-palace-lens",
@@ -400,6 +487,33 @@
       "notes": null
     },
     {
+      "id": "2026-07-29-frosinone-sambenedettese",
+      "homeClubId": "frosinone",
+      "homeName": "Frosinone",
+      "awayClubId": null,
+      "awayName": "Sambenedettese",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T16:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Campo d'altura Enrico Leoncini",
+      "city": "Rieti",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-07-29-atletico-de-madrid-getafe",
       "homeClubId": "atletico-de-madrid",
       "homeName": "Atlético de Madrid",
@@ -658,6 +772,39 @@
       "notes": null
     },
     {
+      "id": "2026-07-29-watford-fiorentina",
+      "homeClubId": null,
+      "homeName": "Watford",
+      "awayClubId": "fiorentina",
+      "awayName": "Fiorentina",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T19:30:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Vicarage Road",
+      "city": "Watford",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://x.com/WatfordFC/status/2067532782616871026",
+          "publisher": "Watford FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Watford confirms 19:30 BST; Italian sources display the equivalent 20:30 CEST."
+    },
+    {
       "id": "2026-07-29-deportivo-la-coruna-lugo",
       "homeClubId": "deportivo-la-coruna",
       "homeName": "RC Deportivo",
@@ -823,6 +970,39 @@
       "notes": null
     },
     {
+      "id": "2026-07-29-como-alula-sc",
+      "homeClubId": "como",
+      "homeName": "Como",
+      "awayClubId": null,
+      "awayName": "AlUla SC",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T20:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "city": "Como",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly_tournament",
+      "competition": "Como Cup",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://comofootball.com/en/football-on-the-lake-tickets-go-on-sale-as-como-cup-groups%2C-fixtures-and-travel-packages-are-revealed/",
+          "publisher": "Como 1907",
+          "publishedAt": "2026-06-19",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "45-minute tournament match."
+    },
+    {
       "id": "2026-07-29-villarreal-como",
       "homeClubId": "villarreal",
       "homeName": "Villarreal CF",
@@ -883,6 +1063,66 @@
           "url": "https://www.afcb.co.uk/news/2026/june/26/club-confirm-austria-pre-season-camp-ahead-of-first-european-campaign/",
           "publisher": "AFC Bournemouth",
           "publishedAt": "2026-06-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-30-parma-arezzo",
+      "homeClubId": "parma",
+      "homeName": "Parma",
+      "awayClubId": null,
+      "awayName": "Arezzo",
+      "date": "2026-07-30",
+      "kickoff": "2026-07-30T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Centro Sportivo Pineta",
+      "city": "Pinzolo",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-30-monza-aris",
+      "homeClubId": "monza",
+      "homeName": "Monza",
+      "awayClubId": null,
+      "awayName": "Aris Thessaloniki",
+      "date": "2026-07-30",
+      "kickoff": "2026-07-30T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Centro Sportivo Silvio e Luigi Berlusconi-Monzello",
+      "city": "Monza",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.acmonza.com/it/news/il-programma-delle-altre-amichevoli-estive-di-ac-monza-2026-2027/",
+          "publisher": "AC Monza",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1174,6 +1414,39 @@
       "notes": null
     },
     {
+      "id": "2026-07-31-juventus-nice",
+      "homeClubId": "juventus",
+      "homeName": "Juventus",
+      "awayClubId": "nice",
+      "awayName": "OGC Nice",
+      "date": "2026-07-31",
+      "kickoff": "2026-07-31T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Juventus Training Center",
+      "city": "Turin",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.juventus.com/en/news/articles/bianconeri-to-host-nice-in-summer-friendly-07-07-26",
+          "publisher": "Juventus",
+          "publishedAt": "2026-07-07",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-07-31-nec-sevilla",
       "homeClubId": null,
       "homeName": "NEC Nijmegen",
@@ -1201,6 +1474,33 @@
           "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
           "publisher": "Diario AS",
           "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-31-sassuolo-folgore-caratese",
+      "homeClubId": "sassuolo",
+      "homeName": "Sassuolo",
+      "awayClubId": null,
+      "awayName": "Folgore Caratese",
+      "date": "2026-07-31",
+      "kickoff": "2026-07-31T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Ricci",
+      "city": "Sassuolo",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1267,6 +1567,33 @@
           "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
           "publisher": "Diario AS",
           "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-bologna-cambuur",
+      "homeClubId": "bologna",
+      "homeName": "Bologna",
+      "awayClubId": null,
+      "awayName": "Cambuur",
+      "date": "2026-08-01",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": "Centro Tecnico Niccolò Galli",
+      "city": "Bologna",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1372,6 +1699,33 @@
       "notes": "Kickoff follows the Bundesliga's explicit CEST schedule; Bayer's rendered match page appeared localized in search results."
     },
     {
+      "id": "2026-08-01-lazio-avellino",
+      "homeClubId": "lazio",
+      "homeName": "Lazio",
+      "awayClubId": null,
+      "awayName": "Avellino",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T11:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Mirko Fersini",
+      "city": "Formello",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-01-wolverhampton-racing-santander-1",
       "homeClubId": null,
       "homeName": "Wolverhampton Wanderers",
@@ -1397,6 +1751,33 @@
         }
       ],
       "notes": "First match of a same-day double-header; kickoff stored in CEST as published by Diario AS."
+    },
+    {
+      "id": "2026-08-01-lecce-primavera",
+      "homeClubId": "lecce",
+      "homeName": "Lecce",
+      "awayClubId": null,
+      "awayName": "Lecce Primavera",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T11:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "DEGHI Center",
+      "city": "San Pietro in Lama",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://uslecce.it/domani-alle-1600-lamichevole-con-lnk-istra/",
+          "publisher": "US Lecce",
+          "publishedAt": "2026-07-25",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "First team v Primavera pre-season test."
     },
     {
       "id": "2026-08-01-brighton-strasbourg-1",
@@ -1616,6 +1997,45 @@
         }
       ],
       "notes": "Second match of a behind-closed-doors double-header."
+    },
+    {
+      "id": "2026-08-01-cardiff-city-roma",
+      "homeClubId": null,
+      "homeName": "Cardiff City",
+      "awayClubId": "roma",
+      "awayName": "Roma",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T15:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Cardiff City Stadium",
+      "city": "Cardiff",
+      "country": "Wales",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.asroma.com/en/news/75586/pre-season-here-is-the-summer-friendlies-schedule",
+          "publisher": "AS Roma",
+          "publishedAt": "2026-07-07",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.cardiffcityfc.co.uk/news/pre-season-2026-roma-h",
+          "publisher": "Cardiff City",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
     },
     {
       "id": "2026-08-01-middlesbrough-espanyol",
@@ -2002,6 +2422,39 @@
       "notes": null
     },
     {
+      "id": "2026-08-01-saint-etienne-venezia",
+      "homeClubId": null,
+      "homeName": "AS Saint-Étienne",
+      "awayClubId": "venezia",
+      "awayName": "Venezia",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade Joseph-Moynat",
+      "city": "Thonon-les-Bains",
+      "country": "France",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.veneziafc.it/news/le-amichevoli-internazionali-del-venezia-fc-su-dazn",
+          "publisher": "Venezia FC",
+          "publishedAt": "2026-07-17",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-01-wolverhampton-racing-santander-2",
       "homeClubId": null,
       "homeName": "Wolverhampton Wanderers",
@@ -2060,6 +2513,33 @@
         }
       ],
       "notes": "Diario AS publishes 19:30 CEST; stored as the equivalent 18:30 BST."
+    },
+    {
+      "id": "2026-08-01-frosinone-benevento",
+      "homeClubId": "frosinone",
+      "homeName": "Frosinone",
+      "awayClubId": null,
+      "awayName": "Benevento",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T18:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Centro d'Italia Manlio Scopigno",
+      "city": "Rieti",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
     },
     {
       "id": "2026-08-01-st-pauli-deportivo-la-coruna",
@@ -2186,6 +2666,39 @@
         }
       ],
       "notes": null
+    },
+    {
+      "id": "2026-08-01-leicester-city-genoa",
+      "homeClubId": null,
+      "homeName": "Leicester City",
+      "awayClubId": "genoa",
+      "awayName": "Genoa",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T19:30:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "King Power Stadium",
+      "city": "Leicester",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.lcfc.com/media-article/leicester-city-lcfc-pre-season-home-friendly-king-power-stadium-genoa-serie-a-details",
+          "publisher": "Leicester City",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Leicester confirms 19:30 BST; Italian sources display the equivalent 20:30 CEST."
     },
     {
       "id": "2026-08-01-aston-villa-indonesia-all-stars",
@@ -2485,6 +2998,147 @@
       "notes": null
     },
     {
+      "id": "2026-08-02-burnley-torino",
+      "homeClubId": null,
+      "homeName": "Burnley",
+      "awayClubId": "torino",
+      "awayName": "Torino",
+      "date": "2026-08-02",
+      "kickoff": "2026-08-02T15:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Turf Moor",
+      "city": "Burnley",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.burnleyfootballclub.com/fixtures-first-team-men",
+          "publisher": "Burnley FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Burnley confirms 15:00 BST; Italian sources display the equivalent 16:00 CEST."
+    },
+    {
+      "id": "2026-08-02-feyenoord-atalanta",
+      "homeClubId": null,
+      "homeName": "Feyenoord",
+      "awayClubId": "atalanta",
+      "awayName": "Atalanta",
+      "date": "2026-08-02",
+      "kickoff": "2026-08-02T15:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "De Kuip",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-02-udinese-trabzonspor",
+      "homeClubId": "udinese",
+      "homeName": "Udinese",
+      "awayClubId": null,
+      "awayName": "Trabzonspor",
+      "date": "2026-08-02",
+      "kickoff": "2026-08-02T16:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Velden am Wörthersee",
+      "country": "Austria",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.udinese.it/news/tifosi/udinese-trabzonspor-si-giochera-a-velden-am-worthersee",
+          "publisher": "Udinese",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Udinese moved the fixture from Landskron to Velden am Wörthersee on 26 July."
+    },
+    {
+      "id": "2026-08-02-parma-iraklis",
+      "homeClubId": "parma",
+      "homeName": "Parma",
+      "awayClubId": null,
+      "awayName": "Iraklis Thessaloniki",
+      "date": "2026-08-02",
+      "kickoff": "2026-08-02T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Centro Sportivo Pineta",
+      "city": "Pinzolo",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-02-ascoli-lazio",
+      "homeClubId": null,
+      "homeName": "Ascoli",
+      "awayClubId": "lazio",
+      "awayName": "Lazio",
+      "date": "2026-08-02",
+      "kickoff": "2026-08-02T20:45:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Cino e Lillo Del Duca",
+      "city": "Ascoli Piceno",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-04-bournemouth-genoa",
       "homeClubId": "bournemouth",
       "homeName": "Bournemouth",
@@ -2539,6 +3193,39 @@
           "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
           "publisher": "Bundesliga",
           "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-04-newport-county-roma",
+      "homeClubId": null,
+      "homeName": "Newport County",
+      "awayClubId": "roma",
+      "awayName": "Roma",
+      "date": "2026-08-04",
+      "kickoff": "2026-08-04T19:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Rodney Parade",
+      "city": "Newport",
+      "country": "Wales",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.asroma.com/en/news/75586/pre-season-here-is-the-summer-friendlies-schedule",
+          "publisher": "AS Roma",
+          "publishedAt": "2026-07-07",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2677,6 +3364,33 @@
       "notes": null
     },
     {
+      "id": "2026-08-05-lazio-ostiamare",
+      "homeClubId": "lazio",
+      "homeName": "Lazio",
+      "awayClubId": null,
+      "awayName": "Ostiamare",
+      "date": "2026-08-05",
+      "kickoff": "2026-08-05T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Mirko Fersini",
+      "city": "Formello",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-05-napoli-osasuna",
       "homeClubId": "napoli",
       "homeName": "Napoli",
@@ -2737,6 +3451,39 @@
           "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
           "publisher": "Bundesliga",
           "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-05-ac-milan-inter",
+      "homeClubId": "ac-milan",
+      "homeName": "AC Milan",
+      "awayClubId": "inter",
+      "awayName": "Inter",
+      "date": "2026-08-05",
+      "kickoff": "2026-08-05T19:00:00+08:00",
+      "timePrecision": "confirmed",
+      "venue": "Optus Stadium",
+      "city": "Perth",
+      "country": "Australia",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.inter.it/en/news/programme-calendar-inter-summer-friendlies-2026",
+          "publisher": "Inter",
+          "publishedAt": "2026-07-25",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2989,6 +3736,33 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-07-monza-padova",
+      "homeClubId": "monza",
+      "homeName": "Monza",
+      "awayClubId": null,
+      "awayName": "Padova",
+      "date": "2026-08-07",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.acmonza.com/it/news/il-programma-delle-altre-amichevoli-estive-di-ac-monza-2026-2027/",
+          "publisher": "AC Monza",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -3637,6 +4411,33 @@
       "notes": "Second match of an official same-day double-header; absent from the Bundesliga roundup when checked."
     },
     {
+      "id": "2026-08-08-bologna-pisa",
+      "homeClubId": "bologna",
+      "homeName": "Bologna",
+      "awayClubId": null,
+      "awayName": "Pisa",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Centro Tecnico Niccolò Galli",
+      "city": "Bologna",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-08-manchester-united-paris-saint-germain",
       "homeClubId": "manchester-united",
       "homeName": "Manchester United",
@@ -3769,6 +4570,33 @@
       "notes": null
     },
     {
+      "id": "2026-08-08-modena-fiorentina",
+      "homeClubId": null,
+      "homeName": "Modena",
+      "awayClubId": "fiorentina",
+      "awayName": "Fiorentina",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Alberto Braglia",
+      "city": "Modena",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-08-rennes-brentford-2",
       "homeClubId": "rennes",
       "homeName": "Stade Rennais",
@@ -3796,6 +4624,39 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-brest-venezia",
+      "homeClubId": "brest",
+      "homeName": "Stade Brestois",
+      "awayClubId": "venezia",
+      "awayName": "Venezia",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T18:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade Francis-Le Blé",
+      "city": "Brest",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.veneziafc.it/news/le-amichevoli-internazionali-del-venezia-fc-su-dazn",
+          "publisher": "Venezia FC",
+          "publishedAt": "2026-07-17",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -3901,6 +4762,39 @@
       "notes": null
     },
     {
+      "id": "2026-08-08-juventus-inter",
+      "homeClubId": "juventus",
+      "homeName": "Juventus",
+      "awayClubId": "inter",
+      "awayName": "Inter",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T19:00:00+08:00",
+      "timePrecision": "confirmed",
+      "venue": "Optus Stadium",
+      "city": "Perth",
+      "country": "Australia",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.inter.it/en/news/programme-calendar-inter-summer-friendlies-2026",
+          "publisher": "Inter",
+          "publishedAt": "2026-07-25",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-08-osasuna-al-ain",
       "homeClubId": "osasuna",
       "homeName": "CA Osasuna",
@@ -3965,6 +4859,60 @@
         }
       ],
       "notes": "45-minute tournament match."
+    },
+    {
+      "id": "2026-08-08-avellino-torino",
+      "homeClubId": null,
+      "homeName": "Avellino",
+      "awayClubId": "torino",
+      "awayName": "Torino",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T20:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Partenio-Lombardi",
+      "city": "Avellino",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-cagliari-nice",
+      "homeClubId": "cagliari",
+      "homeName": "Cagliari",
+      "awayClubId": "nice",
+      "awayName": "OGC Nice",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T20:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Unipol Domus",
+      "city": "Cagliari",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly_tournament",
+      "competition": "Trofeo Gigi Riva",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
     },
     {
       "id": "2026-08-08-real-betis-bournemouth",
@@ -4303,6 +5251,33 @@
       "notes": null
     },
     {
+      "id": "2026-08-09-parma-sampdoria",
+      "homeClubId": "parma",
+      "homeName": "Parma",
+      "awayClubId": null,
+      "awayName": "Sampdoria",
+      "date": "2026-08-09",
+      "kickoff": "2026-08-09T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Ennio Tardini",
+      "city": "Parma",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-09-chelsea-johor-darul-ta-zim",
       "homeClubId": "chelsea",
       "homeName": "Chelsea",
@@ -4369,6 +5344,66 @@
       "notes": null
     },
     {
+      "id": "2026-08-09-frosinone-lazio",
+      "homeClubId": "frosinone",
+      "homeName": "Frosinone",
+      "awayClubId": "lazio",
+      "awayName": "Lazio",
+      "date": "2026-08-09",
+      "kickoff": "2026-08-09T20:45:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Benito Stirpe",
+      "city": "Frosinone",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-11-juventus-palermo",
+      "homeClubId": "juventus",
+      "homeName": "Juventus",
+      "awayClubId": null,
+      "awayName": "Palermo",
+      "date": "2026-08-11",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": "Perth",
+      "country": "Australia",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.juventus.com/en/news/articles/bianconeri-to-host-nice-in-summer-friendly-07-07-26",
+          "publisher": "Juventus",
+          "publishedAt": "2026-07-07",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-12-everton-newcastle-united",
       "homeClubId": "everton",
       "homeName": "Everton",
@@ -4427,6 +5462,39 @@
         }
       ],
       "notes": "Official club schedule; absent from the Bundesliga roundup when checked."
+    },
+    {
+      "id": "2026-08-12-arsenal-como",
+      "homeClubId": "arsenal",
+      "homeName": "Arsenal",
+      "awayClubId": "como",
+      "awayName": "Como",
+      "date": "2026-08-12",
+      "kickoff": "2026-08-12T19:30:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Emirates Stadium",
+      "city": "London",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://comofootball.com/en/",
+          "publisher": "Como 1907",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
     },
     {
       "id": "2026-08-12-leeds-united-manchester-united",
@@ -4522,6 +5590,33 @@
           "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
           "publisher": "Diario AS",
           "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-12-napoli-aris",
+      "homeClubId": "napoli",
+      "homeName": "Napoli",
+      "awayClubId": null,
+      "awayName": "Aris Thessaloniki",
+      "date": "2026-08-12",
+      "kickoff": "2026-08-12T21:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Teofilo Patini",
+      "city": "Castel di Sangro",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -5444,6 +6539,39 @@
         }
       ],
       "notes": "Public Anfield fixture; separate from the behind-closed-doors match."
+    },
+    {
+      "id": "2026-08-17-juventus-next-gen",
+      "homeClubId": "juventus",
+      "homeName": "Juventus",
+      "awayClubId": null,
+      "awayName": "Juventus Next Gen",
+      "date": "2026-08-17",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.juventus.com/en/news/articles/bianconeri-to-host-nice-in-summer-friendly-07-07-26",
+          "publisher": "Juventus",
+          "publishedAt": "2026-07-07",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Traditional first-team v Next Gen pre-season match."
     },
     {
       "id": "2026-08-19-barcelona-al-ahly",

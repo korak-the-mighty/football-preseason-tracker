@@ -6,7 +6,7 @@ Choose clubs from Europe's top five leagues. See their upcoming matches in one c
 
 ## Project status
 
-Foundation and data research phase. The product is defined; fixture research and the first build have not started yet.
+Club and fixture research phase. The 96-club list is complete, the Premier League fixture pass is complete enough to scale, and the first build has not started yet.
 
 Read these files before working:
 

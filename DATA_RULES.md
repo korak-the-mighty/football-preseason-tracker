@@ -172,6 +172,12 @@ Potential duplicates should be compared using:
 
 Do not rely only on the fixture ID. If two sources describe the same match differently, resolve the facts inside one record.
 
+## Same-day double-headers
+
+Two clubs may play more than once on the same date. Do not deduplicate on teams and date alone.
+
+Preserve each real match as a separate record. Use an ordinal ID suffix such as `-1` and `-2`, and distinguish the records with confirmed kickoff, venue, access status or a short note. Each record still requires publication evidence.
+
 ## Research record
 
 The canonical dataset must make it possible to answer:

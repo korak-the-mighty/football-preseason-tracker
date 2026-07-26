@@ -15,11 +15,11 @@
 - The five leagues contain 96 clubs in total: Premier League 20, Bundesliga 18, La Liga 20, Serie A 20 and Ligue 1 18.
 - The first canonical club dataset exists at `src/data/clubs.json`.
 - The club dataset stores membership sources, its verification date and exact league counts.
-- The Premier League canonical fixture pass is complete enough to scale; the Bundesliga and La Liga baselines now cover every club in both leagues.
-- The combined dataset at `src/data/fixtures.json` contains 170 announced fixtures from 28 July onward, all supported by publication evidence.
-- One hundred sixty-one fixtures have verified kickoff datetimes with real UTC offsets; nine remain honestly `date_only` because no conflict-free official kickoff was public.
-- The La Liga pass added 51 new canonical fixtures, enriched existing cross-league records and represents all 20 Spanish clubs.
-- Official Spanish club checks corrected roundup errors involving Sevilla v NEC, Villarreal v Levante and the Barcelona tournament ordering.
+- The Premier League canonical fixture pass is complete enough to scale; the Bundesliga, La Liga and Serie A baselines now cover every club in those leagues.
+- The combined dataset at `src/data/fixtures.json` contains 208 announced fixtures from 27 July onward, all supported by publication evidence.
+- One hundred ninety-five fixtures have verified kickoff datetimes with real UTC offsets; 13 remain honestly `date_only` because no conflict-free official kickoff was public.
+- The Serie A pass added 38 new canonical fixtures, reused 24 existing cross-league records and represents all 20 Italian clubs.
+- Official Italian and opponent sources corrected cross-border kickoff times and fixture ordering, and added Lecce v Lecce Primavera, Monza v Padova and Udinese v Trabzonspor beyond the league roundup.
 - Four pre-existing Brighton fixture links were corrected from the invalid `brighton` ID to `brighton-and-hove-albion`.
 - The league roundup was not complete by itself: official club checks found Bournemouth v Mainz and a second Brentford v Rennes match.
 - No production code exists yet.
@@ -50,13 +50,13 @@
 
 - There is no single complete official source for all pre-season fixtures.
 - Fixtures can change after publication.
-- Italy and France may require heavier club-by-club fixture research.
+- France may require heavier club-by-club fixture research.
 - The separate-repository deployment path into Henrik's portfolio site is still open.
 - A sustainable update rhythm after launch is not yet defined.
 
 ## Single next action
 
-Build the Serie A fixture baseline for all 20 covered Italian clubs, reusing existing cross-league records and verifying club schedules before adding new canonical fixtures.
+Build the Ligue 1 fixture baseline for all 18 covered French clubs, reusing existing cross-league records and verifying club schedules before adding new canonical fixtures.
 
 ## Decisions needed from Henrik
 
@@ -69,6 +69,16 @@ Later, before the build:
 3. who owns ongoing fixture updates after launch
 
 ## Session log
+
+### 2026-07-26 — Serie A fixture baseline
+
+Added the Serie A baseline across all 20 covered clubs. The combined canonical dataset now contains 208 fixtures: 195 with verified kickoff datetimes and 13 honestly date-only.
+
+The pass added 38 new canonical records and reused 24 existing cross-league records. Lega Serie A provided the official national baseline; club and opponent checks resolved UK-local kickoff conversions, corrected Venezia's French fixture ordering and added fixtures absent from the league roundup.
+
+The extra club-level discoveries were Lecce v Lecce Primavera, Monza v Padova and Udinese v Trabzonspor. Udinese's same-day venue correction from Landskron to Velden am Wörthersee was preserved. The cross-border timezone rule now requires venue-local storage with documented publisher-time conversions.
+
+Final validation passed with all 20 Serie A clubs represented, no duplicate fixture IDs, no accidental semantic duplicates, no malformed kickoff offsets, no invalid club links and no source-less records.
 
 ### 2026-07-26 — La Liga fixture baseline
 

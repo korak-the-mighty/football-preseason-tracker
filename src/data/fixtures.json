@@ -3890,7 +3890,7 @@
     },
     {
       "id": "2026-08-05-mallorca-paris-saint-germain",
-      "homeClubId": "mallorca",
+      "homeClubId": null,
       "homeName": "RCD Mallorca",
       "awayClubId": "paris-saint-germain",
       "awayName": "Paris Saint-Germain",

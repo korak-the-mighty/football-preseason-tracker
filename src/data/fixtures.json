@@ -1,17 +1,17 @@
 {
   "meta": {
     "season": "2026-27",
-    "coverage": "Premier League complete; Bundesliga baseline",
+    "coverage": "Premier League complete; Bundesliga and La Liga baselines",
     "checkedAt": "2026-07-26",
-    "fixtureCount": 119,
-    "confirmedKickoffCount": 111,
-    "dateOnlyCount": 8,
+    "fixtureCount": 170,
+    "confirmedKickoffCount": 161,
+    "dateOnlyCount": 9,
     "notes": [
       "Includes announced fixtures from 28 July 2026 onward.",
-      "Premier League pass complete enough to scale; Bundesliga baseline added for all 18 covered clubs.",
-      "Official club checks added three Bundesliga fixtures absent from the league roundup: FSV Frankfurt v Eintracht Frankfurt and the two Werder Bremen v SC Paderborn matches.",
-      "Kickoff conflicts for Kickers Offenbach v VfB Stuttgart and Toulouse v Hamburger SV were resolved in favour of the clubs' own current schedules.",
-      "Kickoff is stored only when official evidence supplied a real time; unresolved fixtures remain date_only."
+      "Premier League pass complete enough to scale; Bundesliga and La Liga baselines cover every club in both leagues.",
+      "The La Liga pass added 51 new canonical fixtures and enriched existing cross-league records and corrected the official order of Barcelona v Nottingham Forest in the Friuli Venezia Giulia Cup.",
+      "Club sources overruled roundup errors involving Sevilla v NEC, Villarreal v Levante and the Barcelona tournament ordering.",
+      "Kickoff is stored only when publication evidence supplied a real time; unresolved fixtures remain date_only."
     ]
   },
   "fixtures": [
@@ -76,6 +76,39 @@
       "notes": null
     },
     {
+      "id": "2026-07-28-derby-county-valencia",
+      "homeClubId": null,
+      "homeName": "Derby County",
+      "awayClubId": "valencia",
+      "awayName": "Valencia CF",
+      "date": "2026-07-28",
+      "kickoff": "2026-07-28T14:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "St George's Park",
+      "city": "Burton upon Trent",
+      "country": "England",
+      "neutralVenue": true,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.valenciacf.com/en/17822007303251010",
+          "publisher": "Valencia CF",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Kickoff is stored in CEST as published by Diario AS; Valencia confirms the match is behind closed doors at St George's Park."
+    },
+    {
       "id": "2026-07-28-crystal-palace-lens",
       "homeClubId": "crystal-palace",
       "homeName": "Crystal Palace",
@@ -107,6 +140,33 @@
         }
       ],
       "notes": null
+    },
+    {
+      "id": "2026-07-28-real-madrid-leganes",
+      "homeClubId": "real-madrid",
+      "homeName": "Real Madrid",
+      "awayClubId": null,
+      "awayName": "CD Leganés",
+      "date": "2026-07-28",
+      "kickoff": "2026-07-28T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Ciudad Real Madrid",
+      "city": "Madrid",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Training match listed by Diario AS."
     },
     {
       "id": "2026-07-28-aston-villa-real-sociedad",
@@ -241,6 +301,72 @@
       "notes": null
     },
     {
+      "id": "2026-07-28-elche-al-ain",
+      "homeClubId": "elche",
+      "homeName": "Elche CF",
+      "awayClubId": null,
+      "awayName": "Al Ain FC",
+      "date": "2026-07-28",
+      "kickoff": "2026-07-28T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Pinatar Arena",
+      "city": "San Pedro del Pinatar",
+      "country": "Spain",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.elchecf.es/noticias/el-elche-cf-confirma-su-calendario-de-amistosos-para-el-mes-de-julio",
+          "publisher": "Elche CF",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-29-celta-academico-viseu",
+      "homeClubId": "celta",
+      "homeName": "Celta",
+      "awayClubId": null,
+      "awayName": "Académico de Viseu",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T11:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Cidade Deportiva Afouteza",
+      "city": "Mos",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://rccelta.es/equipo/actualidad/el-celta-se-medira-al-sassuolo-y-al-napoli-en-su-preparacion-en-italia/",
+          "publisher": "RC Celta",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-07-29-bayer-leverkusen-genk",
       "homeClubId": "bayer-leverkusen",
       "homeName": "Bayer Leverkusen",
@@ -268,6 +394,39 @@
           "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
           "publisher": "Bundesliga",
           "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-29-atletico-de-madrid-getafe",
+      "homeClubId": "atletico-de-madrid",
+      "homeName": "Atlético de Madrid",
+      "awayClubId": "getafe",
+      "awayName": "Getafe CF",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T17:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Centro Deportivo Majadahonda",
+      "city": "Majadahonda",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.atleticodemadrid.com/noticias/nos-mediremos-al-getafe-en-un-partido-de-preparacion",
+          "publisher": "Atlético de Madrid",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -332,6 +491,72 @@
         }
       ],
       "notes": "VfB's own current schedule lists 19:00 CEST; the Bundesliga roundup listed 18:30 CEST."
+    },
+    {
+      "id": "2026-07-29-racing-santander-athletic-club",
+      "homeClubId": "racing-santander",
+      "homeName": "R. Racing Club",
+      "awayClubId": "athletic-club",
+      "awayName": "Athletic Club",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Campo San Lorenzo",
+      "city": "Laredo",
+      "country": "Spain",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.athletic-club.eus/noticias/2026/07/13/toda-la-pretemporada-2026-27-en-exclusiva-en-athletic-play/",
+          "publisher": "Athletic Club",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-29-villarreal-alula",
+      "homeClubId": "villarreal",
+      "homeName": "Villarreal CF",
+      "awayClubId": null,
+      "awayName": "AlUla SC",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "city": "Como",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly_tournament",
+      "competition": "Como Cup",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://villarrealcf.es/el-villarreal-se-enfrentara-al-levante-en-pretemporada/",
+          "publisher": "Villarreal CF",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "45-minute tournament match."
     },
     {
       "id": "2026-07-29-cerezo-osaka-borussia-dortmund",
@@ -433,6 +658,72 @@
       "notes": null
     },
     {
+      "id": "2026-07-29-deportivo-la-coruna-lugo",
+      "homeClubId": "deportivo-la-coruna",
+      "homeName": "RC Deportivo",
+      "awayClubId": null,
+      "awayName": "CD Lugo",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T19:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "A Magdalena",
+      "city": "Vilalba",
+      "country": "Spain",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.rcdeportivo.es/es/noticias/depor-y-sd-compostela-se-ven-las-caras-el-sabado-18-de-julio-en-el-estadio-vero-boquete-en-un-nu",
+          "publisher": "RC Deportivo",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-29-burnley-espanyol",
+      "homeClubId": null,
+      "homeName": "Burnley",
+      "awayClubId": "espanyol",
+      "awayName": "RCD Espanyol de Barcelona",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T19:45:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Turf Moor",
+      "city": "Burnley",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.rcdespanyol.com/es/proximos-partidos",
+          "publisher": "RCD Espanyol",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Espanyol publishes 20:45 peninsular Spain time; stored as the equivalent 19:45 BST."
+    },
+    {
       "id": "2026-07-29-ipswich-town-osasuna",
       "homeClubId": "ipswich-town",
       "homeName": "Ipswich Town",
@@ -497,6 +788,72 @@
         }
       ],
       "notes": null
+    },
+    {
+      "id": "2026-07-29-real-betis-lyon",
+      "homeClubId": "real-betis",
+      "homeName": "Real Betis",
+      "awayClubId": "lyon",
+      "awayName": "Olympique Lyonnais",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "Spain",
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.realbetisbalompie.es/primer-equipo/partidos/",
+          "publisher": "Real Betis",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-29-villarreal-como",
+      "homeClubId": "villarreal",
+      "homeName": "Villarreal CF",
+      "awayClubId": "como",
+      "awayName": "Como",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T22:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "city": "Como",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly_tournament",
+      "competition": "Como Cup",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://villarrealcf.es/el-villarreal-se-enfrentara-al-levante-en-pretemporada/",
+          "publisher": "Villarreal CF",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "45-minute tournament match."
     },
     {
       "id": "2026-07-30-bournemouth-fc-augsburg",
@@ -598,6 +955,60 @@
       "notes": null
     },
     {
+      "id": "2026-07-30-malaga-al-ittihad",
+      "homeClubId": "malaga",
+      "homeName": "Málaga CF",
+      "awayClubId": null,
+      "awayName": "Al-Ittihad",
+      "date": "2026-07-30",
+      "kickoff": "2026-07-30T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "Spain",
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-31-deportivo-alaves-castellon",
+      "homeClubId": "deportivo-alaves",
+      "homeName": "Deportivo Alavés",
+      "awayClubId": null,
+      "awayName": "CD Castellón",
+      "date": "2026-07-31",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": "Municipal d'Olot",
+      "city": "Olot",
+      "country": "Spain",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://deportivoalaves.com/noticias/el-deportivo-alaves-arranca-la-pretemporada-2026-27",
+          "publisher": "Deportivo Alavés",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "The club still lists the kickoff as to be confirmed."
+    },
+    {
       "id": "2026-07-31-sporting-cp-nottingham-forest",
       "homeClubId": null,
       "homeName": "Sporting CP",
@@ -625,6 +1036,39 @@
           "url": "https://www.sporting.pt/en/news/football/main-team/2026-07-25/sporting-cp-win-trofeu-cinco-violinos-against-monaco",
           "publisher": "Sporting CP",
           "publishedAt": "2026-07-25",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-31-elche-cordoba",
+      "homeClubId": "elche",
+      "homeName": "Elche CF",
+      "awayClubId": null,
+      "awayName": "Córdoba CF",
+      "date": "2026-07-31",
+      "kickoff": "2026-07-31T10:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Oliva Nova Sports Center",
+      "city": "Oliva",
+      "country": "Spain",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.elchecf.es/noticias/el-elche-cf-confirma-su-calendario-de-amistosos-para-el-mes-de-julio",
+          "publisher": "Elche CF",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -730,6 +1174,105 @@
       "notes": null
     },
     {
+      "id": "2026-07-31-nec-sevilla",
+      "homeClubId": null,
+      "homeName": "NEC Nijmegen",
+      "awayClubId": "sevilla",
+      "awayName": "Sevilla FC",
+      "date": "2026-07-31",
+      "kickoff": "2026-07-31T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Goffertstadion",
+      "city": "Nijmegen",
+      "country": "Netherlands",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://sevillafc.es/actualidad/noticias/2026-27-pre-season-will-feature-seven-friendly-matches-and-the-team-will-travel-to-poland-the-netherlands-and-germany",
+          "publisher": "Sevilla FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-31-toulouse-real-sociedad",
+      "homeClubId": "toulouse",
+      "homeName": "Toulouse FC",
+      "awayClubId": "real-sociedad",
+      "awayName": "Real Sociedad",
+      "date": "2026-07-31",
+      "kickoff": "2026-07-31T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Toulouse",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.realsociedad.eus/es/equipo/partidos-siguientes/real-sociedad",
+          "publisher": "Real Sociedad",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-31-birmingham-city-barcelona",
+      "homeClubId": null,
+      "homeName": "Birmingham City",
+      "awayClubId": "barcelona",
+      "awayName": "FC Barcelona",
+      "date": "2026-07-31",
+      "kickoff": "2026-07-31T19:45:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "St Andrew's Stadium",
+      "city": "Birmingham",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.fcbarcelona.com/en/news/4520035/barca-202627-to-begin-in-birmingham",
+          "publisher": "FC Barcelona",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-01-kas-mpasa-hull-city",
       "homeClubId": null,
       "homeName": "Kasımpaşa",
@@ -757,6 +1300,39 @@
           "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
           "publisher": "Hull City AFC",
           "publishedAt": "2026-07-15",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-levante-albacete",
+      "homeClubId": "levante",
+      "homeName": "Levante UD",
+      "awayClubId": null,
+      "awayName": "Albacete Balompié",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T10:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Ciudad Deportiva de Buñol",
+      "city": "Buñol",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.levanteud.com/noticias/el-levante-ud-anuncia-los-dos-primeros-amistosos-de-agosto",
+          "publisher": "Levante UD",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -794,6 +1370,33 @@
         }
       ],
       "notes": "Kickoff follows the Bundesliga's explicit CEST schedule; Bayer's rendered match page appeared localized in search results."
+    },
+    {
+      "id": "2026-08-01-wolverhampton-racing-santander-1",
+      "homeClubId": null,
+      "homeName": "Wolverhampton Wanderers",
+      "awayClubId": "racing-santander",
+      "awayName": "R. Racing Club",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T11:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Molineux Stadium",
+      "city": "Wolverhampton",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "First match of a same-day double-header; kickoff stored in CEST as published by Diario AS."
     },
     {
       "id": "2026-08-01-brighton-strasbourg-1",
@@ -1013,6 +1616,72 @@
         }
       ],
       "notes": "Second match of a behind-closed-doors double-header."
+    },
+    {
+      "id": "2026-08-01-middlesbrough-espanyol",
+      "homeClubId": null,
+      "homeName": "Middlesbrough",
+      "awayClubId": "espanyol",
+      "awayName": "RCD Espanyol de Barcelona",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T15:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Riverside Stadium",
+      "city": "Middlesbrough",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.rcdespanyol.com/es/proximos-partidos",
+          "publisher": "RCD Espanyol",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Espanyol publishes 16:00 peninsular Spain time; stored as the equivalent 15:00 BST."
+    },
+    {
+      "id": "2026-08-01-osasuna-norwich-city",
+      "homeClubId": "osasuna",
+      "homeName": "CA Osasuna",
+      "awayClubId": null,
+      "awayName": "Norwich City",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T15:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Carrow Road",
+      "city": "Norwich",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.osasuna.es/amistoso-norwich-2026",
+          "publisher": "CA Osasuna",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
     },
     {
       "id": "2026-08-01-energie-cottbus-werder-bremen",
@@ -1300,6 +1969,192 @@
       "notes": null
     },
     {
+      "id": "2026-08-01-real-madrid-fiorentina",
+      "homeClubId": "real-madrid",
+      "homeName": "Real Madrid",
+      "awayClubId": "fiorentina",
+      "awayName": "Fiorentina",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Wörthersee Stadion",
+      "city": "Klagenfurt",
+      "country": "Austria",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/el-real-madrid-comienza-a-preparar-la-temporada-2026-27-08-07-2026",
+          "publisher": "Real Madrid",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-wolverhampton-racing-santander-2",
+      "homeClubId": null,
+      "homeName": "Wolverhampton Wanderers",
+      "awayClubId": "racing-santander",
+      "awayName": "R. Racing Club",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Molineux Stadium",
+      "city": "Wolverhampton",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Second match of a same-day double-header; kickoff stored in CEST as published by Diario AS."
+    },
+    {
+      "id": "2026-08-01-stoke-city-valencia",
+      "homeClubId": null,
+      "homeName": "Stoke City",
+      "awayClubId": "valencia",
+      "awayName": "Valencia CF",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T18:30:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "bet365 Stadium",
+      "city": "Stoke-on-Trent",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.valenciacf.com/en/17822007303251010",
+          "publisher": "Valencia CF",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Diario AS publishes 19:30 CEST; stored as the equivalent 18:30 BST."
+    },
+    {
+      "id": "2026-08-01-st-pauli-deportivo-la-coruna",
+      "homeClubId": null,
+      "homeName": "FC St. Pauli",
+      "awayClubId": "deportivo-la-coruna",
+      "awayName": "RC Deportivo",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T18:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Millerntor-Stadion",
+      "city": "Hamburg",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.rcdeportivo.es/es/noticias/depor-y-sd-compostela-se-ven-las-caras-el-sabado-18-de-julio-en-el-estadio-vero-boquete-en-un-nu",
+          "publisher": "RC Deportivo",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-burgos-athletic-club",
+      "homeClubId": null,
+      "homeName": "Burgos CF",
+      "awayClubId": "athletic-club",
+      "awayName": "Athletic Club",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Burgos",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.athletic-club.eus/noticias/2026/07/13/toda-la-pretemporada-2026-27-en-exclusiva-en-athletic-play/",
+          "publisher": "Athletic Club",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-rayo-vallecano-charleroi",
+      "homeClubId": "rayo-vallecano",
+      "homeName": "Rayo Vallecano",
+      "awayClubId": null,
+      "awayName": "Sporting Charleroi",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-01-fc-tokyo-borussia-dortmund",
       "homeClubId": null,
       "homeName": "FC Tokyo",
@@ -1465,6 +2320,39 @@
       "notes": null
     },
     {
+      "id": "2026-08-01-real-betis-almeria",
+      "homeClubId": "real-betis",
+      "homeName": "Real Betis",
+      "awayClubId": null,
+      "awayName": "UD Almería",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Estadio Ciudad de La Línea",
+      "city": "La Línea de la Concepción",
+      "country": "Spain",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.realbetisbalompie.es/primer-equipo/partidos/",
+          "publisher": "Real Betis",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-02-sunderland-wrexham",
       "homeClubId": "sunderland",
       "homeName": "Sunderland",
@@ -1558,6 +2446,39 @@
           "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
           "publisher": "Bundesliga",
           "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-02-utrecht-sevilla",
+      "homeClubId": null,
+      "homeName": "FC Utrecht",
+      "awayClubId": "sevilla",
+      "awayName": "Sevilla FC",
+      "date": "2026-08-02",
+      "kickoff": "2026-08-02T14:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadion Galgenwaard",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://sevillafc.es/actualidad/noticias/2026-27-pre-season-will-feature-seven-friendly-matches-and-the-team-will-travel-to-poland-the-netherlands-and-germany",
+          "publisher": "Sevilla FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1723,6 +2644,72 @@
       "notes": null
     },
     {
+      "id": "2026-08-05-villarreal-levante",
+      "homeClubId": "villarreal",
+      "homeName": "Villarreal CF",
+      "awayClubId": "levante",
+      "awayName": "Levante UD",
+      "date": "2026-08-05",
+      "kickoff": "2026-08-05T10:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Mini Estadi",
+      "city": "Vila-real",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.levanteud.com/noticias/el-levante-ud-jugara-un-partido-de-pretemporada-contra-el-villarreal-cf",
+          "publisher": "Levante UD",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-05-napoli-osasuna",
+      "homeClubId": "napoli",
+      "homeName": "Napoli",
+      "awayClubId": "osasuna",
+      "awayName": "CA Osasuna",
+      "date": "2026-08-05",
+      "kickoff": "2026-08-05T18:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Teofilo Patini",
+      "city": "Castel di Sangro",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.osasuna.es/osasuna-disputara-un-amistoso-ante-el-napoli-en-italia",
+          "publisher": "CA Osasuna",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-05-schwaz-fc-augsburg",
       "homeClubId": null,
       "homeName": "SC Schwaz",
@@ -1822,6 +2809,39 @@
       "notes": null
     },
     {
+      "id": "2026-08-05-sassuolo-celta",
+      "homeClubId": "sassuolo",
+      "homeName": "Sassuolo",
+      "awayClubId": "celta",
+      "awayName": "Celta",
+      "date": "2026-08-05",
+      "kickoff": "2026-08-05T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Ricci Stadium",
+      "city": "Sassuolo",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://rccelta.es/equipo/actualidad/el-celta-se-medira-al-sassuolo-y-al-napoli-en-su-preparacion-en-italia/",
+          "publisher": "RC Celta",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-05-manchester-city-k-league-all-stars",
       "homeClubId": "manchester-city",
       "homeName": "Manchester City",
@@ -1855,6 +2875,99 @@
       "notes": null
     },
     {
+      "id": "2026-08-06-fiorentina-deportivo-la-coruna",
+      "homeClubId": "fiorentina",
+      "homeName": "Fiorentina",
+      "awayClubId": "deportivo-la-coruna",
+      "awayName": "RC Deportivo",
+      "date": "2026-08-06",
+      "kickoff": "2026-08-06T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Curva Fiesole",
+      "city": "Florence",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.rcdeportivo.es/es/noticias/acf-fiorentina-y-genoa-cfc-seran-los-primeros-rivales-de-pretemporada-del-depor",
+          "publisher": "RC Deportivo",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-06-malaga-al-arabi",
+      "homeClubId": "malaga",
+      "homeName": "Málaga CF",
+      "awayClubId": null,
+      "awayName": "Al-Arabi SC",
+      "date": "2026-08-06",
+      "kickoff": "2026-08-06T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Marbella Football Center",
+      "city": "Marbella",
+      "country": "Spain",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-06-monaco-getafe",
+      "homeClubId": "monaco",
+      "homeName": "AS Monaco",
+      "awayClubId": "getafe",
+      "awayName": "Getafe CF",
+      "date": "2026-08-06",
+      "kickoff": "2026-08-06T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Monaco",
+      "country": "Monaco",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.getafecf.com/amistosos-pretemporada-2026-2027",
+          "publisher": "Getafe CF",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-07-crystal-palace-fulham",
       "homeClubId": "crystal-palace",
       "homeName": "Crystal Palace",
@@ -1876,6 +2989,126 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-07-racing-santander-sporting-gijon",
+      "homeClubId": "racing-santander",
+      "homeName": "R. Racing Club",
+      "awayClubId": null,
+      "awayName": "Sporting de Gijón",
+      "date": "2026-08-07",
+      "kickoff": "2026-08-07T11:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Campos de Sport de El Sardinero",
+      "city": "Santander",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-07-fc-koln-real-sociedad",
+      "homeClubId": "fc-koln",
+      "homeName": "1. FC Köln",
+      "awayClubId": "real-sociedad",
+      "awayName": "Real Sociedad",
+      "date": "2026-08-07",
+      "kickoff": "2026-08-07T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Franz-Kremer-Stadion",
+      "city": "Cologne",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.realsociedad.eus/es/noticias/detalle/doble-amistoso-en-colonia",
+          "publisher": "Real Sociedad",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-07-ceuta-malaga",
+      "homeClubId": null,
+      "homeName": "AD Ceuta",
+      "awayClubId": "malaga",
+      "awayName": "Málaga CF",
+      "date": "2026-08-07",
+      "kickoff": "2026-08-07T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Ceuta",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-07-racing-santander-deportivo-alaves",
+      "homeClubId": "racing-santander",
+      "homeName": "R. Racing Club",
+      "awayClubId": "deportivo-alaves",
+      "awayName": "Deportivo Alavés",
+      "date": "2026-08-07",
+      "kickoff": "2026-08-07T19:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Campos de Sport de El Sardinero",
+      "city": "Santander",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://deportivoalaves.com/noticias/el-deportivo-alaves-arranca-la-pretemporada-2026-27",
+          "publisher": "Deportivo Alavés",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2281,7 +3514,7 @@
       "id": "2026-08-08-fc-koln-real-sociedad",
       "homeClubId": "fc-koln",
       "homeName": "1. FC Köln",
-      "awayClubId": null,
+      "awayClubId": "real-sociedad",
       "awayName": "Real Sociedad",
       "date": "2026-08-08",
       "kickoff": "2026-08-08T15:30:00+02:00",
@@ -2296,13 +3529,19 @@
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
-          "publisher": "Bundesliga",
+          "url": "https://www.realsociedad.eus/es/noticias/detalle/doble-amistoso-en-colonia",
+          "publisher": "Real Sociedad",
           "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
           "checkedAt": "2026-07-26"
         }
       ],
-      "notes": null
+      "notes": "Second match of the two-match Cologne programme."
     },
     {
       "id": "2026-08-08-sc-freiburg-strasbourg-2",
@@ -2563,6 +3802,72 @@
       "notes": null
     },
     {
+      "id": "2026-08-08-ferencvaros-real-madrid",
+      "homeClubId": null,
+      "homeName": "Ferencváros",
+      "awayClubId": "real-madrid",
+      "awayName": "Real Madrid",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Budapest",
+      "country": "Hungary",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.realmadrid.com/",
+          "publisher": "Real Madrid",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-levante-castellon",
+      "homeClubId": "levante",
+      "homeName": "Levante UD",
+      "awayClubId": null,
+      "awayName": "CD Castellón",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Ciudad Deportiva de La Coma",
+      "city": "Paterna",
+      "country": "Spain",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.levanteud.com/noticias/el-levante-ud-anuncia-los-dos-primeros-amistosos-de-agosto",
+          "publisher": "Levante UD",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-08-chelsea-ac-milan",
       "homeClubId": "chelsea",
       "homeName": "Chelsea",
@@ -2590,6 +3895,39 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-osasuna-al-ain",
+      "homeClubId": "osasuna",
+      "homeName": "CA Osasuna",
+      "awayClubId": null,
+      "awayName": "Al Ain FC",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "El Sadar",
+      "city": "Pamplona",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.osasuna.es/osasuna-al-ain-pretemporada-2026",
+          "publisher": "CA Osasuna",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2662,11 +4000,11 @@
       "notes": null
     },
     {
-      "id": "2026-08-08-nottingham-forest-barcelona",
-      "homeClubId": "nottingham-forest",
-      "homeName": "Nottingham Forest",
-      "awayClubId": "barcelona",
-      "awayName": "FC Barcelona",
+      "id": "2026-08-08-barcelona-nottingham-forest",
+      "homeClubId": "barcelona",
+      "homeName": "FC Barcelona",
+      "awayClubId": "nottingham-forest",
+      "awayName": "Nottingham Forest",
       "date": "2026-08-08",
       "kickoff": "2026-08-08T21:00:00+02:00",
       "timePrecision": "confirmed",
@@ -2690,9 +4028,81 @@
           "publisher": "Nottingham Forest FC",
           "publishedAt": "2026-07-17",
           "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.fcbarcelona.com/en/news/4537922/three-way-international-game-in-udine-as-part-of-202627-preseason",
+          "publisher": "FC Barcelona",
+          "publishedAt": "2026-07-17",
+          "checkedAt": "2026-07-26"
         }
       ],
-      "notes": "45-minute tournament match."
+      "notes": "45-minute round-robin match. FC Barcelona's official schedule confirms Barcelona are listed first; Diario AS supplies the scheduled time."
+    },
+    {
+      "id": "2026-08-08-genoa-deportivo-la-coruna",
+      "homeClubId": "genoa",
+      "homeName": "Genoa",
+      "awayClubId": "deportivo-la-coruna",
+      "awayName": "RC Deportivo",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T21:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Luigi Ferraris",
+      "city": "Genoa",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.rcdeportivo.es/es/noticias/acf-fiorentina-y-genoa-cfc-seran-los-primeros-rivales-de-pretemporada-del-depor",
+          "publisher": "RC Deportivo",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "RC Deportivo confirmed the fixture; the later Diario AS schedule supplied the kickoff."
+    },
+    {
+      "id": "2026-08-08-napoli-celta",
+      "homeClubId": "napoli",
+      "homeName": "Napoli",
+      "awayClubId": "celta",
+      "awayName": "Celta",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T21:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Teofilo Patini",
+      "city": "Castel di Sangro",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://rccelta.es/equipo/actualidad/el-celta-se-medira-al-sassuolo-y-al-napoli-en-su-preparacion-en-italia/",
+          "publisher": "RC Celta",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
     },
     {
       "id": "2026-08-08-valencia-newcastle-united",
@@ -2726,6 +4136,72 @@
         }
       ],
       "notes": null
+    },
+    {
+      "id": "2026-08-08-galatasaray-villarreal",
+      "homeClubId": null,
+      "homeName": "Galatasaray",
+      "awayClubId": "villarreal",
+      "awayName": "Villarreal CF",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T21:00:00+03:00",
+      "timePrecision": "confirmed",
+      "venue": "RAMS Park",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://villarrealcf.es/el-villarreal-visitara-al-galatasaray-en-pretemporada/",
+          "publisher": "Villarreal CF",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Villarreal publishes 20:00 in Spain and 21:00 local time in Istanbul; stored in local TRT."
+    },
+    {
+      "id": "2026-08-08-udinese-barcelona",
+      "homeClubId": "udinese",
+      "homeName": "Udinese",
+      "awayClubId": "barcelona",
+      "awayName": "FC Barcelona",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T22:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Bluenergy Stadium",
+      "city": "Udine",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly_tournament",
+      "competition": "Friuli Venezia Giulia Cup",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.fcbarcelona.com/en/news/4537922/three-way-international-game-in-udine-as-part-of-202627-preseason",
+          "publisher": "FC Barcelona",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "45-minute round-robin match; FC Barcelona confirms it follows Barcelona v Nottingham Forest, while Diario AS supplies the scheduled time."
     },
     {
       "id": "2026-08-09-arsenal-borussia-dortmund",
@@ -2788,6 +4264,39 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-09-marseille-athletic-club",
+      "homeClubId": "marseille",
+      "homeName": "Olympique de Marseille",
+      "awayClubId": "athletic-club",
+      "awayName": "Athletic Club",
+      "date": "2026-08-09",
+      "kickoff": "2026-08-09T17:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade Vélodrome",
+      "city": "Marseille",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.athletic-club.eus/noticias/2026/07/16/el-athletic-visitara-al-olympique-de-marsella-el-9-de-agosto/",
+          "publisher": "Athletic Club",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2986,6 +4495,72 @@
       "notes": null
     },
     {
+      "id": "2026-08-12-deportivo-la-coruna-real-madrid",
+      "homeClubId": "deportivo-la-coruna",
+      "homeName": "RC Deportivo",
+      "awayClubId": "real-madrid",
+      "awayName": "Real Madrid",
+      "date": "2026-08-12",
+      "kickoff": "2026-08-12T21:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Estadio de Riazor",
+      "city": "A Coruña",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly_tournament",
+      "competition": "Trofeo Teresa Herrera",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/el-real-madrid-comienza-a-preparar-la-temporada-2026-27-08-07-2026",
+          "publisher": "Real Madrid",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-14-marseille-atletico-de-madrid",
+      "homeClubId": "marseille",
+      "homeName": "Olympique de Marseille",
+      "awayClubId": "atletico-de-madrid",
+      "awayName": "Atlético de Madrid",
+      "date": "2026-08-14",
+      "kickoff": "2026-08-14T17:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade Vélodrome",
+      "city": "Marseille",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.atleticodemadrid.com/noticias/nos-mediremos-al-olympique-de-marseille-en-el-ultimo-amistoso-de-pretemporada",
+          "publisher": "Atlético de Madrid",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-14-coventry-city-monaco",
       "homeClubId": "coventry-city",
       "homeName": "Coventry City",
@@ -3013,6 +4588,39 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-14-atalanta-athletic-club",
+      "homeClubId": "atalanta",
+      "homeName": "Atalanta",
+      "awayClubId": "athletic-club",
+      "awayName": "Athletic Club",
+      "date": "2026-08-14",
+      "kickoff": "2026-08-14T20:45:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio di Bergamo",
+      "city": "Bergamo",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly_tournament",
+      "competition": "Trofeo Bortolotti",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.athletic-club.eus/noticias/2026/07/17/el-athletic-disputara-ante-el-atalanta-el-trofeo-bortolotti/",
+          "publisher": "Athletic Club",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
+          "publisher": "Diario AS",
+          "publishedAt": "2026-07-22",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -3836,6 +5444,33 @@
         }
       ],
       "notes": "Public Anfield fixture; separate from the behind-closed-doors match."
+    },
+    {
+      "id": "2026-08-19-barcelona-al-ahly",
+      "homeClubId": "barcelona",
+      "homeName": "FC Barcelona",
+      "awayClubId": null,
+      "awayName": "Al Ahly",
+      "date": "2026-08-19",
+      "kickoff": "2026-08-19T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Spotify Camp Nou",
+      "city": "Barcelona",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly_tournament",
+      "competition": "Joan Gamper Trophy",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.fcbarcelona.com/en/club/club-schedule",
+          "publisher": "FC Barcelona",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Barcelona's delayed pre-season programme places the Gamper after its earlier summer friendlies."
     },
     {
       "id": "2026-08-22-borussia-dortmund-bayern-munich",

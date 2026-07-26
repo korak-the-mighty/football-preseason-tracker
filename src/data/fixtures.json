@@ -1,33 +1,34 @@
 {
   "meta": {
     "season": "2026-27",
-    "coverage": "Premier League first canonical pass",
+    "coverage": "Premier League canonical pass",
     "checkedAt": "2026-07-26",
-    "fixtureCount": 78,
-    "confirmedKickoffCount": 40,
-    "dateOnlyCount": 38,
+    "fixtureCount": 79,
+    "confirmedKickoffCount": 70,
+    "dateOnlyCount": 9,
     "notes": [
       "Includes announced fixtures from 28 July 2026 onward.",
-      "Kickoff is stored only when an official source supplied a real time; otherwise the fixture remains date_only.",
-      "Premier League club-source enrichment is in progress. Official pages checked in this batch upgraded times and venues without guessing unresolved records."
+      "Kickoff is stored only when an official source supplied a real time; unresolved fixtures remain date_only.",
+      "The final club-by-club gap check added Brighton's second RC Strasbourg match and corrected source conflicts in dates and home/away ordering.",
+      "Nine date-only records remain because no conflict-free official kickoff was public at the time checked."
     ]
   },
   "fixtures": [
     {
-      "id": "2026-07-28-al-ahli-fulham",
-      "homeClubId": null,
-      "homeName": "Al-Ahli",
-      "awayClubId": "fulham",
-      "awayName": "Fulham",
+      "id": "2026-07-28-crystal-palace-lens",
+      "homeClubId": "crystal-palace",
+      "homeName": "Crystal Palace",
+      "awayClubId": "lens",
+      "awayName": "RC Lens",
       "date": "2026-07-28",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
+      "kickoff": "2026-07-28T18:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "city": "Como",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly_tournament",
+      "competition": "Como Cup",
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
@@ -35,6 +36,12 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.cpfc.co.uk/news/announcement/new-friendly-announced-26-27-pre-season-schedule-finalised/",
+          "publisher": "Crystal Palace FC",
+          "publishedAt": "2026-06-29",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -47,12 +54,12 @@
       "awayClubId": "real-sociedad",
       "awayName": "Real Sociedad",
       "date": "2026-07-28",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "kickoff": "2026-07-28T19:30:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Pallet-Track Bescot Stadium",
+      "city": "Walsall",
+      "country": "England",
+      "neutralVenue": true,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
@@ -63,25 +70,31 @@
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
           "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.avfc.co.uk/news/2026/july/21/report-walsall-0-5-aston-villa/",
+          "publisher": "Aston Villa FC",
+          "publishedAt": "2026-07-21",
+          "checkedAt": "2026-07-26"
         }
       ],
       "notes": null
     },
     {
-      "id": "2026-07-28-caykur-rizespor-hull-city",
-      "homeClubId": null,
-      "homeName": "Çaykur Rizespor",
-      "awayClubId": "hull-city",
-      "awayName": "Hull City",
+      "id": "2026-07-28-crystal-palace-famalicao",
+      "homeClubId": "crystal-palace",
+      "homeName": "Crystal Palace",
+      "awayClubId": null,
+      "awayName": "Famalicão",
       "date": "2026-07-28",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
+      "kickoff": "2026-07-28T19:30:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "city": "Como",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly_tournament",
+      "competition": "Como Cup",
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
@@ -90,59 +103,11 @@
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
           "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-07-28-famalicao-crystal-palace",
-      "homeClubId": null,
-      "homeName": "Famalicão",
-      "awayClubId": "crystal-palace",
-      "awayName": "Crystal Palace",
-      "date": "2026-07-28",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
+        },
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-07-28-lens-crystal-palace",
-      "homeClubId": "lens",
-      "homeName": "RC Lens",
-      "awayClubId": "crystal-palace",
-      "awayName": "Crystal Palace",
-      "date": "2026-07-28",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
+          "url": "https://www.cpfc.co.uk/news/announcement/new-friendly-announced-26-27-pre-season-schedule-finalised/",
+          "publisher": "Crystal Palace FC",
+          "publishedAt": "2026-06-29",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -188,17 +153,116 @@
       "awayClubId": "chelsea",
       "awayName": "Chelsea",
       "date": "2026-07-28",
+      "kickoff": "2026-07-28T19:45:00+10:00",
+      "timePrecision": "confirmed",
+      "venue": "Accor Stadium",
+      "city": "Sydney",
+      "country": "Australia",
+      "neutralVenue": true,
+      "type": "friendly_tournament",
+      "competition": "Sydney Super Cup",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.chelseafc.com/en/news/article/confirmed-chelsea-travelling-squad-for-2026-pre-season-tour",
+          "publisher": "Chelsea FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-28-al-ahli-fulham",
+      "homeClubId": null,
+      "homeName": "Al-Ahli",
+      "awayClubId": "fulham",
+      "awayName": "Fulham",
+      "date": "2026-07-28",
       "kickoff": null,
       "timePrecision": "date_only",
       "venue": null,
       "city": null,
       "country": null,
       "neutralVenue": null,
-      "type": "friendly_tournament",
-      "competition": "Sydney Super Cup",
+      "type": "friendly",
+      "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-28-caykur-rizespor-hull-city",
+      "homeClubId": null,
+      "homeName": "Çaykur Rizespor",
+      "awayClubId": "hull-city",
+      "awayName": "Hull City",
+      "date": "2026-07-28",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": "Ljudski vrt",
+      "city": "Maribor",
+      "country": "Slovenia",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
+          "publisher": "Hull City AFC",
+          "publishedAt": "2026-07-15",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-29-liverpool-wrexham",
+      "homeClubId": "liverpool",
+      "homeName": "Liverpool",
+      "awayClubId": null,
+      "awayName": "Wrexham",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T19:30:00-04:00",
+      "timePrecision": "confirmed",
+      "venue": "Yankee Stadium",
+      "city": "New York City",
+      "country": "United States",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.liverpoolfc.com/news/liverpool-face-monaco-and-como-1907-pre-season-fixtures-anfield",
+          "publisher": "Liverpool FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
         {
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
@@ -275,39 +339,6 @@
       "notes": null
     },
     {
-      "id": "2026-07-29-liverpool-wrexham",
-      "homeClubId": "liverpool",
-      "homeName": "Liverpool",
-      "awayClubId": null,
-      "awayName": "Wrexham",
-      "date": "2026-07-29",
-      "kickoff": "2026-07-29T19:30:00-04:00",
-      "timePrecision": "confirmed",
-      "venue": "Yankee Stadium",
-      "city": "New York City",
-      "country": "United States",
-      "neutralVenue": true,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.liverpoolfc.com/news/liverpool-face-monaco-and-como-1907-pre-season-fixtures-anfield",
-          "publisher": "Liverpool FC",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
       "id": "2026-07-29-sydney-fc-tottenham-hotspur",
       "homeClubId": null,
       "homeName": "Sydney FC",
@@ -347,12 +378,12 @@
       "awayClubId": "fc-augsburg",
       "awayName": "FC Augsburg",
       "date": "2026-07-30",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "kickoff": "2026-07-30T16:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Saalfelden Arena",
+      "city": "Saalfelden",
+      "country": "Austria",
+      "neutralVenue": true,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
@@ -362,6 +393,12 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.afcb.co.uk/news/2026/june/26/club-confirm-austria-pre-season-camp-ahead-of-first-european-campaign/",
+          "publisher": "AFC Bournemouth",
+          "publishedAt": "2026-06-26",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -407,11 +444,11 @@
       "awayClubId": null,
       "awayName": "Portimonense SAD",
       "date": "2026-07-31",
-      "kickoff": null,
-      "timePrecision": "date_only",
+      "kickoff": "2026-07-31T11:00:00+01:00",
+      "timePrecision": "confirmed",
       "venue": null,
       "city": null,
-      "country": null,
+      "country": "Portugal",
       "neutralVenue": null,
       "type": "behind_closed_doors",
       "competition": null,
@@ -423,28 +460,238 @@
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
           "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.facebook.com/officialnffc/posts/well-now-play-an-additional-fixture-on-friday-31-july-against-portimonense-sad-ta/1630331621794385/",
+          "publisher": "Nottingham Forest FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
         }
       ],
-      "notes": null
+      "notes": "Kickoff announced as 11am BST; match is part of Forest's Portugal camp."
     },
     {
-      "id": "2026-07-31-nottingham-forest-sporting-cp",
-      "homeClubId": "nottingham-forest",
-      "homeName": "Nottingham Forest",
-      "awayClubId": null,
-      "awayName": "Sporting CP",
+      "id": "2026-07-31-sporting-cp-nottingham-forest",
+      "homeClubId": null,
+      "homeName": "Sporting CP",
+      "awayClubId": "nottingham-forest",
+      "awayName": "Nottingham Forest",
       "date": "2026-07-31",
       "kickoff": null,
       "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "venue": "Estádio Algarve",
+      "city": "Faro-Loulé",
+      "country": "Portugal",
+      "neutralVenue": true,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.sporting.pt/en/news/football/main-team/2026-07-25/sporting-cp-win-trofeu-cinco-violinos-against-monaco",
+          "publisher": "Sporting CP",
+          "publishedAt": "2026-07-25",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-brighton-strasbourg-1",
+      "homeClubId": "brighton",
+      "homeName": "Brighton & Hove Albion",
+      "awayClubId": "strasbourg",
+      "awayName": "RC Strasbourg",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T12:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Brighton",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.rcstrasbourgalsace.fr/le-racing-devoile-le-programme-de-sa-preparation-estivale/",
+          "publisher": "RC Strasbourg Alsace",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "First match of a behind-closed-doors double-header."
+    },
+    {
+      "id": "2026-08-01-oxford-united-ipswich-town",
+      "homeClubId": null,
+      "homeName": "Oxford United",
+      "awayClubId": "ipswich-town",
+      "awayName": "Ipswich Town",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T12:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Kassam Stadium",
+      "city": "Oxford",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.oufc.co.uk/news/oxford-united-confirm-second-home-pre-season-friendly",
+          "publisher": "Oxford United FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-brighton-strasbourg-2",
+      "homeClubId": "brighton",
+      "homeName": "Brighton & Hove Albion",
+      "awayClubId": "strasbourg",
+      "awayName": "RC Strasbourg",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T14:15:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Brighton",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.rcstrasbourgalsace.fr/le-racing-devoile-le-programme-de-sa-preparation-estivale/",
+          "publisher": "RC Strasbourg Alsace",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Second match of a behind-closed-doors double-header."
+    },
+    {
+      "id": "2026-08-01-manchester-united-atletico-de-madrid",
+      "homeClubId": "manchester-united",
+      "homeName": "Manchester United",
+      "awayClubId": "atletico-de-madrid",
+      "awayName": "Atlético de Madrid",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T15:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Strawberry Arena",
+      "city": "Solna",
+      "country": "Sweden",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://en.atleticodemadrid.com/noticias/atleti-to-face-manchester-united-in-the-2026-27-pre-season",
+          "publisher": "Atlético de Madrid",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-wycombe-wanderers-ipswich-town",
+      "homeClubId": null,
+      "homeName": "Wycombe Wanderers",
+      "awayClubId": "ipswich-town",
+      "awayName": "Ipswich Town",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T16:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Adams Park",
+      "city": "High Wycombe",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.wwfc.com/news/2026/june/16/premier-league-newcomers-to-visit-in-pre-season/",
+          "publisher": "Wycombe Wanderers FC",
+          "publishedAt": "2026-06-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-hamburger-sv-everton",
+      "homeClubId": "hamburger-sv",
+      "homeName": "Hamburger SV",
+      "awayClubId": "everton",
+      "awayName": "Everton",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Volksparkstadion",
+      "city": "Hamburg",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.evertonfc.com/news/2026/june/24/everton-confirm-hamburg-double-header-for-pre-season/",
+          "publisher": "Everton FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
         {
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
@@ -461,12 +708,12 @@
       "awayClubId": null,
       "awayName": "Indonesia All-Stars",
       "date": "2026-08-01",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "kickoff": "2026-08-01T19:30:00+07:00",
+      "timePrecision": "confirmed",
+      "venue": "Gelora Bung Karno Main Stadium",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "neutralVenue": true,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
@@ -477,24 +724,30 @@
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
           "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.goersapp.com/events/aston-villa-pre-season-tour-indonesia-2026--eghl6l",
+          "publisher": "Goers",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
         }
       ],
       "notes": null
     },
     {
-      "id": "2026-08-01-brighton-strasbourg",
-      "homeClubId": "brighton",
-      "homeName": "Brighton & Hove Albion",
-      "awayClubId": "strasbourg",
-      "awayName": "RC Strasbourg",
+      "id": "2026-08-01-manchester-city-inter",
+      "homeClubId": "manchester-city",
+      "homeName": "Manchester City",
+      "awayClubId": "inter",
+      "awayName": "Inter",
       "date": "2026-08-01",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "behind_closed_doors",
+      "kickoff": "2026-08-01T19:30:00+08:00",
+      "timePrecision": "confirmed",
+      "venue": "Kai Tak Stadium",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "neutralVenue": true,
+      "type": "friendly",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
@@ -503,6 +756,12 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.mancity.com/news/mens/asia-preseason-tour-key-dates-63917723",
+          "publisher": "Manchester City FC",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -575,39 +834,6 @@
       "notes": null
     },
     {
-      "id": "2026-08-01-hamburger-sv-everton",
-      "homeClubId": "hamburger-sv",
-      "homeName": "Hamburger SV",
-      "awayClubId": "everton",
-      "awayName": "Everton",
-      "date": "2026-08-01",
-      "kickoff": "2026-08-01T17:00:00+02:00",
-      "timePrecision": "confirmed",
-      "venue": "Volksparkstadion",
-      "city": "Hamburg",
-      "country": "Germany",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.evertonfc.com/news/2026/june/24/everton-confirm-hamburg-double-header-for-pre-season/",
-          "publisher": "Everton FC",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
       "id": "2026-08-01-kas-mpasa-hull-city",
       "homeClubId": null,
       "homeName": "Kasımpaşa",
@@ -616,10 +842,10 @@
       "date": "2026-08-01",
       "kickoff": null,
       "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "venue": "Recep Tayyip Erdoğan Stadium",
+      "city": "Istanbul",
+      "country": "Türkiye",
+      "neutralVenue": false,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
@@ -630,109 +856,40 @@
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
           "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-01-manchester-city-inter",
-      "homeClubId": "manchester-city",
-      "homeName": "Manchester City",
-      "awayClubId": "inter",
-      "awayName": "Inter",
-      "date": "2026-08-01",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
+        },
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
+          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
+          "publisher": "Hull City AFC",
+          "publishedAt": "2026-07-15",
           "checkedAt": "2026-07-26"
         }
       ],
       "notes": null
     },
     {
-      "id": "2026-08-01-manchester-united-atletico-de-madrid",
-      "homeClubId": "manchester-united",
-      "homeName": "Manchester United",
-      "awayClubId": "atletico-de-madrid",
-      "awayName": "Atlético de Madrid",
-      "date": "2026-08-01",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "id": "2026-08-02-sunderland-wrexham",
+      "homeClubId": "sunderland",
+      "homeName": "Sunderland",
+      "awayClubId": null,
+      "awayName": "Wrexham",
+      "date": "2026-08-02",
+      "kickoff": "2026-08-02T12:00:00-04:00",
+      "timePrecision": "confirmed",
+      "venue": "Subaru Park",
+      "city": "Chester, Pennsylvania",
+      "country": "United States",
+      "neutralVenue": true,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
+          "url": "https://www.safc.com/news/2026/june/08/----sunderland-afc-confirm-full-2026-27-pre-season-schedule/",
+          "publisher": "Sunderland AFC",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-01-oxford-united-ipswich-town",
-      "homeClubId": null,
-      "homeName": "Oxford United",
-      "awayClubId": "ipswich-town",
-      "awayName": "Ipswich Town",
-      "date": "2026-08-01",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-01-wycombe-wanderers-ipswich-town",
-      "homeClubId": null,
-      "homeName": "Wycombe Wanderers",
-      "awayClubId": "ipswich-town",
-      "awayName": "Ipswich Town",
-      "date": "2026-08-01",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
+        },
         {
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
@@ -776,17 +933,17 @@
       "notes": "Official source states 3pm EDT; stored as the equivalent 2pm local CDT in Chicago."
     },
     {
-      "id": "2026-08-02-sunderland-wrexham",
-      "homeClubId": "sunderland",
-      "homeName": "Sunderland",
+      "id": "2026-08-04-aston-villa-bg-pathum-united",
+      "homeClubId": "aston-villa",
+      "homeName": "Aston Villa",
       "awayClubId": null,
-      "awayName": "Wrexham",
-      "date": "2026-08-02",
-      "kickoff": "2026-08-02T12:00:00-04:00",
+      "awayName": "BG Pathum United",
+      "date": "2026-08-04",
+      "kickoff": "2026-08-04T19:30:00+07:00",
       "timePrecision": "confirmed",
-      "venue": "Subaru Park",
-      "city": "Chester, Pennsylvania",
-      "country": "United States",
+      "venue": "BG Stadium",
+      "city": "Pathum Thani",
+      "country": "Thailand",
       "neutralVenue": true,
       "type": "friendly",
       "competition": null,
@@ -794,69 +951,15 @@
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.safc.com/news/2026/june/08/----sunderland-afc-confirm-full-2026-27-pre-season-schedule/",
-          "publisher": "Sunderland AFC",
-          "publishedAt": null,
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
           "checkedAt": "2026-07-26"
         },
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-04-aston-villa-bg-pathum-united",
-      "homeClubId": "aston-villa",
-      "homeName": "Aston Villa",
-      "awayClubId": null,
-      "awayName": "BG Pathum United",
-      "date": "2026-08-04",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-04-bournemouth-genoa",
-      "homeClubId": "bournemouth",
-      "homeName": "Bournemouth",
-      "awayClubId": "genoa",
-      "awayName": "Genoa",
-      "date": "2026-08-04",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "behind_closed_doors",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
+          "url": "https://ticketmaster.co.th/activity/detail/26th_astonvilla",
+          "publisher": "Thai Ticket Major",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -896,6 +999,39 @@
       "notes": null
     },
     {
+      "id": "2026-08-04-bournemouth-genoa",
+      "homeClubId": "bournemouth",
+      "homeName": "Bournemouth",
+      "awayClubId": "genoa",
+      "awayName": "Genoa",
+      "date": "2026-08-04",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.afcb.co.uk/news/2026/july/02/afc-bournemouth-confirm-genoa-and-real-betis-pre-season-friendlies/",
+          "publisher": "AFC Bournemouth",
+          "publishedAt": "2026-07-02",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-05-arsenal-real-betis",
       "homeClubId": "arsenal",
       "homeName": "Arsenal",
@@ -919,33 +1055,6 @@
           "publishedAt": null,
           "checkedAt": "2026-07-26"
         },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-05-manchester-city-k-league-all-stars",
-      "homeClubId": "manchester-city",
-      "homeName": "Manchester City",
-      "awayClubId": null,
-      "awayName": "K League All-Stars",
-      "date": "2026-08-05",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
         {
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
@@ -989,18 +1098,18 @@
       "notes": null
     },
     {
-      "id": "2026-08-07-aston-villa-bayern-munich",
-      "homeClubId": "aston-villa",
-      "homeName": "Aston Villa",
-      "awayClubId": "bayern-munich",
-      "awayName": "Bayern Munich",
-      "date": "2026-08-07",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "id": "2026-08-05-manchester-city-k-league-all-stars",
+      "homeClubId": "manchester-city",
+      "homeName": "Manchester City",
+      "awayClubId": null,
+      "awayName": "K League All-Stars",
+      "date": "2026-08-05",
+      "kickoff": "2026-08-05T20:00:00+09:00",
+      "timePrecision": "confirmed",
+      "venue": "Seoul World Cup Stadium",
+      "city": "Seoul",
+      "country": "South Korea",
+      "neutralVenue": true,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
@@ -1010,6 +1119,45 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.mancity.com/news/mens/asia-preseason-tour-key-dates-63917723",
+          "publisher": "Manchester City FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-07-bayern-munich-aston-villa",
+      "homeClubId": "bayern-munich",
+      "homeName": "Bayern Munich",
+      "awayClubId": "aston-villa",
+      "awayName": "Aston Villa",
+      "date": "2026-08-07",
+      "kickoff": "2026-08-07T20:00:00+08:00",
+      "timePrecision": "confirmed",
+      "venue": "Kai Tak Stadium",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.discoverhongkong.com/eng/events/event.id86502.football-summit-2026-fc-bayern-munich-vs-aston-villa.html",
+          "publisher": "Hong Kong Tourism Board",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1033,393 +1181,6 @@
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-barcelona-nottingham-forest",
-      "homeClubId": "barcelona",
-      "homeName": "FC Barcelona",
-      "awayClubId": "nottingham-forest",
-      "awayName": "Nottingham Forest",
-      "date": "2026-08-08",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-coventry-city-espanyol",
-      "homeClubId": "coventry-city",
-      "homeName": "Coventry City",
-      "awayClubId": "espanyol",
-      "awayName": "RCD Espanyol",
-      "date": "2026-08-08",
-      "kickoff": "2026-08-08T17:30:00+01:00",
-      "timePrecision": "confirmed",
-      "venue": "Coventry Building Society Arena",
-      "city": "Coventry",
-      "country": "England",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.ccfc.co.uk/news/2026/july/02/coventry-city-to-host-espanyol-in-a-pre-season-friendly/",
-          "publisher": "Coventry City",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-eintracht-frankfurt-hull-city",
-      "homeClubId": "eintracht-frankfurt",
-      "homeName": "Eintracht Frankfurt",
-      "awayClubId": "hull-city",
-      "awayName": "Hull City",
-      "date": "2026-08-08",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-ipswich-town-rayo-vallecano",
-      "homeClubId": "ipswich-town",
-      "homeName": "Ipswich Town",
-      "awayClubId": "rayo-vallecano",
-      "awayName": "Rayo Vallecano",
-      "date": "2026-08-08",
-      "kickoff": "2026-08-08T15:00:00+01:00",
-      "timePrecision": "confirmed",
-      "venue": "Portman Road",
-      "city": "Ipswich",
-      "country": "England",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.itfc.co.uk/news/2026/june/19/mascot-packages-2026-27/",
-          "publisher": "Ipswich Town",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-leeds-united-rb-leipzig",
-      "homeClubId": "leeds-united",
-      "homeName": "Leeds United",
-      "awayClubId": "rb-leipzig",
-      "awayName": "RB Leipzig",
-      "date": "2026-08-08",
-      "kickoff": "2026-08-08T14:00:00+01:00",
-      "timePrecision": "confirmed",
-      "venue": "Elland Road",
-      "city": "Leeds",
-      "country": "England",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.leedsunited.com/en/news/leeds-united-to-face-rb-leipzig-at-elland-road-in-pre-season",
-          "publisher": "Leeds United",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-lens-sunderland-1",
-      "homeClubId": "lens",
-      "homeName": "RC Lens",
-      "awayClubId": "sunderland",
-      "awayName": "Sunderland",
-      "date": "2026-08-08",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "behind_closed_doors",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-lens-sunderland-2",
-      "homeClubId": "lens",
-      "homeName": "RC Lens",
-      "awayClubId": "sunderland",
-      "awayName": "Sunderland",
-      "date": "2026-08-08",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": "Public fixture; separate from the behind-closed-doors match."
-    },
-    {
-      "id": "2026-08-08-manchester-united-paris-saint-germain",
-      "homeClubId": "manchester-united",
-      "homeName": "Manchester United",
-      "awayClubId": "paris-saint-germain",
-      "awayName": "Paris Saint-Germain",
-      "date": "2026-08-08",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-real-betis-bournemouth",
-      "homeClubId": "real-betis",
-      "homeName": "Real Betis",
-      "awayClubId": "bournemouth",
-      "awayName": "Bournemouth",
-      "date": "2026-08-08",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-tottenham-hotspur-getafe",
-      "homeClubId": "tottenham-hotspur",
-      "homeName": "Tottenham Hotspur",
-      "awayClubId": "getafe",
-      "awayName": "Getafe CF",
-      "date": "2026-08-08",
-      "kickoff": "2026-08-08T15:00:00+01:00",
-      "timePrecision": "confirmed",
-      "venue": "Hotspur Way",
-      "city": "London",
-      "country": "England",
-      "neutralVenue": false,
-      "type": "behind_closed_doors",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.tottenhamhotspur.com/news/1076377/getafe-fixture-added-to-pre-season-schedule",
-          "publisher": "Tottenham Hotspur",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-udinese-nottingham-forest",
-      "homeClubId": "udinese",
-      "homeName": "Udinese",
-      "awayClubId": "nottingham-forest",
-      "awayName": "Nottingham Forest",
-      "date": "2026-08-08",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-valencia-newcastle-united",
-      "homeClubId": "valencia",
-      "homeName": "Valencia CF",
-      "awayClubId": "newcastle-united",
-      "awayName": "Newcastle United",
-      "date": "2026-08-08",
-      "kickoff": "2026-08-08T21:00:00+02:00",
-      "timePrecision": "confirmed",
-      "venue": "Mestalla Stadium",
-      "city": "Valencia",
-      "country": "Spain",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.newcastleunited.com/en/news/pre-season-schedule-2026-27",
-          "publisher": "Newcastle United",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-vfb-stuttgart-everton",
-      "homeClubId": "vfb-stuttgart",
-      "homeName": "VfB Stuttgart",
-      "awayClubId": "everton",
-      "awayName": "Everton",
-      "date": "2026-08-08",
-      "kickoff": "2026-08-08T17:00:00+02:00",
-      "timePrecision": "confirmed",
-      "venue": null,
-      "city": "Stuttgart",
-      "country": "Germany",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.evertonfc.com/news/2026/july/15/How-To-Watch--Everton-s-Pre-Season-Fixtures/",
-          "publisher": "Everton FC",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
         {
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
@@ -1463,6 +1224,72 @@
       "notes": "Training-centre match open to supporters."
     },
     {
+      "id": "2026-08-08-lens-sunderland-1",
+      "homeClubId": "lens",
+      "homeName": "RC Lens",
+      "awayClubId": "sunderland",
+      "awayName": "Sunderland",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T12:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "RC Lens training ground",
+      "city": "Lens",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.safc.com/news/2026/june/08/----sunderland-afc-confirm-full-2026-27-pre-season-schedule/",
+          "publisher": "Sunderland AFC",
+          "publishedAt": "2026-06-08",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "First match of the double-header; Sunderland announced 11am BST, equivalent to noon in Lens."
+    },
+    {
+      "id": "2026-08-08-leeds-united-rb-leipzig",
+      "homeClubId": "leeds-united",
+      "homeName": "Leeds United",
+      "awayClubId": "rb-leipzig",
+      "awayName": "RB Leipzig",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T14:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Elland Road",
+      "city": "Leeds",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.leedsunited.com/en/news/leeds-united-to-face-rb-leipzig-at-elland-road-in-pre-season",
+          "publisher": "Leeds United",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-08-brighton-roma",
       "homeClubId": "brighton",
       "homeName": "Brighton & Hove Albion",
@@ -1483,6 +1310,204 @@
         {
           "url": "https://www.brightonandhovealbion.com/media-article/mft-fixture-news-roma-bologna-friendlies-june-2026",
           "publisher": "Brighton & Hove Albion",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-ipswich-town-rayo-vallecano",
+      "homeClubId": "ipswich-town",
+      "homeName": "Ipswich Town",
+      "awayClubId": "rayo-vallecano",
+      "awayName": "Rayo Vallecano",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T15:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Portman Road",
+      "city": "Ipswich",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.itfc.co.uk/news/2026/june/19/mascot-packages-2026-27/",
+          "publisher": "Ipswich Town",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-tottenham-hotspur-getafe",
+      "homeClubId": "tottenham-hotspur",
+      "homeName": "Tottenham Hotspur",
+      "awayClubId": "getafe",
+      "awayName": "Getafe CF",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T15:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Hotspur Way",
+      "city": "London",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.tottenhamhotspur.com/news/1076377/getafe-fixture-added-to-pre-season-schedule",
+          "publisher": "Tottenham Hotspur",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-lens-sunderland-2",
+      "homeClubId": "lens",
+      "homeName": "RC Lens",
+      "awayClubId": "sunderland",
+      "awayName": "Sunderland",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T16:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade Bollaert-Delelis",
+      "city": "Lens",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://billetterie.rclens.fr/fr/matchs/calendrier",
+          "publisher": "RC Lens",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Public fixture; separate from the behind-closed-doors match."
+    },
+    {
+      "id": "2026-08-08-manchester-united-paris-saint-germain",
+      "homeClubId": "manchester-united",
+      "homeName": "Manchester United",
+      "awayClubId": "paris-saint-germain",
+      "awayName": "Paris Saint-Germain",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Nya Ullevi",
+      "city": "Gothenburg",
+      "country": "Sweden",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.psg.fr/en/matches/mens-football/2026/paris-vs-man-utd-2026-08-08",
+          "publisher": "Paris Saint-Germain",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-vfb-stuttgart-everton",
+      "homeClubId": "vfb-stuttgart",
+      "homeName": "VfB Stuttgart",
+      "awayClubId": "everton",
+      "awayName": "Everton",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Stuttgart",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.evertonfc.com/news/2026/july/15/How-To-Watch--Everton-s-Pre-Season-Fixtures/",
+          "publisher": "Everton FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-coventry-city-espanyol",
+      "homeClubId": "coventry-city",
+      "homeName": "Coventry City",
+      "awayClubId": "espanyol",
+      "awayName": "RCD Espanyol",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T17:30:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Coventry Building Society Arena",
+      "city": "Coventry",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.ccfc.co.uk/news/2026/july/02/coventry-city-to-host-espanyol-in-a-pre-season-friendly/",
+          "publisher": "Coventry City",
           "publishedAt": null,
           "checkedAt": "2026-07-26"
         },
@@ -1562,12 +1587,144 @@
       "notes": null
     },
     {
-      "id": "2026-08-09-arsenal-borussia-dortmund",
-      "homeClubId": "arsenal",
-      "homeName": "Arsenal",
-      "awayClubId": "borussia-dortmund",
-      "awayName": "Borussia Dortmund",
-      "date": "2026-08-09",
+      "id": "2026-08-08-udinese-nottingham-forest",
+      "homeClubId": "udinese",
+      "homeName": "Udinese",
+      "awayClubId": "nottingham-forest",
+      "awayName": "Nottingham Forest",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Bluenergy Stadium",
+      "city": "Udine",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly_tournament",
+      "competition": "Friuli Venezia Giulia tournament",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.nottinghamforest.co.uk/news/2026/july/17/forest-to-play-barcelona-udinese-in-pre-season/",
+          "publisher": "Nottingham Forest FC",
+          "publishedAt": "2026-07-17",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "45-minute tournament match."
+    },
+    {
+      "id": "2026-08-08-real-betis-bournemouth",
+      "homeClubId": "real-betis",
+      "homeName": "Real Betis",
+      "awayClubId": "bournemouth",
+      "awayName": "Bournemouth",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T20:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Estadio de La Cartuja",
+      "city": "Seville",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.afcb.co.uk/news/2026/july/02/afc-bournemouth-confirm-genoa-and-real-betis-pre-season-friendlies/",
+          "publisher": "AFC Bournemouth",
+          "publishedAt": "2026-07-02",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-nottingham-forest-barcelona",
+      "homeClubId": "nottingham-forest",
+      "homeName": "Nottingham Forest",
+      "awayClubId": "barcelona",
+      "awayName": "FC Barcelona",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T21:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Bluenergy Stadium",
+      "city": "Udine",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly_tournament",
+      "competition": "Friuli Venezia Giulia tournament",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.nottinghamforest.co.uk/news/2026/july/17/forest-to-play-barcelona-udinese-in-pre-season/",
+          "publisher": "Nottingham Forest FC",
+          "publishedAt": "2026-07-17",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "45-minute tournament match."
+    },
+    {
+      "id": "2026-08-08-valencia-newcastle-united",
+      "homeClubId": "valencia",
+      "homeName": "Valencia CF",
+      "awayClubId": "newcastle-united",
+      "awayName": "Newcastle United",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T21:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Mestalla Stadium",
+      "city": "Valencia",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.newcastleunited.com/en/news/pre-season-schedule-2026-27",
+          "publisher": "Newcastle United",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-eintracht-frankfurt-hull-city",
+      "homeClubId": "eintracht-frankfurt",
+      "homeName": "Eintracht Frankfurt",
+      "awayClubId": "hull-city",
+      "awayName": "Hull City",
+      "date": "2026-08-08",
       "kickoff": null,
       "timePrecision": "date_only",
       "venue": null,
@@ -1583,6 +1740,39 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-09-arsenal-borussia-dortmund",
+      "homeClubId": "arsenal",
+      "homeName": "Arsenal",
+      "awayClubId": "borussia-dortmund",
+      "awayName": "Borussia Dortmund",
+      "date": "2026-08-09",
+      "kickoff": "2026-08-09T14:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Emirates Stadium",
+      "city": "London",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly_tournament",
+      "competition": "Emirates Cup",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.arsenal.com/news/dortmund-confirmed-as-emirates-cup-2026-opponents-aSGV38x64pV8",
+          "publisher": "Arsenal FC",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1622,33 +1812,6 @@
       "notes": null
     },
     {
-      "id": "2026-08-09-manchester-city-atletico-de-madrid",
-      "homeClubId": "manchester-city",
-      "homeName": "Manchester City",
-      "awayClubId": "atletico-de-madrid",
-      "awayName": "Atlético de Madrid",
-      "date": "2026-08-09",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
       "id": "2026-08-09-chelsea-johor-darul-ta-zim",
       "homeClubId": "chelsea",
       "homeName": "Chelsea",
@@ -1676,6 +1839,39 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-09-manchester-city-atletico-de-madrid",
+      "homeClubId": "manchester-city",
+      "homeName": "Manchester City",
+      "awayClubId": "atletico-de-madrid",
+      "awayName": "Atlético de Madrid",
+      "date": "2026-08-09",
+      "kickoff": "2026-08-09T20:00:00+09:00",
+      "timePrecision": "confirmed",
+      "venue": "Seoul World Cup Stadium",
+      "city": "Seoul",
+      "country": "South Korea",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.mancity.com/news/mens/asia-preseason-tour-key-dates-63917723",
+          "publisher": "Manchester City FC",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1754,12 +1950,12 @@
       "awayClubId": "bayer-leverkusen",
       "awayName": "Bayer Leverkusen",
       "date": "2026-08-12",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "kickoff": "2026-08-12T19:45:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "City Ground",
+      "city": "Nottingham",
+      "country": "England",
+      "neutralVenue": false,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
@@ -1769,6 +1965,12 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.nottinghamforest.co.uk/news/2026/july/02/forest-to-play-leverkusen-and-brest-at-the-city-ground/",
+          "publisher": "Nottingham Forest FC",
+          "publishedAt": "2026-07-02",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1808,23 +2010,29 @@
       "notes": null
     },
     {
-      "id": "2026-08-15-borussia-monchengladbach-aston-villa",
-      "homeClubId": "borussia-monchengladbach",
-      "homeName": "Borussia Mönchengladbach",
-      "awayClubId": "aston-villa",
-      "awayName": "Aston Villa",
+      "id": "2026-08-15-chelsea-real-sociedad",
+      "homeClubId": "chelsea",
+      "homeName": "Chelsea",
+      "awayClubId": "real-sociedad",
+      "awayName": "Real Sociedad",
       "date": "2026-08-15",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "kickoff": "2026-08-15T14:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Stamford Bridge",
+      "city": "London",
+      "country": "England",
+      "neutralVenue": false,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
+        {
+          "url": "https://www.chelseafc.com/en/news/article/stamford-bridge-to-stage-pre-season-fixture",
+          "publisher": "Chelsea FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
         {
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
@@ -1868,77 +2076,29 @@
       "notes": null
     },
     {
-      "id": "2026-08-15-fulham-vfb-stuttgart",
-      "homeClubId": "fulham",
-      "homeName": "Fulham",
-      "awayClubId": "vfb-stuttgart",
-      "awayName": "VfB Stuttgart",
+      "id": "2026-08-15-brighton-bologna",
+      "homeClubId": "brighton",
+      "homeName": "Brighton & Hove Albion",
+      "awayClubId": "bologna",
+      "awayName": "Bologna",
       "date": "2026-08-15",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "kickoff": "2026-08-15T15:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "American Express Stadium",
+      "city": "Brighton",
+      "country": "England",
+      "neutralVenue": false,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
+          "url": "https://www.brightonandhovealbion.com/media-article/mft-fixture-news-roma-bologna-friendlies-june-2026",
+          "publisher": "Brighton & Hove Albion",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-15-hull-city-nice",
-      "homeClubId": "hull-city",
-      "homeName": "Hull City",
-      "awayClubId": "nice",
-      "awayName": "OGC Nice",
-      "date": "2026-08-15",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-15-manchester-united-ac-milan",
-      "homeClubId": "manchester-united",
-      "homeName": "Manchester United",
-      "awayClubId": "ac-milan",
-      "awayName": "AC Milan",
-      "date": "2026-08-15",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
+        },
         {
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
@@ -1972,33 +2132,6 @@
           "publishedAt": null,
           "checkedAt": "2026-07-26"
         },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-15-nottingham-forest-brest",
-      "homeClubId": "nottingham-forest",
-      "homeName": "Nottingham Forest",
-      "awayClubId": "brest",
-      "awayName": "Stade Brestois",
-      "date": "2026-08-15",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
         {
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
@@ -2075,16 +2208,16 @@
       "notes": null
     },
     {
-      "id": "2026-08-15-union-berlin-ipswich-town",
-      "homeClubId": "union-berlin",
-      "homeName": "Union Berlin",
-      "awayClubId": "ipswich-town",
-      "awayName": "Ipswich Town",
+      "id": "2026-08-15-borussia-monchengladbach-aston-villa",
+      "homeClubId": "borussia-monchengladbach",
+      "homeName": "Borussia Mönchengladbach",
+      "awayClubId": "aston-villa",
+      "awayName": "Aston Villa",
       "date": "2026-08-15",
       "kickoff": "2026-08-15T15:30:00+02:00",
       "timePrecision": "confirmed",
-      "venue": null,
-      "city": "Berlin",
+      "venue": "ista-Borussia-Park",
+      "city": "Mönchengladbach",
       "country": "Germany",
       "neutralVenue": false,
       "type": "friendly",
@@ -2093,81 +2226,15 @@
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.itfc.co.uk/news/2026/july/15/union-berlin-tickets-on-sale/",
-          "publisher": "Ipswich Town",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
           "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-15-chelsea-real-sociedad",
-      "homeClubId": "chelsea",
-      "homeName": "Chelsea",
-      "awayClubId": "real-sociedad",
-      "awayName": "Real Sociedad",
-      "date": "2026-08-15",
-      "kickoff": "2026-08-15T14:00:00+01:00",
-      "timePrecision": "confirmed",
-      "venue": "Stamford Bridge",
-      "city": "London",
-      "country": "England",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.chelseafc.com/en/news/article/stamford-bridge-to-stage-pre-season-fixture",
-          "publisher": "Chelsea FC",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
         },
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-15-brighton-bologna",
-      "homeClubId": "brighton",
-      "homeName": "Brighton & Hove Albion",
-      "awayClubId": "bologna",
-      "awayName": "Bologna",
-      "date": "2026-08-15",
-      "kickoff": "2026-08-15T15:00:00+01:00",
-      "timePrecision": "confirmed",
-      "venue": "American Express Stadium",
-      "city": "Brighton",
-      "country": "England",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.brightonandhovealbion.com/media-article/mft-fixture-news-roma-bologna-friendlies-june-2026",
-          "publisher": "Brighton & Hove Albion",
+          "url": "https://www.borussia.de/news/borussia-testet-bei-der-saisoneroeffnung-gegen-aston-villa",
+          "publisher": "Borussia Mönchengladbach",
           "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2207,6 +2274,204 @@
       "notes": null
     },
     {
+      "id": "2026-08-15-union-berlin-ipswich-town",
+      "homeClubId": "union-berlin",
+      "homeName": "Union Berlin",
+      "awayClubId": "ipswich-town",
+      "awayName": "Ipswich Town",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T15:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Berlin",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.itfc.co.uk/news/2026/july/15/union-berlin-tickets-on-sale/",
+          "publisher": "Ipswich Town",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-15-fulham-vfb-stuttgart",
+      "homeClubId": "fulham",
+      "homeName": "Fulham",
+      "awayClubId": "vfb-stuttgart",
+      "awayName": "VfB Stuttgart",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T16:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Craven Cottage",
+      "city": "London",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.fulhamfc.com/tickets-and-hospitality/match-tickets/fulham-v-vfb-stuttgart",
+          "publisher": "Fulham FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-15-manchester-united-ac-milan",
+      "homeClubId": "manchester-united",
+      "homeName": "Manchester United",
+      "awayClubId": "ac-milan",
+      "awayName": "AC Milan",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T16:45:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Tarczyński Arena",
+      "city": "Wrocław",
+      "country": "Poland",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.manutd.com/en/news/united-announce-new-pre-season-fixture-date-v-milan-wroclaw",
+          "publisher": "Manchester United FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Manchester United announced 3:45pm BST, equivalent to 4:45pm local time in Wrocław."
+    },
+    {
+      "id": "2026-08-15-hull-city-nice",
+      "homeClubId": "hull-city",
+      "homeName": "Hull City",
+      "awayClubId": "nice",
+      "awayName": "OGC Nice",
+      "date": "2026-08-15",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": "MKM Stadium",
+      "city": "Hull",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
+          "publisher": "Hull City AFC",
+          "publishedAt": "2026-07-15",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-16-tottenham-hotspur-tsg-hoffenheim",
+      "homeClubId": "tottenham-hotspur",
+      "homeName": "Tottenham Hotspur",
+      "awayClubId": "tsg-hoffenheim",
+      "awayName": "TSG Hoffenheim",
+      "date": "2026-08-16",
+      "kickoff": "2026-08-16T12:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Tottenham Hotspur Training Centre",
+      "city": "Enfield",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.tottenhamhotspur.com/news/1076811/watch-our-pre-season-friendlies-live-on-spursplay",
+          "publisher": "Tottenham Hotspur FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-16-nottingham-forest-brest",
+      "homeClubId": "nottingham-forest",
+      "homeName": "Nottingham Forest",
+      "awayClubId": "brest",
+      "awayName": "Stade Brestois",
+      "date": "2026-08-16",
+      "kickoff": "2026-08-16T14:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "City Ground",
+      "city": "Nottingham",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.nottinghamforest.co.uk/news/2026/july/02/forest-to-play-leverkusen-and-brest-at-the-city-ground/",
+          "publisher": "Nottingham Forest FC",
+          "publishedAt": "2026-07-02",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-16-arsenal-manchester-city",
       "homeClubId": "arsenal",
       "homeName": "Arsenal",
@@ -2240,23 +2505,29 @@
       "notes": null
     },
     {
-      "id": "2026-08-16-liverpool-como-1",
-      "homeClubId": "liverpool",
-      "homeName": "Liverpool",
-      "awayClubId": "como",
-      "awayName": "Como",
+      "id": "2026-08-16-newcastle-united-strasbourg",
+      "homeClubId": "newcastle-united",
+      "homeName": "Newcastle United",
+      "awayClubId": "strasbourg",
+      "awayName": "RC Strasbourg",
       "date": "2026-08-16",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "behind_closed_doors",
+      "kickoff": "2026-08-16T16:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "St James' Park",
+      "city": "Newcastle upon Tyne",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
+        {
+          "url": "https://www.newcastleunited.com/en/news/visitmalta-weekender-french-and-italian-sides-complete-pre-season-lineup",
+          "publisher": "Newcastle United",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
         {
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
@@ -2300,44 +2571,11 @@
       "notes": "Public Anfield fixture; separate from the behind-closed-doors match."
     },
     {
-      "id": "2026-08-16-newcastle-united-strasbourg",
-      "homeClubId": "newcastle-united",
-      "homeName": "Newcastle United",
-      "awayClubId": "strasbourg",
-      "awayName": "RC Strasbourg",
-      "date": "2026-08-16",
-      "kickoff": "2026-08-16T16:00:00+01:00",
-      "timePrecision": "confirmed",
-      "venue": "St James' Park",
-      "city": "Newcastle upon Tyne",
-      "country": "England",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.newcastleunited.com/en/news/visitmalta-weekender-french-and-italian-sides-complete-pre-season-lineup",
-          "publisher": "Newcastle United",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-16-tottenham-hotspur-tsg-hoffenheim",
-      "homeClubId": "tottenham-hotspur",
-      "homeName": "Tottenham Hotspur",
-      "awayClubId": "tsg-hoffenheim",
-      "awayName": "TSG Hoffenheim",
+      "id": "2026-08-16-liverpool-como-1",
+      "homeClubId": "liverpool",
+      "homeName": "Liverpool",
+      "awayClubId": "como",
+      "awayName": "Como",
       "date": "2026-08-16",
       "kickoff": null,
       "timePrecision": "date_only",

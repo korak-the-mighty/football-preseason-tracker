@@ -19,6 +19,17 @@ Pre-season schedules are unusually messy: announcements arrive late, times move,
 9. A match involving two covered clubs appears once.
 10. Human verification remains required for version one.
 
+## Club membership provenance
+
+The canonical `clubs.json` must include dataset-level metadata recording:
+
+- the covered season
+- the date league membership was checked
+- the total club count and per-league counts
+- one official league or competition source URL for each covered league
+
+Club membership must be rechecked against those official sources before a new season is published. A club is included because its league membership is verified, not because it appeared in a previous season's dataset.
+
 ## Source priority
 
 Use the strongest available source:

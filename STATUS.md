@@ -17,7 +17,8 @@
 - The club dataset stores membership sources, its verification date and exact league counts.
 - Premier League fixture research has started and the first canonical batch exists at `src/data/fixtures.json`.
 - The batch contains 78 announced fixtures from 28 July onward, all date-verified against official evidence.
-- Nine fixtures currently have directly verified kickoff datetimes with real UTC offsets; 69 remain honestly `date_only` pending club-source enrichment.
+- The first enrichment batch raised the dataset to 40 fixtures with directly verified kickoff datetimes and real UTC offsets; 38 remain honestly `date_only` pending further official checks.
+- Thirty-nine fixture records were enriched in the batch, including venues and cities where official evidence was available.
 - The league roundup was not complete by itself: official club checks found Bournemouth v Mainz and a second Brentford v Rennes match.
 - No production code exists yet.
 - The intended public location is `willworkforkarma.com/preseason`, but integration from this separate repository is not yet decided.
@@ -53,7 +54,7 @@
 
 ## Single next action
 
-Complete the Premier League enrichment pass: check every club's official fixture page or announcement, add confirmed kickoff offsets and announced venues to the 69 `date_only` records, and identify any further fixtures missing from the league roundup.
+Finish the Premier League enrichment pass: check the remaining 38 `date_only` records against official club, opponent and ticket pages, add announced venues, and run a final missing-fixture gap check.
 
 Do not start the Bundesliga until this first-league process is proven complete enough to scale.
 
@@ -68,6 +69,17 @@ Later, before the build:
 3. who owns ongoing fixture updates after launch
 
 ## Session log
+
+### 2026-07-26 — Premier League enrichment batch one
+
+Checked official club announcements, ticket pages and fixture guides across the Premier League schedule.
+
+Enriched 39 fixture records. Confirmed kickoff coverage increased from 9 to 40 fixtures, while the honest date-only count fell from 69 to 38. Added source-backed venues and cities where available.
+
+Handled timezone-sensitive fixtures explicitly, including local offsets in the United States and Australia. The Liverpool v Leeds source states 3pm EDT; the canonical record stores the equivalent 2pm local CDT in Chicago and preserves that explanation in notes.
+
+No unresolved time was guessed. The remaining date-only fixtures require a second official-source pass and final gap check.
+
 
 ### 2026-07-26 — Premier League fixture baseline
 

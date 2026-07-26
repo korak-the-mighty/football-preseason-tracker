@@ -6,7 +6,7 @@ Choose clubs from Europe's top five leagues. See their upcoming matches in one c
 
 ## Project status
 
-Club and fixture research phase. The 96-club list is complete; the Premier League pass plus Bundesliga and La Liga baselines are in place; the first build has not started yet.
+Club and fixture research phase. The 96-club list is complete; the Premier League pass plus Bundesliga, La Liga and Serie A baselines are in place; the canonical dataset contains 208 fixtures; the first build has not started yet.
 
 Read these files before working:
 

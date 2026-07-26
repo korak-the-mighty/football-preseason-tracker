@@ -1,16 +1,16 @@
 {
   "meta": {
     "season": "2026-27",
-    "coverage": "Premier League complete; Bundesliga, La Liga and Serie A baselines",
+    "coverage": "All five top-league baselines complete",
     "checkedAt": "2026-07-26",
-    "fixtureCount": 208,
-    "confirmedKickoffCount": 195,
-    "dateOnlyCount": 13,
+    "fixtureCount": 226,
+    "confirmedKickoffCount": 214,
+    "dateOnlyCount": 12,
     "notes": [
       "Includes announced fixtures from 27 July 2026 onward.",
-      "Premier League pass complete enough to scale; Bundesliga, La Liga and Serie A baselines represent every club in those leagues.",
-      "The Serie A pass added 38 new canonical fixtures, reused 24 existing cross-league records and corrected UK-local kickoff handling and Venezia fixture ordering.",
-      "Official club sources added Lecce v Lecce Primavera, Monza v Padova and Udinese v Trabzonspor beyond the Lega Serie A roundup.",
+      "Premier League, Bundesliga, La Liga, Serie A and Ligue 1 baselines represent every covered club.",
+      "The Ligue 1 pass added 18 canonical fixtures, linked all 18 French clubs and corrected venue-local times for the Como Cup, Rennes v Brentford and Hull City v Nice.",
+      "Competitive curtain-raisers are included only when clearly labelled.",
       "Kickoff is stored only when publication evidence supplied a real time; unresolved fixtures remain date_only."
     ]
   },
@@ -43,66 +43,6 @@
           "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
           "publisher": "Lega Serie A",
           "publishedAt": "2026-07-16",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-07-28-al-ahli-fulham",
-      "homeClubId": null,
-      "homeName": "Al-Ahli",
-      "awayClubId": "fulham",
-      "awayName": "Fulham",
-      "date": "2026-07-28",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-07-28-caykur-rizespor-hull-city",
-      "homeClubId": null,
-      "homeName": "Çaykur Rizespor",
-      "awayClubId": "hull-city",
-      "awayName": "Hull City",
-      "date": "2026-07-28",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": "Ljudski vrt",
-      "city": "Maribor",
-      "country": "Slovenia",
-      "neutralVenue": true,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
-          "publisher": "Hull City AFC",
-          "publishedAt": "2026-07-15",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -196,39 +136,6 @@
       "notes": null
     },
     {
-      "id": "2026-07-28-crystal-palace-lens",
-      "homeClubId": "crystal-palace",
-      "homeName": "Crystal Palace",
-      "awayClubId": "lens",
-      "awayName": "RC Lens",
-      "date": "2026-07-28",
-      "kickoff": "2026-07-28T18:00:00+01:00",
-      "timePrecision": "confirmed",
-      "venue": "Stadio Giuseppe Sinigaglia",
-      "city": "Como",
-      "country": "Italy",
-      "neutralVenue": true,
-      "type": "friendly_tournament",
-      "competition": "Como Cup",
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.cpfc.co.uk/news/announcement/new-friendly-announced-26-27-pre-season-schedule-finalised/",
-          "publisher": "Crystal Palace FC",
-          "publishedAt": "2026-06-29",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
       "id": "2026-07-28-real-madrid-leganes",
       "homeClubId": "real-madrid",
       "homeName": "Real Madrid",
@@ -254,6 +161,51 @@
         }
       ],
       "notes": "Training match listed by Diario AS."
+    },
+    {
+      "id": "2026-07-28-crystal-palace-lens",
+      "homeClubId": "crystal-palace",
+      "homeName": "Crystal Palace",
+      "awayClubId": "lens",
+      "awayName": "RC Lens",
+      "date": "2026-07-28",
+      "kickoff": "2026-07-28T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "city": "Como",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly_tournament",
+      "competition": "Como Cup",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.cpfc.co.uk/news/announcement/new-friendly-announced-26-27-pre-season-schedule-finalised/",
+          "publisher": "Crystal Palace FC",
+          "publishedAt": "2026-06-29",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.rclens.fr/fr/preparation-programme-rclens-20260707",
+          "publisher": "RC Lens",
+          "publishedAt": "2026-07-07",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://comofootball.com/en/como-cup/",
+          "publisher": "Como 1907",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "45-minute group-stage match; stored in venue-local CEST."
     },
     {
       "id": "2026-07-28-aston-villa-real-sociedad",
@@ -415,6 +367,99 @@
           "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
           "publisher": "Diario AS",
           "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-28-lens-famalicao",
+      "homeClubId": "lens",
+      "homeName": "RC Lens",
+      "awayClubId": null,
+      "awayName": "FC Famalicão",
+      "date": "2026-07-28",
+      "kickoff": "2026-07-28T22:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "city": "Como",
+      "country": "Italy",
+      "neutralVenue": true,
+      "type": "friendly_tournament",
+      "competition": "Como Cup",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.rclens.fr/fr/preparation-programme-rclens-20260707",
+          "publisher": "RC Lens",
+          "publishedAt": "2026-07-07",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://comofootball.com/en/como-cup/",
+          "publisher": "Como 1907",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "45-minute group-stage match."
+    },
+    {
+      "id": "2026-07-28-al-ahli-fulham",
+      "homeClubId": null,
+      "homeName": "Al-Ahli",
+      "awayClubId": "fulham",
+      "awayName": "Fulham",
+      "date": "2026-07-28",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-28-caykur-rizespor-hull-city",
+      "homeClubId": null,
+      "homeName": "Çaykur Rizespor",
+      "awayClubId": "hull-city",
+      "awayName": "Hull City",
+      "date": "2026-07-28",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": "Ljudski vrt",
+      "city": "Maribor",
+      "country": "Slovenia",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
+          "publisher": "Hull City AFC",
+          "publishedAt": "2026-07-15",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1096,6 +1141,33 @@
       "notes": null
     },
     {
+      "id": "2026-07-30-marseille-nimes",
+      "homeClubId": "marseille",
+      "homeName": "Olympique de Marseille",
+      "awayClubId": null,
+      "awayName": "Nîmes Olympique",
+      "date": "2026-07-30",
+      "kickoff": "2026-07-30T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Marseille",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-l1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433",
+          "publisher": "L'Équipe",
+          "publishedAt": "2026-07-08",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-07-30-monza-aris",
       "homeClubId": "monza",
       "homeName": "Monza",
@@ -1222,66 +1294,6 @@
       "notes": null
     },
     {
-      "id": "2026-07-31-deportivo-alaves-castellon",
-      "homeClubId": "deportivo-alaves",
-      "homeName": "Deportivo Alavés",
-      "awayClubId": null,
-      "awayName": "CD Castellón",
-      "date": "2026-07-31",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": "Municipal d'Olot",
-      "city": "Olot",
-      "country": "Spain",
-      "neutralVenue": true,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://deportivoalaves.com/noticias/el-deportivo-alaves-arranca-la-pretemporada-2026-27",
-          "publisher": "Deportivo Alavés",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": "The club still lists the kickoff as to be confirmed."
-    },
-    {
-      "id": "2026-07-31-sporting-cp-nottingham-forest",
-      "homeClubId": null,
-      "homeName": "Sporting CP",
-      "awayClubId": "nottingham-forest",
-      "awayName": "Nottingham Forest",
-      "date": "2026-07-31",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": "Estádio Algarve",
-      "city": "Faro-Loulé",
-      "country": "Portugal",
-      "neutralVenue": true,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.sporting.pt/en/news/football/main-team/2026-07-25/sporting-cp-win-trofeu-cinco-violinos-against-monaco",
-          "publisher": "Sporting CP",
-          "publishedAt": "2026-07-25",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
       "id": "2026-07-31-elche-cordoba",
       "homeClubId": "elche",
       "homeName": "Elche CF",
@@ -1381,6 +1393,39 @@
       "notes": null
     },
     {
+      "id": "2026-07-31-troyes-goal-fc",
+      "homeClubId": "troyes",
+      "homeName": "ESTAC Troyes",
+      "awayClubId": null,
+      "awayName": "GOAL FC",
+      "date": "2026-07-31",
+      "kickoff": "2026-07-31T15:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Le Chambon-sur-Lignon",
+      "country": "France",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.estac.fr/",
+          "publisher": "ESTAC Troyes",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.estac.fr/le-programme-des-matches-de-preparation/",
+          "publisher": "ESTAC Troyes",
+          "publishedAt": "2026-06-25",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-07-31-mainz-05-shabab-al-ahli",
       "homeClubId": "mainz-05",
       "homeName": "Mainz 05",
@@ -1408,6 +1453,33 @@
           "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
           "publisher": "Bundesliga",
           "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-31-monaco-cercle-brugge",
+      "homeClubId": "monaco",
+      "homeName": "AS Monaco",
+      "awayClubId": null,
+      "awayName": "Cercle Brugge",
+      "date": "2026-07-31",
+      "kickoff": "2026-07-31T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "AS Monaco Performance Centre",
+      "city": "La Turbie",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.asmonaco.com/fr/news/l-as-monaco-terminera-sa-preparation-face-a-coventry-promu-en-premier-league",
+          "publisher": "AS Monaco",
+          "publishedAt": "2026-07-17",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1573,45 +1645,45 @@
       "notes": null
     },
     {
-      "id": "2026-08-01-bologna-cambuur",
-      "homeClubId": "bologna",
-      "homeName": "Bologna",
+      "id": "2026-07-31-deportivo-alaves-castellon",
+      "homeClubId": "deportivo-alaves",
+      "homeName": "Deportivo Alavés",
       "awayClubId": null,
-      "awayName": "Cambuur",
-      "date": "2026-08-01",
+      "awayName": "CD Castellón",
+      "date": "2026-07-31",
       "kickoff": null,
       "timePrecision": "date_only",
-      "venue": "Centro Tecnico Niccolò Galli",
-      "city": "Bologna",
-      "country": "Italy",
-      "neutralVenue": false,
+      "venue": "Municipal d'Olot",
+      "city": "Olot",
+      "country": "Spain",
+      "neutralVenue": true,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
-          "publisher": "Lega Serie A",
-          "publishedAt": "2026-07-16",
+          "url": "https://deportivoalaves.com/noticias/el-deportivo-alaves-arranca-la-pretemporada-2026-27",
+          "publisher": "Deportivo Alavés",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
-      "notes": null
+      "notes": "The club still lists the kickoff as to be confirmed."
     },
     {
-      "id": "2026-08-01-kas-mpasa-hull-city",
+      "id": "2026-07-31-sporting-cp-nottingham-forest",
       "homeClubId": null,
-      "homeName": "Kasımpaşa",
-      "awayClubId": "hull-city",
-      "awayName": "Hull City",
-      "date": "2026-08-01",
+      "homeName": "Sporting CP",
+      "awayClubId": "nottingham-forest",
+      "awayName": "Nottingham Forest",
+      "date": "2026-07-31",
       "kickoff": null,
       "timePrecision": "date_only",
-      "venue": "Recep Tayyip Erdoğan Stadium",
-      "city": "Istanbul",
-      "country": "Türkiye",
-      "neutralVenue": false,
+      "venue": "Estádio Algarve",
+      "city": "Faro-Loulé",
+      "country": "Portugal",
+      "neutralVenue": true,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
@@ -1624,9 +1696,9 @@
           "checkedAt": "2026-07-26"
         },
         {
-          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
-          "publisher": "Hull City AFC",
-          "publishedAt": "2026-07-15",
+          "url": "https://www.sporting.pt/en/news/football/main-team/2026-07-25/sporting-cp-win-trofeu-cinco-violinos-against-monaco",
+          "publisher": "Sporting CP",
+          "publishedAt": "2026-07-25",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2356,6 +2428,33 @@
       "notes": null
     },
     {
+      "id": "2026-08-01-oh-leuven-lille",
+      "homeClubId": null,
+      "homeName": "OH Leuven",
+      "awayClubId": "lille",
+      "awayName": "LOSC",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Den Dreef Stadion",
+      "city": "Leuven",
+      "country": "Belgium",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.losc.fr/actualites/2026-07-09/le-programme-de-la-preparation-estivale-continue-de-se-dessiner",
+          "publisher": "LOSC",
+          "publishedAt": "2026-07-09",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-01-waldhof-mannheim-eintracht-frankfurt",
       "homeClubId": null,
       "homeName": "SV Waldhof Mannheim",
@@ -2383,6 +2482,33 @@
           "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
           "publisher": "Bundesliga",
           "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-le-mans-angers",
+      "homeClubId": "le-mans",
+      "homeName": "Le Mans FC",
+      "awayClubId": "angers",
+      "awayName": "Angers SCO",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade André-Conty",
+      "city": "Coulaines",
+      "country": "France",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.lemansfc.fr/index.php?actu=4088&section=actualites-contenu",
+          "publisher": "Le Mans FC",
+          "publishedAt": "2026-07-03",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2453,6 +2579,39 @@
         }
       ],
       "notes": null
+    },
+    {
+      "id": "2026-08-01-sochaux-auxerre",
+      "homeClubId": null,
+      "homeName": "FC Sochaux-Montbéliard",
+      "awayClubId": "auxerre",
+      "awayName": "AJ Auxerre",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade Auguste Bonal",
+      "city": "Montbéliard",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.aja.fr/le-programme-complet-de-la-prepa/",
+          "publisher": "AJ Auxerre",
+          "publishedAt": "2026-06-16",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-l1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433",
+          "publisher": "L'Équipe",
+          "publishedAt": "2026-07-08",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "AJ Auxerre confirmed the fixture and venue; L'Équipe supplied the current kickoff."
     },
     {
       "id": "2026-08-01-wolverhampton-racing-santander-2",
@@ -2800,6 +2959,33 @@
       "notes": null
     },
     {
+      "id": "2026-08-01-brest-guingamp",
+      "homeClubId": "brest",
+      "homeName": "Stade Brestois",
+      "awayClubId": null,
+      "awayName": "EA Guingamp",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade Francis-Le Blé",
+      "city": "Brest",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://billetterie.sb29.bzh/fr/match/calendrier",
+          "publisher": "Stade Brestois",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-01-girona-arsenal",
       "homeClubId": null,
       "homeName": "Girona",
@@ -2860,6 +3046,66 @@
           "url": "https://as.com/futbol/primera/pretemporada-de-laliga-ea-sports-todos-los-amistosos-fechas-partidos-y-resultados-de-los-equipos-de-primera-f202607-n/",
           "publisher": "Diario AS",
           "publishedAt": "2026-07-22",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-bologna-cambuur",
+      "homeClubId": "bologna",
+      "homeName": "Bologna",
+      "awayClubId": null,
+      "awayName": "Cambuur",
+      "date": "2026-08-01",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": "Centro Tecnico Niccolò Galli",
+      "city": "Bologna",
+      "country": "Italy",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
+          "publisher": "Lega Serie A",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-kas-mpasa-hull-city",
+      "homeClubId": null,
+      "homeName": "Kasımpaşa",
+      "awayClubId": "hull-city",
+      "awayName": "Hull City",
+      "date": "2026-08-01",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": "Recep Tayyip Erdoğan Stadium",
+      "city": "Istanbul",
+      "country": "Türkiye",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
+          "publisher": "Hull City AFC",
+          "publishedAt": "2026-07-15",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -3139,33 +3385,60 @@
       "notes": null
     },
     {
-      "id": "2026-08-04-bournemouth-genoa",
-      "homeClubId": "bournemouth",
-      "homeName": "Bournemouth",
-      "awayClubId": "genoa",
-      "awayName": "Genoa",
-      "date": "2026-08-04",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "behind_closed_doors",
+      "id": "2026-08-02-galatasaray-rennes",
+      "homeClubId": null,
+      "homeName": "Galatasaray",
+      "awayClubId": "rennes",
+      "awayName": "Stade Rennais",
+      "date": "2026-08-02",
+      "kickoff": "2026-08-02T21:00:00+03:00",
+      "timePrecision": "confirmed",
+      "venue": "Rams Park",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "neutralVenue": false,
+      "type": "friendly",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
+          "url": "https://www.staderennais.com/actualites/equipe-pro/galatasaray-sajoute-au-calendrier-de-la-prepa",
+          "publisher": "Stade Rennais",
+          "publishedAt": "2026-07-20",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Rennes announced 21:00 venue-local time, equivalent to 20:00 in France."
+    },
+    {
+      "id": "2026-08-04-lorient-unfp",
+      "homeClubId": "lorient",
+      "homeName": "FC Lorient",
+      "awayClubId": null,
+      "awayName": "UNFP FC",
+      "date": "2026-08-04",
+      "kickoff": "2026-08-04T16:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "France",
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://ligue1.com/en/articles/l1_article_5378-ligue-1-mc-donald-s-clubs-confirm-summer-friendly-schedules",
+          "publisher": "Ligue 1",
+          "publishedAt": "2026-06-24",
           "checkedAt": "2026-07-26"
         },
         {
-          "url": "https://www.afcb.co.uk/news/2026/july/02/afc-bournemouth-confirm-genoa-and-real-betis-pre-season-friendlies/",
-          "publisher": "AFC Bournemouth",
-          "publishedAt": "2026-07-02",
+          "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-l1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433",
+          "publisher": "L'Équipe",
+          "publishedAt": "2026-07-08",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -3331,6 +3604,39 @@
       "notes": null
     },
     {
+      "id": "2026-08-04-bournemouth-genoa",
+      "homeClubId": "bournemouth",
+      "homeName": "Bournemouth",
+      "awayClubId": "genoa",
+      "awayName": "Genoa",
+      "date": "2026-08-04",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.afcb.co.uk/news/2026/july/02/afc-bournemouth-confirm-genoa-and-real-betis-pre-season-friendlies/",
+          "publisher": "AFC Bournemouth",
+          "publishedAt": "2026-07-02",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-05-villarreal-levante",
       "homeClubId": "villarreal",
       "homeName": "Villarreal CF",
@@ -3385,6 +3691,33 @@
           "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
           "publisher": "Lega Serie A",
           "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-05-saint-brieuc-brest",
+      "homeClubId": null,
+      "homeName": "Stade Briochin",
+      "awayClubId": "brest",
+      "awayName": "Stade Brestois",
+      "date": "2026-08-05",
+      "kickoff": "2026-08-05T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Saint-Brieuc",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-l1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433",
+          "publisher": "L'Équipe",
+          "publishedAt": "2026-07-08",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -3556,6 +3889,33 @@
       "notes": null
     },
     {
+      "id": "2026-08-05-mallorca-paris-saint-germain",
+      "homeClubId": "mallorca",
+      "homeName": "RCD Mallorca",
+      "awayClubId": "paris-saint-germain",
+      "awayName": "Paris Saint-Germain",
+      "date": "2026-08-05",
+      "kickoff": "2026-08-05T20:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Palma",
+      "country": "Spain",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_secondary",
+      "sources": [
+        {
+          "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-l1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433",
+          "publisher": "L'Équipe",
+          "publishedAt": "2026-07-08",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-05-sassuolo-celta",
       "homeClubId": "sassuolo",
       "homeName": "Sassuolo",
@@ -3715,60 +4075,6 @@
       "notes": null
     },
     {
-      "id": "2026-08-07-crystal-palace-fulham",
-      "homeClubId": "crystal-palace",
-      "homeName": "Crystal Palace",
-      "awayClubId": "fulham",
-      "awayName": "Fulham",
-      "date": "2026-08-07",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "behind_closed_doors",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-07-monza-padova",
-      "homeClubId": "monza",
-      "homeName": "Monza",
-      "awayClubId": null,
-      "awayName": "Padova",
-      "date": "2026-08-07",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.acmonza.com/it/news/il-programma-delle-altre-amichevoli-estive-di-ac-monza-2026-2027/",
-          "publisher": "AC Monza",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
       "id": "2026-08-07-racing-santander-sporting-gijon",
       "homeClubId": "racing-santander",
       "homeName": "R. Racing Club",
@@ -3915,6 +4221,60 @@
         {
           "url": "https://www.discoverhongkong.com/eng/events/event.id86502.football-summit-2026-fc-bayern-munich-vs-aston-villa.html",
           "publisher": "Hong Kong Tourism Board",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-07-crystal-palace-fulham",
+      "homeClubId": "crystal-palace",
+      "homeName": "Crystal Palace",
+      "awayClubId": "fulham",
+      "awayName": "Fulham",
+      "date": "2026-08-07",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-07-monza-padova",
+      "homeClubId": "monza",
+      "homeName": "Monza",
+      "awayClubId": null,
+      "awayName": "Padova",
+      "date": "2026-08-07",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.acmonza.com/it/news/il-programma-delle-altre-amichevoli-estive-di-ac-monza-2026-2027/",
+          "publisher": "AC Monza",
           "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
@@ -4471,6 +4831,45 @@
       "notes": null
     },
     {
+      "id": "2026-08-08-rennes-brentford-2",
+      "homeClubId": "rennes",
+      "homeName": "Stade Rennais",
+      "awayClubId": "brentford",
+      "awayName": "Brentford",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Roazhon Park",
+      "city": "Rennes",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.brentfordfc.com/en/news/article/first-team-brentford-stade-rennais-eintracht-frankfurt-pre-season-friendlies",
+          "publisher": "Brentford FC",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.staderennais.com/actualites/equipe-pro/le-programme-de-la-preparation-estivale",
+          "publisher": "Stade Rennais",
+          "publishedAt": "2026-07-16",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Rennes' newer host schedule lists 17:00 local; it supersedes Brentford's earlier 18:00 announcement."
+    },
+    {
       "id": "2026-08-08-schalke-04-atalanta",
       "homeClubId": "schalke-04",
       "homeName": "Schalke 04",
@@ -4570,6 +4969,105 @@
       "notes": null
     },
     {
+      "id": "2026-08-08-lorient-angers",
+      "homeClubId": "lorient",
+      "homeName": "FC Lorient",
+      "awayClubId": "angers",
+      "awayName": "Angers SCO",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T17:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "France",
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://ligue1.com/en/articles/l1_article_5378-ligue-1-mc-donald-s-clubs-confirm-summer-friendly-schedules",
+          "publisher": "Ligue 1",
+          "publishedAt": "2026-06-24",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-l1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433",
+          "publisher": "L'Équipe",
+          "publishedAt": "2026-07-08",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-auxerre-troyes",
+      "homeClubId": "auxerre",
+      "homeName": "AJ Auxerre",
+      "awayClubId": "troyes",
+      "awayName": "ESTAC Troyes",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade de l'Abbé-Deschamps",
+      "city": "Auxerre",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.aja.fr/le-programme-complet-de-la-prepa/",
+          "publisher": "AJ Auxerre",
+          "publishedAt": "2026-06-16",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.estac.fr/le-programme-des-matches-de-preparation/",
+          "publisher": "ESTAC Troyes",
+          "publishedAt": "2026-06-25",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-l1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433",
+          "publisher": "L'Équipe",
+          "publishedAt": "2026-07-08",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-le-mans-unfp",
+      "homeClubId": "le-mans",
+      "homeName": "Le Mans FC",
+      "awayClubId": null,
+      "awayName": "UNFP FC",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade Daniel-Soyer",
+      "city": "La Suze-sur-Sarthe",
+      "country": "France",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.lemansfc.fr/index.php?actu=4088&section=actualites-contenu",
+          "publisher": "Le Mans FC",
+          "publishedAt": "2026-07-03",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-08-modena-fiorentina",
       "homeClubId": null,
       "homeName": "Modena",
@@ -4591,39 +5089,6 @@
           "url": "https://www.legaseriea.it/serie-a/news/un-mare-di-amichevoli",
           "publisher": "Lega Serie A",
           "publishedAt": "2026-07-16",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-08-rennes-brentford-2",
-      "homeClubId": "rennes",
-      "homeName": "Stade Rennais",
-      "awayClubId": "brentford",
-      "awayName": "Brentford",
-      "date": "2026-08-08",
-      "kickoff": "2026-08-08T18:00:00+02:00",
-      "timePrecision": "confirmed",
-      "venue": "Roazhon Park",
-      "city": "Rennes",
-      "country": "France",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.brentfordfc.com/en/news/article/first-team-brentford-stade-rennais-eintracht-frankfurt-pre-season-friendlies",
-          "publisher": "Brentford FC",
-          "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -5722,39 +6187,6 @@
       "notes": null
     },
     {
-      "id": "2026-08-15-hull-city-nice",
-      "homeClubId": "hull-city",
-      "homeName": "Hull City",
-      "awayClubId": "nice",
-      "awayName": "OGC Nice",
-      "date": "2026-08-15",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": "MKM Stadium",
-      "city": "Hull",
-      "country": "England",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
-          "publisher": "Hull City AFC",
-          "publishedAt": "2026-07-15",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
       "id": "2026-08-15-chelsea-real-sociedad",
       "homeClubId": "chelsea",
       "homeName": "Chelsea",
@@ -6250,6 +6682,45 @@
       "notes": null
     },
     {
+      "id": "2026-08-15-hull-city-nice",
+      "homeClubId": "hull-city",
+      "homeName": "Hull City",
+      "awayClubId": "nice",
+      "awayName": "OGC Nice",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T16:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "MKM Stadium",
+      "city": "Hull",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
+          "publisher": "Hull City AFC",
+          "publishedAt": "2026-07-15",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.ogcnice.com/fr/calendrier/f/2026-2027/equipe-pro",
+          "publisher": "OGC Nice",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-15-manchester-united-ac-milan",
       "homeClubId": "manchester-united",
       "homeName": "Manchester United",
@@ -6283,6 +6754,39 @@
       "notes": "Manchester United announced 3:45pm BST, equivalent to 4:45pm local time in Wrocław."
     },
     {
+      "id": "2026-08-15-angers-paris-fc",
+      "homeClubId": "angers",
+      "homeName": "Angers SCO",
+      "awayClubId": "paris-fc",
+      "awayName": "Paris FC",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T17:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "France",
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://angers-sco.fr/le-programme-de-la-reprise-2026-2027/",
+          "publisher": "Angers SCO",
+          "publishedAt": "2026-06-17",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-l1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433",
+          "publisher": "L'Équipe",
+          "publishedAt": "2026-07-08",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Angers' official programme confirms 15 August; L'Équipe's current schedule supplies 17:30."
+    },
+    {
       "id": "2026-08-15-borussia-dortmund-roma",
       "homeClubId": "borussia-dortmund",
       "homeName": "Borussia Dortmund",
@@ -6310,6 +6814,33 @@
           "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
           "publisher": "Bundesliga",
           "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-15-le-mans-le-havre",
+      "homeClubId": "le-mans",
+      "homeName": "Le Mans FC",
+      "awayClubId": "le-havre",
+      "awayName": "Le Havre AC",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade Marie-Marvingt",
+      "city": "Le Mans",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.lemansfc.fr/index.php?actu=4088&section=actualites-contenu",
+          "publisher": "Le Mans FC",
+          "publishedAt": "2026-07-03",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -6347,33 +6878,6 @@
         }
       ],
       "notes": "HSV's own current schedule lists 19:00 local time; the Bundesliga roundup listed 21:00 CEST."
-    },
-    {
-      "id": "2026-08-16-liverpool-como-1",
-      "homeClubId": "liverpool",
-      "homeName": "Liverpool",
-      "awayClubId": "como",
-      "awayName": "Como",
-      "date": "2026-08-16",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "behind_closed_doors",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
     },
     {
       "id": "2026-08-16-tottenham-hotspur-tsg-hoffenheim",
@@ -6539,6 +7043,66 @@
         }
       ],
       "notes": "Public Anfield fixture; separate from the behind-closed-doors match."
+    },
+    {
+      "id": "2026-08-16-lens-paris-saint-germain",
+      "homeClubId": "lens",
+      "homeName": "RC Lens",
+      "awayClubId": "paris-saint-germain",
+      "awayName": "Paris Saint-Germain",
+      "date": "2026-08-16",
+      "kickoff": "2026-08-16T20:45:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stade Bollaert-Delelis",
+      "city": "Lens",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "competitive",
+      "competition": "Trophée des Champions",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.rclens.fr/fr/equipe-premiere/calendrier",
+          "publisher": "RC Lens",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://ligue1.com/fr/articles/l1_article_5559-ligue-1-to-broadcast-more-than-30-pre-season-friendlies-this-summer",
+          "publisher": "Ligue 1",
+          "publishedAt": "2026-07-24",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Competitive curtain-raiser; not an ordinary friendly."
+    },
+    {
+      "id": "2026-08-16-liverpool-como-1",
+      "homeClubId": "liverpool",
+      "homeName": "Liverpool",
+      "awayClubId": "como",
+      "awayName": "Como",
+      "date": "2026-08-16",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
     },
     {
       "id": "2026-08-17-juventus-next-gen",

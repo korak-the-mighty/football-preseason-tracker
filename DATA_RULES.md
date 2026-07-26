@@ -85,6 +85,16 @@ For a confirmed kickoff, store an ISO 8601 datetime with its source timezone or 
 
 For `date_only`, store the calendar date only. Never attach an artificial time.
 
+## Cross-border kickoff times
+
+A league or media roundup may publish kickoff in its audience's timezone rather than the venue's timezone.
+
+- Prefer an official club, opponent, host or ticket page that states the venue-local kickoff.
+- Store the venue-local datetime and its real UTC offset.
+- If converting a clearly labelled publisher-time value, preserve the original value and conversion in `notes`.
+- Never assume an unlabeled time is local merely because the fixture is displayed beside a venue.
+- When the timezone cannot be resolved without guessing, keep the fixture `date_only`.
+
 ## Fixture status
 
 Use one of:

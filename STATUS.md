@@ -15,11 +15,11 @@
 - The five leagues contain 96 clubs in total: Premier League 20, Bundesliga 18, La Liga 20, Serie A 20 and Ligue 1 18.
 - The first canonical club dataset exists at `src/data/clubs.json`.
 - The club dataset stores membership sources, its verification date and exact league counts.
-- The Premier League canonical fixture pass is complete enough to scale, and the Bundesliga baseline now covers all 18 German clubs.
-- The combined dataset at `src/data/fixtures.json` contains 119 announced fixtures from 28 July onward, all supported by publication evidence.
-- One hundred eleven fixtures have verified kickoff datetimes with real UTC offsets; eight remain honestly `date_only` because no conflict-free official kickoff was public.
-- The Bundesliga pass added 40 new fixtures and enriched two existing cross-league records.
-- Official club checks found three matches absent from the Bundesliga roundup: FSV Frankfurt v Eintracht Frankfurt and Werder Bremen's two-match Paderborn double-header.
+- The Premier League canonical fixture pass is complete enough to scale; the Bundesliga and La Liga baselines now cover every club in both leagues.
+- The combined dataset at `src/data/fixtures.json` contains 170 announced fixtures from 28 July onward, all supported by publication evidence.
+- One hundred sixty-one fixtures have verified kickoff datetimes with real UTC offsets; nine remain honestly `date_only` because no conflict-free official kickoff was public.
+- The La Liga pass added 51 new canonical fixtures, enriched existing cross-league records and represents all 20 Spanish clubs.
+- Official Spanish club checks corrected roundup errors involving Sevilla v NEC, Villarreal v Levante and the Barcelona tournament ordering.
 - Four pre-existing Brighton fixture links were corrected from the invalid `brighton` ID to `brighton-and-hove-albion`.
 - The league roundup was not complete by itself: official club checks found Bournemouth v Mainz and a second Brentford v Rennes match.
 - No production code exists yet.
@@ -50,13 +50,13 @@
 
 - There is no single complete official source for all pre-season fixtures.
 - Fixtures can change after publication.
-- Spain and France may require heavier club-by-club fixture research.
+- Italy and France may require heavier club-by-club fixture research.
 - The separate-repository deployment path into Henrik's portfolio site is still open.
 - A sustainable update rhythm after launch is not yet defined.
 
 ## Single next action
 
-Begin the La Liga fixture baseline: discover every announced 2026 pre-season match involving the 20 covered Spanish clubs, verify dates against official evidence, and add the records to `src/data/fixtures.json` without guessing unresolved kickoff times.
+Build the Serie A fixture baseline for all 20 covered Italian clubs, reusing existing cross-league records and verifying club schedules before adding new canonical fixtures.
 
 ## Decisions needed from Henrik
 
@@ -69,6 +69,17 @@ Later, before the build:
 3. who owns ongoing fixture updates after launch
 
 ## Session log
+
+### 2026-07-26 — La Liga fixture baseline
+
+Added the La Liga baseline across all 20 covered clubs. The combined canonical dataset now contains 170 fixtures: 161 with verified kickoff datetimes and nine honestly date-only.
+
+The pass added 51 new canonical records and enriched existing cross-league fixtures. Official club checks corrected several broad-roundup errors: Sevilla play NEC once on 31 July rather than on two consecutive dates; Villarreal's first team, not Villarreal C, play Levante; and FC Barcelona's official 45-minute tournament order places Barcelona before Nottingham Forest.
+
+Handled same-day and short-format events explicitly, including Racing Santander's two Wolves matches, Real Sociedad's two Köln matches, Villarreal's Como Cup games and Barcelona's Friuli Venezia Giulia Cup pairings. Deportivo Alavés v Castellón remains date-only because the club still lists the kickoff as unconfirmed.
+
+Final validation passed with all 20 La Liga clubs represented, no duplicate IDs, no semantic fixture duplicates, no malformed kickoff offsets, no invalid club links and no source-less records.
+
 
 ### 2026-07-26 — Bundesliga fixture baseline
 

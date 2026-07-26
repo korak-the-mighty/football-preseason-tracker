@@ -50,6 +50,7 @@ Claude is not required for the planned workflow. Low Claude availability is not 
 ## Source of truth
 
 - `CORE.md`: durable product truth and boundaries
+- `EXPERIENCE_CONCEPT.md`: interaction direction, behaviour and open experience decisions
 - `WORKFLOW.md`: roles and how work moves
 - `DATA_RULES.md`: fixture accuracy and schema
 - `STATUS.md`: current state, decisions and next action
@@ -81,10 +82,11 @@ Exit condition: the dataset is build-ready, with uncertainty represented honestl
 
 ### Phase 3 — Lovable build
 
-1. Give Lovable the foundation files, canonical data and a bounded build brief.
-2. Build the one-page core experience.
-3. Prevent fixture facts from being rewritten during implementation.
-4. Review behaviour on mobile and desktop.
+1. Finalize the version-one behaviour in `EXPERIENCE_CONCEPT.md`.
+2. Give Lovable the foundation files, canonical data and a bounded build brief.
+3. Build the one-page core experience.
+4. Prevent fixture facts from being rewritten during implementation.
+5. Review behaviour on mobile and desktop.
 
 Exit condition: the core user journey works locally with real canonical data.
 

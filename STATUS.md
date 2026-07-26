@@ -15,11 +15,11 @@
 - The five leagues contain 96 clubs in total: Premier League 20, Bundesliga 18, La Liga 20, Serie A 20 and Ligue 1 18.
 - The first canonical club dataset exists at `src/data/clubs.json`.
 - The club dataset stores membership sources, its verification date and exact league counts.
-- The Premier League canonical fixture pass is complete enough to scale; the Bundesliga, La Liga and Serie A baselines now cover every club in those leagues.
-- The combined dataset at `src/data/fixtures.json` contains 208 announced fixtures from 27 July onward, all supported by publication evidence.
-- One hundred ninety-five fixtures have verified kickoff datetimes with real UTC offsets; 13 remain honestly `date_only` because no conflict-free official kickoff was public.
-- The Serie A pass added 38 new canonical fixtures, reused 24 existing cross-league records and represents all 20 Italian clubs.
-- Official Italian and opponent sources corrected cross-border kickoff times and fixture ordering, and added Lecce v Lecce Primavera, Monza v Padova and Udinese v Trabzonspor beyond the league roundup.
+- Fixture baselines now cover every club in all five leagues.
+- The combined dataset at `src/data/fixtures.json` contains 226 announced fixtures from 27 July onward, all supported by publication evidence.
+- Two hundred fourteen fixtures have verified kickoff datetimes with real UTC offsets; 12 remain honestly `date_only` because no conflict-free official kickoff was public.
+- The Ligue 1 pass added 18 new canonical fixtures and represents all 18 French clubs.
+- Fresh La Liga and Premier League completeness checks found no missing canonical fixtures after the French pass.
 - Four pre-existing Brighton fixture links were corrected from the invalid `brighton` ID to `brighton-and-hove-albion`.
 - The league roundup was not complete by itself: official club checks found Bournemouth v Mainz and a second Brentford v Rennes match.
 - No production code exists yet.
@@ -50,17 +50,16 @@
 
 - There is no single complete official source for all pre-season fixtures.
 - Fixtures can change after publication.
-- France may require heavier club-by-club fixture research.
 - The separate-repository deployment path into Henrik's portfolio site is still open.
 - A sustainable update rhythm after launch is not yet defined.
 
 ## Single next action
 
-Build the Ligue 1 fixture baseline for all 18 covered French clubs, reusing existing cross-league records and verifying club schedules before adding new canonical fixtures.
+Prepare the bounded Lovable build brief from the completed foundation files and canonical datasets.
 
 ## Decisions needed from Henrik
 
-None before the first fixture research pass.
+None before preparing the Lovable build brief.
 
 Later, before the build:
 
@@ -69,6 +68,14 @@ Later, before the build:
 3. who owns ongoing fixture updates after launch
 
 ## Session log
+
+### 2026-07-26 — Ligue 1 baseline and final league rechecks
+
+Completed the Ligue 1 baseline across all 18 covered clubs. The canonical dataset now contains 226 fixtures: 214 with verified kickoff datetimes and 12 honestly date-only.
+
+The French pass added 18 records, including RC Lens v Famalicão, Galatasaray v Rennes, Mallorca v PSG and the clearly labelled Lens v PSG Trophée des Champions. It corrected the venue-local Como Cup time, updated Rennes v Brentford to the newer host-club schedule and confirmed Hull City v Nice at 16:00 local time.
+
+Fresh La Liga and Premier League comparison passes found no missing fixtures beyond the canonical dataset. Whole-dataset validation passed with all 96 covered clubs represented, no invalid club links, duplicate IDs, malformed kickoff offsets, source-less records or unintended semantic duplicates. Seven same-day repeated pairings are documented double-headers.
 
 ### 2026-07-26 — Serie A fixture baseline
 

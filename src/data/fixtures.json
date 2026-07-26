@@ -1,19 +1,80 @@
 {
   "meta": {
     "season": "2026-27",
-    "coverage": "Premier League canonical pass",
+    "coverage": "Premier League complete; Bundesliga baseline",
     "checkedAt": "2026-07-26",
-    "fixtureCount": 79,
-    "confirmedKickoffCount": 70,
-    "dateOnlyCount": 9,
+    "fixtureCount": 119,
+    "confirmedKickoffCount": 111,
+    "dateOnlyCount": 8,
     "notes": [
       "Includes announced fixtures from 28 July 2026 onward.",
-      "Kickoff is stored only when an official source supplied a real time; unresolved fixtures remain date_only.",
-      "The final club-by-club gap check added Brighton's second RC Strasbourg match and corrected source conflicts in dates and home/away ordering.",
-      "Nine date-only records remain because no conflict-free official kickoff was public at the time checked."
+      "Premier League pass complete enough to scale; Bundesliga baseline added for all 18 covered clubs.",
+      "Official club checks added three Bundesliga fixtures absent from the league roundup: FSV Frankfurt v Eintracht Frankfurt and the two Werder Bremen v SC Paderborn matches.",
+      "Kickoff conflicts for Kickers Offenbach v VfB Stuttgart and Toulouse v Hamburger SV were resolved in favour of the clubs' own current schedules.",
+      "Kickoff is stored only when official evidence supplied a real time; unresolved fixtures remain date_only."
     ]
   },
   "fixtures": [
+    {
+      "id": "2026-07-28-al-ahli-fulham",
+      "homeClubId": null,
+      "homeName": "Al-Ahli",
+      "awayClubId": "fulham",
+      "awayName": "Fulham",
+      "date": "2026-07-28",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-28-caykur-rizespor-hull-city",
+      "homeClubId": null,
+      "homeName": "Çaykur Rizespor",
+      "awayClubId": "hull-city",
+      "awayName": "Hull City",
+      "date": "2026-07-28",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": "Ljudski vrt",
+      "city": "Maribor",
+      "country": "Slovenia",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
+          "publisher": "Hull City AFC",
+          "publishedAt": "2026-07-15",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
     {
       "id": "2026-07-28-crystal-palace-lens",
       "homeClubId": "crystal-palace",
@@ -180,17 +241,50 @@
       "notes": null
     },
     {
-      "id": "2026-07-28-al-ahli-fulham",
-      "homeClubId": null,
-      "homeName": "Al-Ahli",
-      "awayClubId": "fulham",
-      "awayName": "Fulham",
-      "date": "2026-07-28",
-      "kickoff": null,
-      "timePrecision": "date_only",
+      "id": "2026-07-29-bayer-leverkusen-genk",
+      "homeClubId": "bayer-leverkusen",
+      "homeName": "Bayer Leverkusen",
+      "awayClubId": null,
+      "awayName": "KRC Genk",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T15:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Ulrich-Haberland-Stadion",
+      "city": "Leverkusen",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bayer04.de/de-de/match/saison-202627/testspiele/testspiel-b04gen",
+          "publisher": "Bayer Leverkusen",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-29-tsg-hoffenheim-holstein-kiel",
+      "homeClubId": "tsg-hoffenheim",
+      "homeName": "TSG Hoffenheim",
+      "awayClubId": null,
+      "awayName": "Holstein Kiel",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T18:00:00+02:00",
+      "timePrecision": "confirmed",
       "venue": null,
       "city": null,
-      "country": null,
+      "country": "Germany",
       "neutralVenue": null,
       "type": "friendly",
       "competition": null,
@@ -198,42 +292,75 @@
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
       "notes": null
     },
     {
-      "id": "2026-07-28-caykur-rizespor-hull-city",
+      "id": "2026-07-29-kickers-offenbach-vfb-stuttgart",
       "homeClubId": null,
-      "homeName": "Çaykur Rizespor",
-      "awayClubId": "hull-city",
-      "awayName": "Hull City",
-      "date": "2026-07-28",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": "Ljudski vrt",
-      "city": "Maribor",
-      "country": "Slovenia",
-      "neutralVenue": true,
+      "homeName": "Kickers Offenbach",
+      "awayClubId": "vfb-stuttgart",
+      "awayName": "VfB Stuttgart",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Offenbach",
+      "country": "Germany",
+      "neutralVenue": false,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
+          "url": "https://www.vfb.de/en/vfb/latest/news/professionals/2627/vfb-startet-vorbereitung-am-16--juli-2026-/",
+          "publisher": "VfB Stuttgart",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         },
         {
-          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
-          "publisher": "Hull City AFC",
-          "publishedAt": "2026-07-15",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "VfB's own current schedule lists 19:00 CEST; the Bundesliga roundup listed 18:30 CEST."
+    },
+    {
+      "id": "2026-07-29-cerezo-osaka-borussia-dortmund",
+      "homeClubId": null,
+      "homeName": "Cerezo Osaka",
+      "awayClubId": "borussia-dortmund",
+      "awayName": "Borussia Dortmund",
+      "date": "2026-07-29",
+      "kickoff": "2026-07-29T19:00:00+09:00",
+      "timePrecision": "confirmed",
+      "venue": "Yanmar Hanasaka Stadium",
+      "city": "Osaka",
+      "country": "Japan",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/7/7/BVB-Schedule-for-the-Summer-All-Dates-at-a-Glance.html",
+          "publisher": "Borussia Dortmund",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -405,6 +532,39 @@
       "notes": null
     },
     {
+      "id": "2026-07-30-rottach-egern-bayern-munich",
+      "homeClubId": null,
+      "homeName": "FC Rottach-Egern",
+      "awayClubId": "bayern-munich",
+      "awayName": "Bayern Munich",
+      "date": "2026-07-30",
+      "kickoff": "2026-07-30T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Sportplatz Birkenmoos",
+      "city": "Rottach-Egern",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://fcbayern.com/en/match-center/matchplan",
+          "publisher": "Bayern Munich",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-07-30-leeds-united-sunderland",
       "homeClubId": "leeds-united",
       "homeName": "Leeds United",
@@ -432,6 +592,39 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-31-sporting-cp-nottingham-forest",
+      "homeClubId": null,
+      "homeName": "Sporting CP",
+      "awayClubId": "nottingham-forest",
+      "awayName": "Nottingham Forest",
+      "date": "2026-07-31",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": "Estádio Algarve",
+      "city": "Faro-Loulé",
+      "country": "Portugal",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.sporting.pt/en/news/football/main-team/2026-07-25/sporting-cp-win-trofeu-cinco-violinos-against-monaco",
+          "publisher": "Sporting CP",
+          "publishedAt": "2026-07-25",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -471,18 +664,84 @@
       "notes": "Kickoff announced as 11am BST; match is part of Forest's Portugal camp."
     },
     {
-      "id": "2026-07-31-sporting-cp-nottingham-forest",
-      "homeClubId": null,
-      "homeName": "Sporting CP",
-      "awayClubId": "nottingham-forest",
-      "awayName": "Nottingham Forest",
+      "id": "2026-07-31-sc-freiburg-greuther-furth",
+      "homeClubId": "sc-freiburg",
+      "homeName": "SC Freiburg",
+      "awayClubId": null,
+      "awayName": "Greuther Fürth",
       "date": "2026-07-31",
+      "kickoff": "2026-07-31T14:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Schruns",
+      "country": "Austria",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/doppel-test-gegen-racing-strassburg",
+          "publisher": "SC Freiburg",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-07-31-mainz-05-shabab-al-ahli",
+      "homeClubId": "mainz-05",
+      "homeName": "Mainz 05",
+      "awayClubId": null,
+      "awayName": "Shabab Al Ahli",
+      "date": "2026-07-31",
+      "kickoff": "2026-07-31T16:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Grenzlandstadion Arena Kufstein",
+      "city": "Kufstein",
+      "country": "Austria",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.mainz05.de/news/testspiel-gegner-trainingslager-al-ahli-udinese",
+          "publisher": "Mainz 05",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-kas-mpasa-hull-city",
+      "homeClubId": null,
+      "homeName": "Kasımpaşa",
+      "awayClubId": "hull-city",
+      "awayName": "Hull City",
+      "date": "2026-08-01",
       "kickoff": null,
       "timePrecision": "date_only",
-      "venue": "Estádio Algarve",
-      "city": "Faro-Loulé",
-      "country": "Portugal",
-      "neutralVenue": true,
+      "venue": "Recep Tayyip Erdoğan Stadium",
+      "city": "Istanbul",
+      "country": "Türkiye",
+      "neutralVenue": false,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
@@ -495,17 +754,50 @@
           "checkedAt": "2026-07-26"
         },
         {
-          "url": "https://www.sporting.pt/en/news/football/main-team/2026-07-25/sporting-cp-win-trofeu-cinco-violinos-against-monaco",
-          "publisher": "Sporting CP",
-          "publishedAt": "2026-07-25",
+          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
+          "publisher": "Hull City AFC",
+          "publishedAt": "2026-07-15",
           "checkedAt": "2026-07-26"
         }
       ],
       "notes": null
     },
     {
+      "id": "2026-08-01-bayer-leverkusen-rot-weiss-essen",
+      "homeClubId": "bayer-leverkusen",
+      "homeName": "Bayer Leverkusen",
+      "awayClubId": null,
+      "awayName": "Rot-Weiss Essen",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T11:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Ulrich-Haberland-Stadion",
+      "city": "Leverkusen",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bayer04.de/de-de/match/saison-202627/testspiele/testspiel-b04rwe",
+          "publisher": "Bayer Leverkusen",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Kickoff follows the Bundesliga's explicit CEST schedule; Bayer's rendered match page appeared localized in search results."
+    },
+    {
       "id": "2026-08-01-brighton-strasbourg-1",
-      "homeClubId": "brighton",
+      "homeClubId": "brighton-and-hove-albion",
       "homeName": "Brighton & Hove Albion",
       "awayClubId": "strasbourg",
       "awayName": "RC Strasbourg",
@@ -570,8 +862,128 @@
       "notes": null
     },
     {
+      "id": "2026-08-01-rb-leipzig-verl",
+      "homeClubId": "rb-leipzig",
+      "homeName": "RB Leipzig",
+      "awayClubId": null,
+      "awayName": "SC Verl",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T12:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "Germany",
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-borussia-monchengladbach-hansa-rostock",
+      "homeClubId": "borussia-monchengladbach",
+      "homeName": "Borussia Mönchengladbach",
+      "awayClubId": null,
+      "awayName": "Hansa Rostock",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T14:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-dynamo-dresden-union-berlin",
+      "homeClubId": null,
+      "homeName": "Dynamo Dresden",
+      "awayClubId": "union-berlin",
+      "awayName": "Union Berlin",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T14:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Rudolf-Harbig-Stadion",
+      "city": "Dresden",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.fc-union-berlin.de/de/fussball/profis-maenner/spielplan-maenner-5OQZ",
+          "publisher": "Union Berlin",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-hessen-kassel-schalke-04",
+      "homeClubId": null,
+      "homeName": "KSV Hessen Kassel",
+      "awayClubId": "schalke-04",
+      "awayName": "Schalke 04",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T14:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Auestadion",
+      "city": "Kassel",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://schalke04.de/aktuelles/matchcenter/competitions/testspiel/season/season-2026-2027/",
+          "publisher": "Schalke 04",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-01-brighton-strasbourg-2",
-      "homeClubId": "brighton",
+      "homeClubId": "brighton-and-hove-albion",
       "homeName": "Brighton & Hove Albion",
       "awayClubId": "strasbourg",
       "awayName": "RC Strasbourg",
@@ -603,6 +1015,39 @@
       "notes": "Second match of a behind-closed-doors double-header."
     },
     {
+      "id": "2026-08-01-energie-cottbus-werder-bremen",
+      "homeClubId": null,
+      "homeName": "Energie Cottbus",
+      "awayClubId": "werder-bremen",
+      "awayName": "Werder Bremen",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T15:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "LEAG Energie Stadion",
+      "city": "Cottbus",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.werder.de/news/maenner/2025-2026/sommerfahrplan-22052026",
+          "publisher": "Werder Bremen",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-01-manchester-united-atletico-de-madrid",
       "homeClubId": "manchester-united",
       "homeName": "Manchester United",
@@ -629,6 +1074,93 @@
         {
           "url": "https://en.atleticodemadrid.com/noticias/atleti-to-face-manchester-united-in-the-2026-27-pre-season",
           "publisher": "Atlético de Madrid",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-vfb-stuttgart-paris-fc",
+      "homeClubId": "vfb-stuttgart",
+      "homeName": "VfB Stuttgart",
+      "awayClubId": "paris-fc",
+      "awayName": "Paris FC",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T15:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.vfb.de/en/vfb/latest/news/professionals/2627/vfb-startet-vorbereitung-am-16--juli-2026-/",
+          "publisher": "VfB Stuttgart",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-sc-paderborn-07-osnabruck",
+      "homeClubId": "sc-paderborn-07",
+      "homeName": "SC Paderborn 07",
+      "awayClubId": null,
+      "awayName": "VfL Osnabrück",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T15:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-tsg-hoffenheim-karlsruhe",
+      "homeClubId": "tsg-hoffenheim",
+      "homeName": "TSG Hoffenheim",
+      "awayClubId": null,
+      "awayName": "Karlsruher SC",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T15:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "Germany",
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
           "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
@@ -669,6 +1201,39 @@
       "notes": null
     },
     {
+      "id": "2026-08-01-mainz-05-udinese",
+      "homeClubId": "mainz-05",
+      "homeName": "Mainz 05",
+      "awayClubId": "udinese",
+      "awayName": "Udinese",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T16:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Kufstein",
+      "country": "Austria",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.mainz05.de/news/testspiel-gegner-trainingslager-al-ahli-udinese",
+          "publisher": "Mainz 05",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-01-hamburger-sv-everton",
       "homeClubId": "hamburger-sv",
       "homeName": "Hamburger SV",
@@ -696,6 +1261,72 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-waldhof-mannheim-eintracht-frankfurt",
+      "homeClubId": null,
+      "homeName": "SV Waldhof Mannheim",
+      "awayClubId": "eintracht-frankfurt",
+      "awayName": "Eintracht Frankfurt",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Mannheim",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://profis.eintracht.de/news/adlerticker-die-eintracht-news-des-tages-mittwoch-15-juli-2026-178204/",
+          "publisher": "Eintracht Frankfurt",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-01-fc-tokyo-borussia-dortmund",
+      "homeClubId": null,
+      "homeName": "FC Tokyo",
+      "awayClubId": "borussia-dortmund",
+      "awayName": "Borussia Dortmund",
+      "date": "2026-08-01",
+      "kickoff": "2026-08-01T19:00:00+09:00",
+      "timePrecision": "confirmed",
+      "venue": "Japan National Stadium",
+      "city": "Tokyo",
+      "country": "Japan",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/7/7/BVB-Schedule-for-the-Summer-All-Dates-at-a-Glance.html",
+          "publisher": "Borussia Dortmund",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -834,39 +1465,6 @@
       "notes": null
     },
     {
-      "id": "2026-08-01-kas-mpasa-hull-city",
-      "homeClubId": null,
-      "homeName": "Kasımpaşa",
-      "awayClubId": "hull-city",
-      "awayName": "Hull City",
-      "date": "2026-08-01",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": "Recep Tayyip Erdoğan Stadium",
-      "city": "Istanbul",
-      "country": "Türkiye",
-      "neutralVenue": false,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
-          "publisher": "Hull City AFC",
-          "publishedAt": "2026-07-15",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
       "id": "2026-08-02-sunderland-wrexham",
       "homeClubId": "sunderland",
       "homeName": "Sunderland",
@@ -931,6 +1529,99 @@
         }
       ],
       "notes": "Official source states 3pm EDT; stored as the equivalent 2pm local CDT in Chicago."
+    },
+    {
+      "id": "2026-08-02-union-berlin-cagliari",
+      "homeClubId": "union-berlin",
+      "homeName": "Union Berlin",
+      "awayClubId": "cagliari",
+      "awayName": "Cagliari",
+      "date": "2026-08-02",
+      "kickoff": "2026-08-02T14:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadion An der Alten Försterei",
+      "city": "Berlin",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.fc-union-berlin.de/de/fussball/profis-maenner/spielplan-maenner-5OQZ",
+          "publisher": "Union Berlin",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-04-bournemouth-genoa",
+      "homeClubId": "bournemouth",
+      "homeName": "Bournemouth",
+      "awayClubId": "genoa",
+      "awayName": "Genoa",
+      "date": "2026-08-04",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.afcb.co.uk/news/2026/july/02/afc-bournemouth-confirm-genoa-and-real-betis-pre-season-friendlies/",
+          "publisher": "AFC Bournemouth",
+          "publishedAt": "2026-07-02",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-04-sv-elversberg-strasbourg",
+      "homeClubId": "sv-elversberg",
+      "homeName": "SV Elversberg",
+      "awayClubId": "strasbourg",
+      "awayName": "RC Strasbourg",
+      "date": "2026-08-04",
+      "kickoff": "2026-08-04T18:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
     },
     {
       "id": "2026-08-04-aston-villa-bg-pathum-united",
@@ -999,33 +1690,66 @@
       "notes": null
     },
     {
-      "id": "2026-08-04-bournemouth-genoa",
-      "homeClubId": "bournemouth",
-      "homeName": "Bournemouth",
-      "awayClubId": "genoa",
-      "awayName": "Genoa",
+      "id": "2026-08-04-jeju-sk-bayern-munich",
+      "homeClubId": null,
+      "homeName": "Jeju SK",
+      "awayClubId": "bayern-munich",
+      "awayName": "Bayern Munich",
       "date": "2026-08-04",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "behind_closed_doors",
+      "kickoff": "2026-08-04T20:00:00+09:00",
+      "timePrecision": "confirmed",
+      "venue": "Jeju World Cup Stadium",
+      "city": "Seogwipo",
+      "country": "South Korea",
+      "neutralVenue": false,
+      "type": "friendly",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
+          "url": "https://fcbayern.com/en/match-center/matchplan",
+          "publisher": "Bayern Munich",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         },
         {
-          "url": "https://www.afcb.co.uk/news/2026/july/02/afc-bournemouth-confirm-genoa-and-real-betis-pre-season-friendlies/",
-          "publisher": "AFC Bournemouth",
-          "publishedAt": "2026-07-02",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-05-schwaz-fc-augsburg",
+      "homeClubId": null,
+      "homeName": "SC Schwaz",
+      "awayClubId": "fc-augsburg",
+      "awayName": "FC Augsburg",
+      "date": "2026-08-05",
+      "kickoff": "2026-08-05T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Silberstadt Arena",
+      "city": "Schwaz",
+      "country": "Austria",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.fcaugsburg.de/article/sommerfahrplan-trainingsauftakt-am-13-juli-testspiel-in-england-23211",
+          "publisher": "FC Augsburg",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1131,6 +1855,33 @@
       "notes": null
     },
     {
+      "id": "2026-08-07-crystal-palace-fulham",
+      "homeClubId": "crystal-palace",
+      "homeName": "Crystal Palace",
+      "awayClubId": "fulham",
+      "awayName": "Fulham",
+      "date": "2026-08-07",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "behind_closed_doors",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-07-bayern-munich-aston-villa",
       "homeClubId": "bayern-munich",
       "homeName": "Bayern Munich",
@@ -1158,33 +1909,6 @@
           "url": "https://www.discoverhongkong.com/eng/events/event.id86502.football-summit-2026-fc-bayern-munich-vs-aston-villa.html",
           "publisher": "Hong Kong Tourism Board",
           "publishedAt": null,
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "id": "2026-08-07-crystal-palace-fulham",
-      "homeClubId": "crystal-palace",
-      "homeName": "Crystal Palace",
-      "awayClubId": "fulham",
-      "awayName": "Fulham",
-      "date": "2026-08-07",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "behind_closed_doors",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -1257,6 +1981,39 @@
       "notes": "First match of the double-header; Sunderland announced 11am BST, equivalent to noon in Lens."
     },
     {
+      "id": "2026-08-08-sc-freiburg-strasbourg-1",
+      "homeClubId": "sc-freiburg",
+      "homeName": "SC Freiburg",
+      "awayClubId": "strasbourg",
+      "awayName": "RC Strasbourg",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T12:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/doppel-test-gegen-racing-strassburg",
+          "publisher": "SC Freiburg",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "First match of an official same-day double-header."
+    },
+    {
       "id": "2026-08-08-leeds-united-rb-leipzig",
       "homeClubId": "leeds-united",
       "homeName": "Leeds United",
@@ -1290,8 +2047,35 @@
       "notes": null
     },
     {
+      "id": "2026-08-08-werder-bremen-sc-paderborn-07-1",
+      "homeClubId": "werder-bremen",
+      "homeName": "Werder Bremen",
+      "awayClubId": "sc-paderborn-07",
+      "awayName": "SC Paderborn 07",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T14:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadion am Oyther Berg",
+      "city": "Vechta-Oythe",
+      "country": "Germany",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.werder.de/news/maenner/2026-2027/testspiel-paderborn-09072026",
+          "publisher": "Werder Bremen",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "First match of an official same-day double-header; absent from the Bundesliga roundup when checked."
+    },
+    {
       "id": "2026-08-08-brighton-roma",
-      "homeClubId": "brighton",
+      "homeClubId": "brighton-and-hove-albion",
       "homeName": "Brighton & Hove Albion",
       "awayClubId": "roma",
       "awayName": "Roma",
@@ -1389,6 +2173,171 @@
       "notes": null
     },
     {
+      "id": "2026-08-08-eintracht-frankfurt-hull-city",
+      "homeClubId": "eintracht-frankfurt",
+      "homeName": "Eintracht Frankfurt",
+      "awayClubId": null,
+      "awayName": "Hull City",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T15:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://profis.eintracht.de/news/adlerticker-die-eintracht-news-des-tages-mittwoch-15-juli-2026-178204/",
+          "publisher": "Eintracht Frankfurt",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-bayer-leverkusen-sevilla",
+      "homeClubId": "bayer-leverkusen",
+      "homeName": "Bayer Leverkusen",
+      "awayClubId": "sevilla",
+      "awayName": "Sevilla FC",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T15:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Leverkusen",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bayer04.de/en-us/match/202627-season/friendlies/friendly-b04sev",
+          "publisher": "Bayer Leverkusen",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Kickoff follows the Bundesliga's explicit CEST schedule; Bayer's rendered match page appeared localized in search results."
+    },
+    {
+      "id": "2026-08-08-fc-augsburg-sassuolo",
+      "homeClubId": "fc-augsburg",
+      "homeName": "FC Augsburg",
+      "awayClubId": "sassuolo",
+      "awayName": "Sassuolo",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T15:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "WWK Arena",
+      "city": "Augsburg",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.fcaugsburg.de/article/sommerfahrplan-trainingsauftakt-am-13-juli-testspiel-in-england-23211",
+          "publisher": "FC Augsburg",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-fc-koln-real-sociedad",
+      "homeClubId": "fc-koln",
+      "homeName": "1. FC Köln",
+      "awayClubId": null,
+      "awayName": "Real Sociedad",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T15:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Cologne",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-sc-freiburg-strasbourg-2",
+      "homeClubId": "sc-freiburg",
+      "homeName": "SC Freiburg",
+      "awayClubId": "strasbourg",
+      "awayName": "RC Strasbourg",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T15:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/doppel-test-gegen-racing-strassburg",
+          "publisher": "SC Freiburg",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Second match of an official same-day double-header."
+    },
+    {
       "id": "2026-08-08-lens-sunderland-2",
       "homeClubId": "lens",
       "homeName": "RC Lens",
@@ -1422,6 +2371,33 @@
       "notes": "Public fixture; separate from the behind-closed-doors match."
     },
     {
+      "id": "2026-08-08-werder-bremen-sc-paderborn-07-2",
+      "homeClubId": "werder-bremen",
+      "homeName": "Werder Bremen",
+      "awayClubId": "sc-paderborn-07",
+      "awayName": "SC Paderborn 07",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T16:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Stadion am Oyther Berg",
+      "city": "Vechta-Oythe",
+      "country": "Germany",
+      "neutralVenue": true,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.werder.de/news/maenner/2026-2027/testspiel-paderborn-09072026",
+          "publisher": "Werder Bremen",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Second match of an official same-day double-header; absent from the Bundesliga roundup when checked."
+    },
+    {
       "id": "2026-08-08-manchester-united-paris-saint-germain",
       "homeClubId": "manchester-united",
       "homeName": "Manchester United",
@@ -1448,6 +2424,39 @@
         {
           "url": "https://www.psg.fr/en/matches/mens-football/2026/paris-vs-man-utd-2026-08-08",
           "publisher": "Paris Saint-Germain",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-08-schalke-04-atalanta",
+      "homeClubId": "schalke-04",
+      "homeName": "Schalke 04",
+      "awayClubId": "atalanta",
+      "awayName": "Atalanta",
+      "date": "2026-08-08",
+      "kickoff": "2026-08-08T17:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "VELTINS-Arena",
+      "city": "Gelsenkirchen",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://schalke04.de/aktuelles/matchcenter/competitions/testspiel/season/season-2026-2027/",
+          "publisher": "Schalke 04",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
           "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
@@ -1719,33 +2728,6 @@
       "notes": null
     },
     {
-      "id": "2026-08-08-eintracht-frankfurt-hull-city",
-      "homeClubId": "eintracht-frankfurt",
-      "homeName": "Eintracht Frankfurt",
-      "awayClubId": "hull-city",
-      "awayName": "Hull City",
-      "date": "2026-08-08",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "friendly",
-      "competition": null,
-      "status": "scheduled",
-      "verification": "confirmed_primary",
-      "sources": [
-        {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        }
-      ],
-      "notes": null
-    },
-    {
       "id": "2026-08-09-arsenal-borussia-dortmund",
       "homeClubId": "arsenal",
       "homeName": "Arsenal",
@@ -1911,6 +2893,33 @@
       "notes": null
     },
     {
+      "id": "2026-08-12-fsv-frankfurt-eintracht-frankfurt",
+      "homeClubId": null,
+      "homeName": "FSV Frankfurt",
+      "awayClubId": "eintracht-frankfurt",
+      "awayName": "Eintracht Frankfurt",
+      "date": "2026-08-12",
+      "kickoff": "2026-08-12T18:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Frankfurt",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://profis.eintracht.de/news/adlerticker-die-eintracht-news-des-tages-mittwoch-15-juli-2026-178204/",
+          "publisher": "Eintracht Frankfurt",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "Official club schedule; absent from the Bundesliga roundup when checked."
+    },
+    {
       "id": "2026-08-12-leeds-united-manchester-united",
       "homeClubId": "leeds-united",
       "homeName": "Leeds United",
@@ -2010,6 +3019,39 @@
       "notes": null
     },
     {
+      "id": "2026-08-15-hull-city-nice",
+      "homeClubId": "hull-city",
+      "homeName": "Hull City",
+      "awayClubId": "nice",
+      "awayName": "OGC Nice",
+      "date": "2026-08-15",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": "MKM Stadium",
+      "city": "Hull",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
+          "publisher": "Premier League",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
+          "publisher": "Hull City AFC",
+          "publishedAt": "2026-07-15",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-15-chelsea-real-sociedad",
       "homeClubId": "chelsea",
       "homeName": "Chelsea",
@@ -2037,6 +3079,72 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-15-sc-freiburg-crystal-palace",
+      "homeClubId": "sc-freiburg",
+      "homeName": "SC Freiburg",
+      "awayClubId": "crystal-palace",
+      "awayName": "Crystal Palace",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T14:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Europa-Park Stadion",
+      "city": "Freiburg",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/doppel-test-gegen-racing-strassburg",
+          "publisher": "SC Freiburg",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-15-werder-bremen-auxerre",
+      "homeClubId": "werder-bremen",
+      "homeName": "Werder Bremen",
+      "awayClubId": "auxerre",
+      "awayName": "AJ Auxerre",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T14:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Weserstadion",
+      "city": "Bremen",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.werder.de/tickets/",
+          "publisher": "Werder Bremen",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2077,7 +3185,7 @@
     },
     {
       "id": "2026-08-15-brighton-bologna",
-      "homeClubId": "brighton",
+      "homeClubId": "brighton-and-hove-albion",
       "homeName": "Brighton & Hove Albion",
       "awayClubId": "bologna",
       "awayName": "Bologna",
@@ -2103,6 +3211,39 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-15-leeds-united-fc-augsburg",
+      "homeClubId": "leeds-united",
+      "homeName": "Leeds United",
+      "awayClubId": "fc-augsburg",
+      "awayName": "FC Augsburg",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T15:00:00+01:00",
+      "timePrecision": "confirmed",
+      "venue": "Elland Road",
+      "city": "Leeds",
+      "country": "England",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.fcaugsburg.de/article/sommerfahrplan-trainingsauftakt-am-13-juli-testspiel-in-england-23211",
+          "publisher": "FC Augsburg",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2208,6 +3349,39 @@
       "notes": null
     },
     {
+      "id": "2026-08-15-bayern-munich-rb-leipzig",
+      "homeClubId": "bayern-munich",
+      "homeName": "Bayern Munich",
+      "awayClubId": "rb-leipzig",
+      "awayName": "RB Leipzig",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T15:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Allianz Arena",
+      "city": "Munich",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly_tournament",
+      "competition": "Telekom Cup",
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://fcbayern.com/en/match-center/matchplan",
+          "publisher": "Bayern Munich",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
       "id": "2026-08-15-borussia-monchengladbach-aston-villa",
       "homeClubId": "borussia-monchengladbach",
       "homeName": "Borussia Mönchengladbach",
@@ -2242,7 +3416,7 @@
     },
     {
       "id": "2026-08-15-mainz-05-bournemouth",
-      "homeClubId": null,
+      "homeClubId": "mainz-05",
       "homeName": "Mainz 05",
       "awayClubId": "bournemouth",
       "awayName": "Bournemouth",
@@ -2251,8 +3425,8 @@
       "timePrecision": "confirmed",
       "venue": null,
       "city": null,
-      "country": null,
-      "neutralVenue": null,
+      "country": "Germany",
+      "neutralVenue": false,
       "type": "friendly",
       "competition": null,
       "status": "scheduled",
@@ -2268,6 +3442,39 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-15-sv-elversberg-lorient",
+      "homeClubId": "sv-elversberg",
+      "homeName": "SV Elversberg",
+      "awayClubId": "lorient",
+      "awayName": "FC Lorient",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T15:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": null,
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2373,19 +3580,85 @@
       "notes": "Manchester United announced 3:45pm BST, equivalent to 4:45pm local time in Wrocław."
     },
     {
-      "id": "2026-08-15-hull-city-nice",
-      "homeClubId": "hull-city",
-      "homeName": "Hull City",
-      "awayClubId": "nice",
-      "awayName": "OGC Nice",
+      "id": "2026-08-15-borussia-dortmund-roma",
+      "homeClubId": "borussia-dortmund",
+      "homeName": "Borussia Dortmund",
+      "awayClubId": "roma",
+      "awayName": "Roma",
       "date": "2026-08-15",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": "MKM Stadium",
-      "city": "Hull",
-      "country": "England",
+      "kickoff": "2026-08-15T17:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Dortmund",
+      "country": "Germany",
       "neutralVenue": false,
       "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/7/7/BVB-Schedule-for-the-Summer-All-Dates-at-a-Glance.html",
+          "publisher": "Borussia Dortmund",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "2026-08-15-toulouse-hamburger-sv",
+      "homeClubId": "toulouse",
+      "homeName": "Toulouse FC",
+      "awayClubId": "hamburger-sv",
+      "awayName": "Hamburger SV",
+      "date": "2026-08-15",
+      "kickoff": "2026-08-15T19:00:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": null,
+      "city": "Toulouse",
+      "country": "France",
+      "neutralVenue": false,
+      "type": "friendly",
+      "competition": null,
+      "status": "scheduled",
+      "verification": "confirmed_primary",
+      "sources": [
+        {
+          "url": "https://www.hsv.de/news/hsv-sommerfahrplan-20-trainingslager-und-testspiele",
+          "publisher": "Hamburger SV",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        }
+      ],
+      "notes": "HSV's own current schedule lists 19:00 local time; the Bundesliga roundup listed 21:00 CEST."
+    },
+    {
+      "id": "2026-08-16-liverpool-como-1",
+      "homeClubId": "liverpool",
+      "homeName": "Liverpool",
+      "awayClubId": "como",
+      "awayName": "Como",
+      "date": "2026-08-16",
+      "kickoff": null,
+      "timePrecision": "date_only",
+      "venue": null,
+      "city": null,
+      "country": null,
+      "neutralVenue": null,
+      "type": "behind_closed_doors",
       "competition": null,
       "status": "scheduled",
       "verification": "confirmed_primary",
@@ -2394,12 +3667,6 @@
           "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
           "publisher": "Premier League",
           "publishedAt": "2026-07-26",
-          "checkedAt": "2026-07-26"
-        },
-        {
-          "url": "https://www.wearehullcity.co.uk/news/2026/july/15/city-to-face-frankfurt-and-nice/",
-          "publisher": "Hull City AFC",
-          "publishedAt": "2026-07-15",
           "checkedAt": "2026-07-26"
         }
       ],
@@ -2571,27 +3838,39 @@
       "notes": "Public Anfield fixture; separate from the behind-closed-doors match."
     },
     {
-      "id": "2026-08-16-liverpool-como-1",
-      "homeClubId": "liverpool",
-      "homeName": "Liverpool",
-      "awayClubId": "como",
-      "awayName": "Como",
-      "date": "2026-08-16",
-      "kickoff": null,
-      "timePrecision": "date_only",
-      "venue": null,
-      "city": null,
-      "country": null,
-      "neutralVenue": null,
-      "type": "behind_closed_doors",
-      "competition": null,
+      "id": "2026-08-22-borussia-dortmund-bayern-munich",
+      "homeClubId": "borussia-dortmund",
+      "homeName": "Borussia Dortmund",
+      "awayClubId": "bayern-munich",
+      "awayName": "Bayern Munich",
+      "date": "2026-08-22",
+      "kickoff": "2026-08-22T20:30:00+02:00",
+      "timePrecision": "confirmed",
+      "venue": "Signal Iduna Park",
+      "city": "Dortmund",
+      "country": "Germany",
+      "neutralVenue": false,
+      "type": "competitive",
+      "competition": "Franz Beckenbauer Supercup",
       "status": "scheduled",
       "verification": "confirmed_primary",
       "sources": [
         {
-          "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results",
-          "publisher": "Premier League",
-          "publishedAt": "2026-07-26",
+          "url": "https://fcbayern.com/en/match-center/matchplan",
+          "publisher": "Bayern Munich",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/7/7/BVB-Schedule-for-the-Summer-All-Dates-at-a-Glance.html",
+          "publisher": "Borussia Dortmund",
+          "publishedAt": null,
+          "checkedAt": "2026-07-26"
+        },
+        {
+          "url": "https://www.bundesliga.com/en/bundesliga/news/2026-27-pre-season-plans-tours-friendly-fixtures-results-bayern-munich-37680",
+          "publisher": "Bundesliga",
+          "publishedAt": null,
           "checkedAt": "2026-07-26"
         }
       ],

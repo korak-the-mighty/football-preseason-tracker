@@ -5,9 +5,10 @@
 Before doing any work in this repository, read these files in order:
 
 1. `CORE.md`
-2. `WORKFLOW.md`
-3. `DATA_RULES.md`
-4. `STATUS.md`
+2. `EXPERIENCE_CONCEPT.md`
+3. `WORKFLOW.md`
+4. `DATA_RULES.md`
+5. `STATUS.md`
 
 Treat them as the project memory. Do not silently contradict, duplicate or reopen their decisions.
 

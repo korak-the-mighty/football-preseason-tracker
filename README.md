@@ -12,9 +12,10 @@ Read these files before working:
 
 1. [AGENTS.md](AGENTS.md)
 2. [CORE.md](CORE.md)
-3. [WORKFLOW.md](WORKFLOW.md)
-4. [DATA_RULES.md](DATA_RULES.md)
-5. [STATUS.md](STATUS.md)
+3. [EXPERIENCE_CONCEPT.md](EXPERIENCE_CONCEPT.md)
+4. [WORKFLOW.md](WORKFLOW.md)
+5. [DATA_RULES.md](DATA_RULES.md)
+6. [STATUS.md](STATUS.md)
 
 ## Working principle
 

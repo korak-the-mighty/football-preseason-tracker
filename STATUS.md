@@ -1,7 +1,7 @@
 # STATUS
 
 **Last updated:** 2026-07-26  
-**Project stage:** Club and fixture research  
+**Project stage:** Product behaviour definition  
 **Release state:** Not built, not published
 
 ## Current truth
@@ -22,6 +22,9 @@
 - Fresh La Liga and Premier League completeness checks found no missing canonical fixtures after the French pass.
 - Four pre-existing Brighton fixture links were corrected from the invalid `brighton` ID to `brighton-and-hove-albion`.
 - The league roundup was not complete by itself: official club checks found Bournemouth v Mainz and a second Brentford v Rennes match.
+- The five-character interaction direction is recorded in `EXPERIENCE_CONCEPT.md`.
+- Exactly five characters exist: one permanent navigation character per covered league, never one per club.
+- The Lovable build brief is paused until the first prototype behaviour is defined.
 - No production code exists yet.
 - The intended public location is `willworkforkarma.com/preseason`, but integration from this separate repository is not yet decided.
 
@@ -33,6 +36,8 @@
 - Competitive curtain-raisers may appear only when clearly labelled.
 - Lovable builds from canonical data and must not invent or rewrite fixture facts.
 - The repository, not chat history, is the project memory.
+- The five league characters form the app's navigation in both club-selection and fixture-viewing modes.
+- The full selection ritual is for first visits; returning users go directly to their saved fixture overview.
 - The canonical 2026/27 coverage is 96 clubs, not the earlier rough estimate of 98.
 - League membership provenance is required in every seasonal club dataset.
 - Source workflow is now explicit: API-Football may discover candidates, official evidence publishes them, and Flashscore is manual gap-checking only—never scraped.
@@ -55,19 +60,24 @@
 
 ## Single next action
 
-Prepare the bounded Lovable build brief from the completed foundation files and canonical datasets.
+Resolve the remaining first-prototype behaviour decisions in `EXPERIENCE_CONCEPT.md` before preparing the Lovable build brief.
 
 ## Decisions needed from Henrik
 
-None before preparing the Lovable build brief.
+Before the Lovable build brief:
 
-Later, before the build:
-
-1. final visual direction
-2. deployment/integration method
-3. who owns ongoing fixture updates after launch
+1. choose the Bundesliga, Serie A and Ligue 1 characters
+2. lock the first-screen, selection and confirmation behaviour
+3. choose the club-list and fixture-overview treatment
 
 ## Session log
+
+### 2026-07-26 — Five-character experience concept
+
+Separated the interaction direction into `EXPERIENCE_CONCEPT.md` so the durable product core remains lean. The concept fixes exactly five characters—one per league—as the navigation system for both club selection and fixture viewing.
+
+Recorded the first-visit ritual, horizontal league movement, vertical journey, club selection, confirmation transition, combined overview, league-specific views and returning-visitor behaviour. The Lovable brief remains paused until the open prototype decisions are resolved.
+
 
 ### 2026-07-26 — Ligue 1 baseline and final league rechecks
 
